@@ -26,12 +26,12 @@ public class Weapons : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.IceBow,
                 [(ItemID.MoltenFury, 1), (ItemID.FrostburnArrow, 750), (ItemID.FrostCore, 1)],
-                moddedIngredients: [(ModContent.ItemType<RangedBowIceBow>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.Frostbrand,
                 [(ItemID.IceBlade, 1), (ItemID.FrostCore, 1), (ItemID.LivingFrostFireBlock, 100)],
-                moddedIngredients: [(ModContent.ItemType<MeleeSwordFrostbrand>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.IceSickle,
@@ -41,7 +41,7 @@ public class Weapons : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.FlowerofFrost,
                 [(ItemID.FlowerofFire, 1), (ItemID.PixieDust, 12), (ItemID.FrostCore, 1)],
-                moddedIngredients: [(ModContent.ItemType<MageFlowerOfFrost>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.FlowerofFire,

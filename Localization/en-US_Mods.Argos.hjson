@@ -2683,4 +2683,189 @@ Items: {
 		DisplayName: Summon Xeno Staff
 		Tooltip: ""
 	}
+
+	SharedIceMimic: {
+		DisplayName: Shared Ice Mimic
+		Tooltip: ""
+	}
+
+	SharedMimic: {
+		DisplayName: Shared Mimic
+		Tooltip: ""
+	}
+
+	SharedBetsy: {
+		DisplayName: Shared Betsy
+		Tooltip: ""
+	}
+
+	SharedBrainOfCthulhu: {
+		DisplayName: Shared Brain Of Cthulhu
+		Tooltip: ""
+	}
+
+	SharedCorruptMimic: {
+		DisplayName: Shared Corrupt Mimic
+		Tooltip: ""
+	}
+
+	SharedCrimsonMimic: {
+		DisplayName: Shared Crimson Mimic
+		Tooltip: ""
+	}
+
+	SharedDarkMage: {
+		DisplayName: Shared Dark Mage
+		Tooltip: ""
+	}
+
+	SharedDeerclops: {
+		DisplayName: Shared Deerclops
+		Tooltip: ""
+	}
+
+	SharedDestroyer: {
+		DisplayName: Shared Destroyer
+		Tooltip: ""
+	}
+
+	SharedDreadnautilus: {
+		DisplayName: Shared Dreadnautilus
+		Tooltip: ""
+	}
+
+	SharedDukeFishron: {
+		DisplayName: Shared Duke Fishron
+		Tooltip: ""
+	}
+
+	SharedEaterOfWorlds: {
+		DisplayName: Shared Eater Of Worlds
+		Tooltip: ""
+	}
+
+	SharedEmpressOfLight: {
+		DisplayName: Shared Empress Of Light
+		Tooltip: ""
+	}
+
+	SharedEverscream: {
+		DisplayName: Shared Everscream
+		Tooltip: ""
+	}
+
+	SharedEyeOfCthulhu: {
+		DisplayName: Shared Eye Of Cthulhu
+		Tooltip: ""
+	}
+
+	SharedFlyingDutchman: {
+		DisplayName: Shared Flying Dutchman
+		Tooltip: ""
+	}
+
+	SharedGoblinWarlock: {
+		DisplayName: Shared Goblin Warlock
+		Tooltip: ""
+	}
+
+	SharedGolem: {
+		DisplayName: Shared Golem
+		Tooltip: ""
+	}
+
+	SharedHallowedMimic: {
+		DisplayName: Shared Hallowed Mimic
+		Tooltip: ""
+	}
+
+	SharedIceQueen: {
+		DisplayName: Shared Ice Queen
+		Tooltip: ""
+	}
+
+	SharedKingSlime: {
+		DisplayName: Shared King Slime
+		Tooltip: ""
+	}
+
+	SharedLunaticCultist: {
+		DisplayName: Shared Lunatic Cultist
+		Tooltip: ""
+	}
+
+	SharedMartianSaucer: {
+		DisplayName: Shared Martian Saucer
+		Tooltip: ""
+	}
+
+	SharedMoonLord: {
+		DisplayName: Shared Moon Lord
+		Tooltip: ""
+	}
+
+	SharedMothron: {
+		DisplayName: Shared Mothron
+		Tooltip: ""
+	}
+
+	SharedMourningWood: {
+		DisplayName: Shared Mourning Wood
+		Tooltip: ""
+	}
+
+	SharedOgre: {
+		DisplayName: Shared Ogre
+		Tooltip: ""
+	}
+
+	SharedPirateCaptain: {
+		DisplayName: Shared Pirate Captain
+		Tooltip: ""
+	}
+
+	SharedPlantera: {
+		DisplayName: Shared Plantera
+		Tooltip: ""
+	}
+
+	SharedPumpking: {
+		DisplayName: Shared Pumpking
+		Tooltip: ""
+	}
+
+	SharedQueenBee: {
+		DisplayName: Shared Queen Bee
+		Tooltip: ""
+	}
+
+	SharedQueenSlime: {
+		DisplayName: Shared Queen Slime
+		Tooltip: ""
+	}
+
+	SharedSantank: {
+		DisplayName: Shared Santank
+		Tooltip: ""
+	}
+
+	SharedSkeletron: {
+		DisplayName: Shared Skeletron
+		Tooltip: ""
+	}
+
+	SharedSkeletronPrime: {
+		DisplayName: Shared Skeletron Prime
+		Tooltip: ""
+	}
+
+	SharedTwins: {
+		DisplayName: Shared Twins
+		Tooltip: ""
+	}
+
+	SharedWallOfFlesh: {
+		DisplayName: Shared Wall Of Flesh
+		Tooltip: ""
+	}
 }
