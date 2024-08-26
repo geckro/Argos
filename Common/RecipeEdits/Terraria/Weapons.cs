@@ -15,6 +15,28 @@ public class Swords : GlobalItem
         RecipeHelper.AddRecipe(ItemID.WoodenSword,
                 [(ItemID.Wood, 12), (ItemID.StoneBlock, 6), (ItemID.WebRope, 4)],
                 [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.Zenith,
+                [
+                        (ItemID.TerraBlade, 1),
+                        (ItemID.Meowmere, 1),
+                        (ItemID.StarWrath, 1),
+                        (ItemID.InfluxWaver, 1),
+                        (ItemID.TheHorsemansBlade, 1),
+                        (ItemID.Seedler, 1),
+                        (ItemID.BeeKeeper, 1),
+                        (ItemID.Terragrim, 1),
+                        (ItemID.CopperShortsword, 1),
+                        (ItemID.DD2SquireBetsySword, 1),
+                        (ItemID.DD2SquireDemonSword, 1),
+                        (ItemID.Keybrand, 1),
+                        (ItemID.PiercingStarlight, 1),
+                        (ItemID.BreakerBlade, 1),
+                        (ItemID.ChristmasTreeSword, 1),
+                        (ItemID.Frostbrand, 1),
+                ],
+                [TileID.LunarCraftingStation, TileID.Toilets],
+                [Condition.InAether, Condition.NearHoney, Condition.BirthdayParty]);
     }
 }
 
