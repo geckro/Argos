@@ -14,9 +14,10 @@ public static class RecipeHelper
             ushort[] tiles = null,
             Condition[] conditions = null,
             (string id, int count)[] recipeGroups = null,
-            (int id, int count)[] moddedIngredients = null)
+            (int id, int count)[] moddedIngredients = null,
+            int amount = 1)
     {
-        Recipe recipe = Recipe.Create(itemToCreate);
+        Recipe recipe = Recipe.Create(itemToCreate, amount);
 
         foreach ((short id, int count) ingredient in ingredients)
         {
