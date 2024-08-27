@@ -234,7 +234,7 @@ public class ModifyNpc : GlobalNPC
             // 601 - 700
 
             case NPCID.IceMimic:
-                loot.Add(ItemDropRule.Common(ModContent.ItemType<SharedIceMimic>()));
+                loot.Add(ItemDropRule.Common(ModContent.ItemType<SharedMimicIce>()));
                 loot.RemoveWhere(rule => rule is CommonDrop { itemId: ItemID.ToySled });
                 // loot.RemoveWhere(rule => rule is OneFromOptionsDropRule { dropIds: [676, 725, 1264] });
                 break;

@@ -12,7 +12,7 @@ public class WeaponsAdditions : GlobalItem
                 moddedIngredients: [(ModContent.ItemType<MeleeSwordMandibleBlade>(), 2)], tiles: [TileID.Anvils]);
 
         RecipeHelper.AddRecipe(ItemID.IceBlade, [(ItemID.IceBlock, 120), (ItemID.Shiverthorn, 8)],
-                moddedIngredients: [(ModContent.ItemType<MeleeSwordIceBlade>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedChestIce>(), 1)],
                 recipeGroups: [("GoldBroadsword", 1)], tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.IceBoomerang,
@@ -21,17 +21,17 @@ public class WeaponsAdditions : GlobalItem
                 tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.SnowballCannon, [(ItemID.Snowball, 500), (ItemID.BorealWoodBow, 1)],
-                moddedIngredients: [(ModContent.ItemType<RangedGunSnowballCannon>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedChestIce>(), 1)],
                 recipeGroups: [("SilverBar", 12)], tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.IceBow,
                 [(ItemID.MoltenFury, 1), (ItemID.FrostburnArrow, 750), (ItemID.FrostCore, 1)],
-                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedMimicIce>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.Frostbrand,
                 [(ItemID.IceBlade, 1), (ItemID.FrostCore, 1), (ItemID.LivingFrostFireBlock, 100)],
-                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedMimicIce>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.IceSickle,
@@ -41,29 +41,29 @@ public class WeaponsAdditions : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.FlowerofFrost,
                 [(ItemID.FlowerofFire, 1), (ItemID.PixieDust, 12), (ItemID.FrostCore, 1)],
-                moddedIngredients: [(ModContent.ItemType<SharedIceMimic>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedMimicIce>(), 1)],
                 tiles: [TileID.IceMachine, TileID.MythrilAnvil]);
 
         RecipeHelper.AddRecipe(ItemID.FlowerofFire,
                 [(ItemID.NaturesGift, 1), (ItemID.HellstoneBar, 16), (ItemID.Fireblossom, 12)],
-                moddedIngredients: [(ModContent.ItemType<MageFlowerOfFire>(), 1)], tiles: [TileID.Hellforge]);
+                moddedIngredients: [(ModContent.ItemType<SharedChestShadowUnderworld>(), 1)], tiles: [TileID.Hellforge]);
 
         RecipeHelper.AddRecipe(ItemID.DarkLance,
                 [(ItemID.ThunderSpear, 1), (ItemID.AshWood, 120), (ItemID.Obsidian, 45)],
-                moddedIngredients: [(ModContent.ItemType<MeleeSpearDarkLance>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedChestShadowUnderworld>(), 1)],
                 tiles: [TileID.Hellforge, TileID.DemonAltar]);
 
         RecipeHelper.AddRecipe(ItemID.Flamelash,
                 [(ItemID.MagicMissile, 1), (ItemID.HellstoneBar, 16), (ItemID.LavaSlimeBanner, 1)],
-                moddedIngredients: [(ModContent.ItemType<MageFlamelash>(), 1)], tiles: [TileID.Hellforge]);
+                moddedIngredients: [(ModContent.ItemType<SharedChestShadowUnderworld>(), 1)], tiles: [TileID.Hellforge]);
 
         RecipeHelper.AddRecipe(ItemID.HellwingBow,
                 [(ItemID.MoltenFury, 1), (ItemID.LavaBucket, 8), (ItemID.HellbatBanner, 1)],
-                moddedIngredients: [(ModContent.ItemType<RangedBowHellwingBow>(), 1)], tiles: [TileID.Hellforge]);
+                moddedIngredients: [(ModContent.ItemType<SharedChestShadowUnderworld>(), 1)], tiles: [TileID.Hellforge]);
 
         RecipeHelper.AddRecipe(ItemID.Sunfury,
                 [(ItemID.FlamingMace, 1), (ItemID.HellstoneBar, 12), (ItemID.Sunflower, 12), (ItemID.ObsidianRose, 1)],
-                moddedIngredients: [(ModContent.ItemType<MeleeFlailSunfury>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedChestShadowUnderworld>(), 1)],
                 tiles: [TileID.Hellforge, TileID.SkyMill]);
 
         RecipeHelper.AddRecipe(ItemID.DemonScythe, [(ItemID.Book, 1), (ItemID.DemonBanner, 1)],

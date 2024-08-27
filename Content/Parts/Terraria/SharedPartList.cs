@@ -4,9 +4,37 @@ public class SharedBetsy : PartItem;
 
 public class SharedBrainOfCthulhu : PartItem;
 
-public class SharedCorruptMimic : PartItem;
+public class SharedChestCrimsonHeart : PartItem;
 
-public class SharedCrimsonMimic : PartItem;
+public class SharedChestDesert : PartItem;
+
+public class SharedChestDesertPyramid : PartItem;
+
+public class SharedChestGlowingMushroom : PartItem;
+
+public class SharedChestGolden : PartItem;
+
+public class SharedChestIce : PartItem;
+
+public class SharedChestJungle : PartItem;
+
+public class SharedChestJungleTemple : PartItem;
+
+public class SharedChestLivingWood : PartItem;
+
+public class SharedChestLockedDungeon : PartItem;
+
+public class SharedChestShadowUnderworld : PartItem;
+
+public class SharedChestShadowOrb : PartItem;
+
+public class SharedChestSkyIslands : PartItem;
+
+public class SharedChestWater : PartItem;
+
+public class SharedChestWoodDungeon : PartItem;
+
+public class SharedChestWooden : PartItem;
 
 public class SharedDarkMage : PartItem;
 
@@ -32,10 +60,6 @@ public class SharedGoblinWarlock : PartItem;
 
 public class SharedGolem : PartItem;
 
-public class SharedHallowedMimic : PartItem;
-
-public class SharedIceMimic : PartItem;
-
 public class SharedIceQueen : PartItem;
 
 public class SharedKingSlime : PartItem;
@@ -45,6 +69,14 @@ public class SharedLunaticCultist : PartItem;
 public class SharedMartianSaucer : PartItem;
 
 public class SharedMimic : PartItem;
+
+public class SharedMimicCorrupt : PartItem;
+
+public class SharedMimicCrimson : PartItem;
+
+public class SharedMimicHallowed : PartItem;
+
+public class SharedMimicIce : PartItem;
 
 public class SharedMoonLord : PartItem;
 
