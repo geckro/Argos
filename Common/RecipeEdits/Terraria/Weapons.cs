@@ -53,14 +53,12 @@ public class Swords : GlobalItem
                 [(ItemID.Stinger, 16), (ItemID.JungleSpores, 15), (ItemID.Vine, 4), (ItemID.RichMahoganySword, 1)],
                 [TileID.Anvils]);
 
-        RecipeHelper.AddRecipe(ItemID.NightsEdge,
-        [
+        RecipeHelper.AddRecipe(ItemID.NightsEdge, [
                 (ItemID.LightsBane, 1), (ItemID.Muramasa, 1), (ItemID.BladeofGrass, 1), (ItemID.FieryGreatsword, 1),
                 (ItemID.AntlionClaw, 1)
         ], [TileID.DemonAltar]);
 
-        RecipeHelper.AddRecipe(ItemID.NightsEdge,
-        [
+        RecipeHelper.AddRecipe(ItemID.NightsEdge, [
                 (ItemID.BloodButcherer, 1), (ItemID.Muramasa, 1), (ItemID.BladeofGrass, 1), (ItemID.FieryGreatsword, 1),
                 (ItemID.AntlionClaw, 1)
         ], [TileID.DemonAltar]);
@@ -68,26 +66,22 @@ public class Swords : GlobalItem
         RecipeHelper.AddRecipe(ItemID.Excalibur,
                 [(ItemID.EnchantedSword, 1), (ItemID.HallowedBar, 12), (ItemID.SoulofLight, 6)], [TileID.MythrilAnvil]);
 
-        RecipeHelper.AddRecipe(ItemID.TrueExcalibur,
-        [
+        RecipeHelper.AddRecipe(ItemID.TrueExcalibur, [
                 (ItemID.Excalibur, 1), (ItemID.ChlorophyteBar, 30), (ItemID.PixieBanner, 1),
                 (ItemID.AngryTrapperBanner, 1), (ItemID.FungiBulbBanner, 1)
         ], [TileID.MythrilAnvil]);
 
-        RecipeHelper.AddRecipe(ItemID.TrueNightsEdge,
-        [
+        RecipeHelper.AddRecipe(ItemID.TrueNightsEdge, [
                 (ItemID.NightsEdge, 1), (ItemID.SoulofFright, 25), (ItemID.CorruptorBanner, 1),
                 (ItemID.CursedSkullBanner, 1), (ItemID.LavaBatBanner, 1)
         ], [TileID.MythrilAnvil]);
 
-        RecipeHelper.AddRecipe(ItemID.TrueNightsEdge,
-        [
+        RecipeHelper.AddRecipe(ItemID.TrueNightsEdge, [
                 (ItemID.NightsEdge, 1), (ItemID.SoulofFright, 25), (ItemID.IchorStickerBanner, 1),
                 (ItemID.CursedSkullBanner, 1), (ItemID.LavaBatBanner, 1)
         ], [TileID.MythrilAnvil]);
 
-        RecipeHelper.AddRecipe(ItemID.TerraBlade,
-        [
+        RecipeHelper.AddRecipe(ItemID.TerraBlade, [
                 (ItemID.TrueNightsEdge, 1), (ItemID.TrueExcalibur, 1), (ItemID.BrokenHeroSword, 2),
                 (ItemID.Ectoplasm, 10), (ItemID.GrassSeeds, 25), (ItemID.CorruptSeeds, 25), (ItemID.CrimsonSeeds, 25),
                 (ItemID.JungleGrassSeeds, 25), (ItemID.MushroomGrassSeeds, 25), (ItemID.AshGrassSeeds, 25),

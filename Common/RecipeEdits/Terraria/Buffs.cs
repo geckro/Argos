@@ -20,8 +20,10 @@ public class Potions : GlobalItem
                 [TileID.Bottles], [Condition.NearWater]);
 
         RecipeHelper.AddRecipe(ItemID.LifeforcePotion,
-                        [(ItemID.BottledHoney, 1), (ItemID.Moonglow, 1), (ItemID.Fireblossom, 2), (ItemID.Prismite, 1), (ItemID.LifeCrystal, 1)],
-                        [TileID.Bottles]);
+        [
+                (ItemID.BottledHoney, 1), (ItemID.Moonglow, 1), (ItemID.Fireblossom, 2), (ItemID.Prismite, 1),
+                (ItemID.LifeCrystal, 1)
+        ], [TileID.Bottles]);
 
         RecipeHelper.AddRecipe(ItemID.IronskinPotion,
                 [(ItemID.BottledWater, 1), (ItemID.Daybloom, 1), (ItemID.GlowingMushroom, 2)], [TileID.Bottles],

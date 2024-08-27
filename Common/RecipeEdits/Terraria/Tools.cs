@@ -101,9 +101,12 @@ public class FishingPoles : GlobalItem
 
 public class Hammers : GlobalItem
 {
-        public override void AddRecipes()
-        {
-                RecipeHelper.AddRecipe(ItemID.WoodenHammer, [(ItemID.Wood, 14), (ItemID.StoneBlock, 25)],
-                                [TileID.WorkBenches]);
-        }
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.WoodenHammer, [(ItemID.Wood, 14), (ItemID.StoneBlock, 25)], [TileID.WorkBenches]);
+    }
+}
+
+public class Hooks : GlobalItem
+{
 }

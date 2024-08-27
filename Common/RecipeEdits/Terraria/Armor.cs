@@ -8,7 +8,8 @@ public class Armor : GlobalItem
     public override void AddRecipes()
     {
         RecipeHelper.AddRecipe(ItemID.WoodHelmet, [(ItemID.Wood, 22), (ItemID.ClayBlock, 10)], [TileID.WorkBenches]);
-        RecipeHelper.AddRecipe(ItemID.WoodBreastplate, [(ItemID.Wood, 35), (ItemID.ClayBlock, 24)], [TileID.WorkBenches]);
+        RecipeHelper.AddRecipe(ItemID.WoodBreastplate, [(ItemID.Wood, 35), (ItemID.ClayBlock, 24)],
+                [TileID.WorkBenches]);
         RecipeHelper.AddRecipe(ItemID.WoodGreaves, [(ItemID.Wood, 28), (ItemID.ClayBlock, 16)], [TileID.WorkBenches]);
 
         RecipeHelper.AddRecipe(ItemID.VortexHelmet, [(ItemID.FragmentVortex, 12), (ItemID.LunarBar, 10)],
@@ -26,8 +27,7 @@ public class Armor : GlobalItem
                 [(ItemID.FragmentSolar, 12), (ItemID.LunarBar, 10), (ItemID.BeetleHelmet, 1)],
                 [TileID.LunarCraftingStation]);
 
-        RecipeHelper.AddRecipe(ItemID.SolarFlareBreastplate,
-                [(ItemID.FragmentSolar, 24), (ItemID.LunarBar, 20)],
+        RecipeHelper.AddRecipe(ItemID.SolarFlareBreastplate, [(ItemID.FragmentSolar, 24), (ItemID.LunarBar, 20)],
                 recipeGroups: [("BeetleScaleMail", 1)], tiles: [TileID.LunarCraftingStation]);
 
         RecipeHelper.AddRecipe(ItemID.SolarFlareLeggings,

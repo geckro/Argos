@@ -8,21 +8,21 @@ public class Weapons : GlobalItem
 {
     public override void AddRecipes()
     {
-        RecipeHelper.AddRecipe(ItemID.AntlionClaw,
-                [(ItemID.CactusSword, 1), (ItemID.Sandstone, 60), (ItemID.Amber, 2)],
+        RecipeHelper.AddRecipe(ItemID.AntlionClaw, [(ItemID.CactusSword, 1), (ItemID.Sandstone, 60), (ItemID.Amber, 2)],
                 moddedIngredients: [(ModContent.ItemType<MeleeSwordMandibleBlade>(), 2)], tiles: [TileID.Anvils]);
 
         RecipeHelper.AddRecipe(ItemID.IceBlade, [(ItemID.IceBlock, 120), (ItemID.Shiverthorn, 8)],
-                moddedIngredients: [(ModContent.ItemType<MeleeSwordIceBlade>(), 1)], recipeGroups: [("GoldBroadsword", 1)],
-                tiles: [TileID.IceMachine]);
+                moddedIngredients: [(ModContent.ItemType<MeleeSwordIceBlade>(), 1)],
+                recipeGroups: [("GoldBroadsword", 1)], tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.IceBoomerang,
                 [(ItemID.IceBlock, 150), (ItemID.Shiverthorn, 6), (ItemID.FlinxFur, 4), (ItemID.WoodenBoomerang, 1)],
-                moddedIngredients: [(ModContent.ItemType<MeleeBoomerangIceBoomerang>(), 1)], tiles: [TileID.IceMachine]);
+                moddedIngredients: [(ModContent.ItemType<MeleeBoomerangIceBoomerang>(), 1)],
+                tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.SnowballCannon, [(ItemID.Snowball, 500), (ItemID.BorealWoodBow, 1)],
-                moddedIngredients: [(ModContent.ItemType<RangedGunSnowballCannon>(), 1)], recipeGroups: [("SilverBar", 12)],
-                tiles: [TileID.IceMachine]);
+                moddedIngredients: [(ModContent.ItemType<RangedGunSnowballCannon>(), 1)],
+                recipeGroups: [("SilverBar", 12)], tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.IceBow,
                 [(ItemID.MoltenFury, 1), (ItemID.FrostburnArrow, 750), (ItemID.FrostCore, 1)],
