@@ -1,4 +1,5 @@
-﻿using Terraria.ID;
+﻿using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Argos.Common.RecipeEdits.Terraria;
@@ -8,9 +9,42 @@ public class Armor : GlobalItem
     public override void AddRecipes()
     {
         RecipeHelper.AddRecipe(ItemID.WoodHelmet, [(ItemID.Wood, 22), (ItemID.ClayBlock, 10)], [TileID.WorkBenches]);
+
         RecipeHelper.AddRecipe(ItemID.WoodBreastplate, [(ItemID.Wood, 35), (ItemID.ClayBlock, 24)],
                 [TileID.WorkBenches]);
+
         RecipeHelper.AddRecipe(ItemID.WoodGreaves, [(ItemID.Wood, 28), (ItemID.ClayBlock, 16)], [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.BeeHeadgear, [(ItemID.BeeWax, 10), (ItemID.Stinger, 12)],
+                [TileID.HoneyDispenser]);
+
+        RecipeHelper.AddRecipe(ItemID.BeeBreastplate,
+                [(ItemID.BeeWax, 14), (ItemID.Stinger, 16), (ItemID.BottledHoney, 8)], [TileID.HoneyDispenser]);
+
+        RecipeHelper.AddRecipe(ItemID.BeeGreaves, [(ItemID.BeeWax, 12), (ItemID.Stinger, 10)], [TileID.HoneyDispenser]);
+
+        RecipeHelper.AddRecipe(ItemID.MoltenHelmet,
+                [(ItemID.HellstoneBar, 20), (ItemID.LavaBucket, 12), (ItemID.AshWoodHelmet, 1)], [TileID.Hellforge],
+                [Condition.NearLava]);
+
+        RecipeHelper.AddRecipe(ItemID.MoltenBreastplate,
+                [(ItemID.HellstoneBar, 30), (ItemID.LavaBucket, 20), (ItemID.AshWoodBreastplate, 1)],
+                [TileID.Hellforge], [Condition.NearLava]);
+
+        RecipeHelper.AddRecipe(ItemID.MoltenGreaves,
+                [(ItemID.HellstoneBar, 25), (ItemID.LavaBucket, 16), (ItemID.AshWoodGreaves, 1)], [TileID.Hellforge],
+                [Condition.NearLava]);
+
+        RecipeHelper.AddRecipe(ItemID.JungleHat,
+                [(ItemID.JungleSpores, 10), (ItemID.Vine, 3), (ItemID.RichMahoganyHelmet, 1)], [TileID.LivingLoom]);
+
+        RecipeHelper.AddRecipe(ItemID.JungleShirt,
+                [(ItemID.JungleSpores, 22), (ItemID.Stinger, 8), (ItemID.Vine, 3), (ItemID.RichMahoganyBreastplate, 1)],
+                [TileID.LivingLoom]);
+
+        RecipeHelper.AddRecipe(ItemID.JunglePants,
+                [(ItemID.JungleSpores, 16), (ItemID.Stinger, 2), (ItemID.Vine, 2), (ItemID.RichMahoganyGreaves, 1)],
+                [TileID.LivingLoom]);
 
         RecipeHelper.AddRecipe(ItemID.VortexHelmet, [(ItemID.FragmentVortex, 12), (ItemID.LunarBar, 10)],
                 recipeGroups: [("ShroomiteHelmet", 1)], tiles: [TileID.LunarCraftingStation]);

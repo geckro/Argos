@@ -8,6 +8,9 @@ public class Pickaxes : GlobalItem
 {
     public override void AddRecipes()
     {
+        RecipeHelper.AddRecipe(ItemID.CactusPickaxe, [(ItemID.Cactus, 20), (ItemID.Waterleaf, 3)],
+                [TileID.WorkBenches]);
+
         RecipeHelper.AddRecipe(ItemID.CopperPickaxe, [(ItemID.CopperBar, 12), (ItemID.CactusPickaxe, 1)],
                 recipeGroups: [("Wood", 6)], tiles: [TileID.Anvils]);
 
@@ -104,9 +107,35 @@ public class Hammers : GlobalItem
     public override void AddRecipes()
     {
         RecipeHelper.AddRecipe(ItemID.WoodenHammer, [(ItemID.Wood, 14), (ItemID.StoneBlock, 25)], [TileID.WorkBenches]);
-    }
-}
 
-public class Hooks : GlobalItem
-{
+        RecipeHelper.AddRecipe(ItemID.CopperHammer, [(ItemID.CopperBar, 10)], recipeGroups: [("Wood", 6)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TinHammer, [(ItemID.TinBar, 10)], recipeGroups: [("Wood", 6)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.IronHammer, [(ItemID.IronBar, 10)], recipeGroups: [("CopperHammer", 1)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.LeadHammer, [(ItemID.LeadBar, 10)], recipeGroups: [("CopperHammer", 1)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.SilverHammer, [(ItemID.SilverBar, 10), (ItemID.Sapphire, 1)],
+                recipeGroups: [("IronHammer", 1)], tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TungstenHammer, [(ItemID.TungstenBar, 10), (ItemID.Sapphire, 1)],
+                recipeGroups: [("IronHammer", 1)], tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.GoldHammer, [(ItemID.GoldBar, 10), (ItemID.Ruby, 1)],
+                recipeGroups: [("SilverHammer", 1)], tiles: [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.PlatinumHammer, [(ItemID.PlatinumBar, 10), (ItemID.Ruby, 1)],
+                recipeGroups: [("SilverHammer", 1)], tiles: [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.TheBreaker, [(ItemID.DemoniteBar, 10), (ItemID.Ebonwood, 24)],
+                recipeGroups: [("GoldHammer", 1)], tiles: [TileID.DemonAltar], conditions: [Condition.InCorrupt]);
+
+        RecipeHelper.AddRecipe(ItemID.FleshGrinder, [(ItemID.CrimtaneBar, 10), (ItemID.Shadewood, 24)],
+                recipeGroups: [("GoldHammer", 1)], tiles: [TileID.DemonAltar], conditions: [Condition.InCrimson]);
+    }
 }

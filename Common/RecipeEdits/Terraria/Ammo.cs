@@ -17,7 +17,7 @@ public class Ammo : GlobalItem
                 [TileID.SkyMill], amount: 10);
 
         RecipeHelper.AddRecipe(ItemID.HellfireArrow, [(ItemID.FlamingArrow, 50), (ItemID.HellstoneBar, 1)],
-                [TileID.Hellforge], amount: 150);
+                [TileID.Hellforge], amount: 50);
 
         RecipeHelper.AddRecipe(ItemID.UnholyArrow, [(ItemID.WoodenArrow, 10), (ItemID.VilePowder, 5)],
                 [TileID.DemonAltar], amount: 10);

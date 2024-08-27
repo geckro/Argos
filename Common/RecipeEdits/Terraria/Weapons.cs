@@ -120,6 +120,13 @@ public class Summon : GlobalItem
         RecipeHelper.AddRecipe(ItemID.StardustCellStaff,
                 [(ItemID.FragmentStardust, 20), (ItemID.MartianConduitPlating, 80), (ItemID.DeadlySphereStaff, 1)],
                 [TileID.LunarCraftingStation]);
+
+        RecipeHelper.AddRecipe(ItemID.HornetStaff,
+                [(ItemID.BeeWax, 16), (ItemID.LivingMahoganyWand, 1), (ItemID.Hive, 250)], [TileID.HoneyDispenser]);
+
+        RecipeHelper.AddRecipe(ItemID.ImpStaff,
+                [(ItemID.HellstoneBar, 20), (ItemID.FireImpBanner, 1), (ItemID.Bone, 45)], [TileID.Hellforge],
+                [Condition.NearLava]);
     }
 }
 
@@ -129,9 +136,59 @@ public class Bows : GlobalItem
     {
         RecipeHelper.AddRecipe(ItemID.WoodenBow, [(ItemID.Wood, 12), (ItemID.Cobweb, 20)], [TileID.WorkBenches]);
 
+        RecipeHelper.AddRecipe(ItemID.CopperBow, [(ItemID.CopperBar, 12), (ItemID.WoodenBow, 1)],
+                recipeGroups: [("Wood", 6)], tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TinBow, [(ItemID.TinBar, 12), (ItemID.WoodenBow, 1)], recipeGroups: [("Wood", 6)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.IronBow, [(ItemID.IronBar, 12)], recipeGroups: [("CopperBow", 1)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.LeadBow, [(ItemID.LeadBar, 12)], recipeGroups: [("CopperBow", 1)],
+                tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.SilverBow, [(ItemID.SilverBar, 12), (ItemID.Sapphire, 1)],
+                recipeGroups: [("IronBow", 1)], tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TungstenBow, [(ItemID.TungstenBar, 12), (ItemID.Sapphire, 1)],
+                recipeGroups: [("IronBow", 1)], tiles: [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.GoldBow, [(ItemID.GoldBar, 12), (ItemID.Ruby, 1)],
+                recipeGroups: [("SilverBow", 1)], tiles: [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.PlatinumBow, [(ItemID.PlatinumBar, 12), (ItemID.Ruby, 1)],
+                recipeGroups: [("SilverBow", 1)], tiles: [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.DemonBow,
+                [(ItemID.DemoniteBar, 12), (ItemID.Ebonwood, 12), (ItemID.VioletDye, 1)],
+                recipeGroups: [("GoldBow", 1)], tiles: [TileID.DemonAltar], conditions: [Condition.InCorrupt]);
+
+        RecipeHelper.AddRecipe(ItemID.TendonBow, [(ItemID.CrimtaneBar, 12), (ItemID.Shadewood, 12), (ItemID.RedDye, 1)],
+                recipeGroups: [("GoldBow", 1)], tiles: [TileID.DemonAltar], conditions: [Condition.InCrimson]);
+
         RecipeHelper.AddRecipe(ItemID.MoltenFury, [(ItemID.HellstoneBar, 16), (ItemID.FlamingArrow, 500)],
                 recipeGroups: [("DemonBow", 1)], tiles: [TileID.Hellforge],
                 conditions: [Condition.InUnderworld, Condition.NearLava]);
+    }
+}
+
+public class Guns : GlobalItem
+{
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.PhoenixBlaster,
+                [(ItemID.HellstoneBar, 16), (ItemID.Handgun, 1), (ItemID.HellfireArrow, 200)], [TileID.Hellforge],
+                [Condition.NearLava]);
+    }
+}
+
+public class RangedConsumables : GlobalItem
+{
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.Beenade, [(ItemID.BeeWax, 1), (ItemID.Grenade, 1), (ItemID.Hive, 3)],
+                [TileID.HoneyDispenser]);
     }
 }
 
@@ -156,5 +213,20 @@ public class Spears : GlobalItem
         RecipeHelper.AddRecipe(ItemID.Gungnir,
                 [(ItemID.DarkLance, 1), (ItemID.HallowedBar, 14), (ItemID.SoulofLight, 8), (ItemID.PixieDust, 12)],
                 [TileID.MythrilAnvil]);
+    }
+}
+
+public class Yoyos : GlobalItem
+{
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.JungleYoyo, [
+                (ItemID.JungleSpores, 12), (ItemID.Stinger, 12), (ItemID.Vine, 5), (ItemID.RichMahogany, 24),
+                (ItemID.GreenString, 1)
+        ], [TileID.LivingLoom]);
+
+        RecipeHelper.AddRecipe(ItemID.HiveFive,
+                [(ItemID.BeeWax, 16), (ItemID.JungleYoyo, 1), (ItemID.BottledHoney, 12), (ItemID.YellowString, 1)],
+                [TileID.HoneyDispenser]);
     }
 }

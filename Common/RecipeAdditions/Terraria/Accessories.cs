@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace Argos.Common.RecipeAdditions.Terraria;
 
-public class Accessories : GlobalItem
+public class AccessoriesAdditions : GlobalItem
 {
     public override void AddRecipes()
     {
