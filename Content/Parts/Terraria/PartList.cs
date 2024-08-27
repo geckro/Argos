@@ -448,6 +448,20 @@ public class BossSummonClothierVoodooDoll : PartItem;
 
 public class BossSummonGuideVoodooDoll : PartItem;
 
+public class CraftingStationAutohammer : PartItem;
+
+public class CraftingStationBlendOMatic : PartItem;
+
+public class CraftingStationDecayChamber : PartItem;
+
+public class CraftingStationDyeVat : PartItem;
+
+public class CraftingStationFleshCloningVat : PartItem;
+
+public class CraftingStationSteampunkBoiler : PartItem;
+
+public class HookSquirrel : PartItem;
+
 public class KiteBlueJellyfish : PartItem;
 
 public class KiteWanderingEye : PartItem;
@@ -624,6 +638,8 @@ public class MeleeOtherVampireKnives : PartItem;
 
 public class MeleeSpearDarkLance : PartItem;
 
+public class MeleeSpearMushroomSpearAndHammush : PartItem;
+
 public class MeleeSpearNorthPole : PartItem;
 
 public class MeleeSpearObsidianSwordfish : PartItem;
@@ -705,6 +721,8 @@ public class MeleeSwordPurpleClubberfish : PartItem;
 public class MeleeSwordRuler : PartItem;
 
 public class MeleeSwordSeedler : PartItem;
+
+public class MeleeSwordSickle : PartItem;
 
 public class MeleeSwordSlapHand : PartItem;
 
@@ -1037,4 +1055,20 @@ public class SummonWhipMorningStar : PartItem;
 public class SummonWhipSpinalTap : PartItem;
 
 public class SummonXenoStaff : PartItem;
+
+public class ToolBugNet : PartItem;
+
+public class ToolClentaminator : PartItem;
+
+public class ToolDirtRod : PartItem;
+
+public class ToolPaintbrush : PartItem;
+
+public class ToolPaintRoller : PartItem;
+
+public class ToolPaintScraper : PartItem;
+
+public class ToolPiggyBank : PartItem;
+
+public class ToolSafe : PartItem;
 // ReSharper restore ClassNeverInstantiated.Global
