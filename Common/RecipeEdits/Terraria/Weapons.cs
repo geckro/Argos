@@ -41,6 +41,29 @@ public class Swords : GlobalItem
         RecipeHelper.AddRecipe(ItemID.PlatinumBroadsword, [(ItemID.PlatinumBar, 10), (ItemID.Ruby, 1)], [TileID.Anvils],
                 recipeGroups: [("SilverBroadsword", 1)]);
 
+        RecipeHelper.AddRecipe(ItemID.CopperShortsword, [(ItemID.CopperBar, 8), (ItemID.WoodenSword, 1)],
+                [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TinShortsword, [(ItemID.TinBar, 8), (ItemID.WoodenSword, 1)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.IronShortsword, [(ItemID.IronBar, 8)], [TileID.Anvils],
+                recipeGroups: [("CopperShortsword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.LeadShortsword, [(ItemID.LeadBar, 8)], [TileID.Anvils],
+                recipeGroups: [("CopperShortsword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.SilverShortsword, [(ItemID.GoldBar, 8), (ItemID.Sapphire, 1)], [TileID.Anvils],
+                recipeGroups: [("IronShortsword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.TungstenShortsword, [(ItemID.PlatinumBar, 8), (ItemID.Sapphire, 1)],
+                [TileID.Anvils], recipeGroups: [("IronShortsword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.GoldShortsword, [(ItemID.GoldBar, 8), (ItemID.Ruby, 1)], [TileID.Anvils],
+                recipeGroups: [("SilverShortsword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.PlatinumShortsword, [(ItemID.PlatinumBar, 8), (ItemID.Ruby, 1)], [TileID.Anvils],
+                recipeGroups: [("SilverShortsword", 1)]);
+
         RecipeHelper.AddRecipe(ItemID.LightsBane,
                 [(ItemID.DemoniteBar, 14), (ItemID.RottenChunk, 4), (ItemID.VilePowder, 6)], [TileID.Anvils],
                 recipeGroups: [("GoldBroadsword", 1)]);
@@ -180,6 +203,12 @@ public class Guns : GlobalItem
         RecipeHelper.AddRecipe(ItemID.PhoenixBlaster,
                 [(ItemID.HellstoneBar, 16), (ItemID.Handgun, 1), (ItemID.HellfireArrow, 200)], [TileID.Hellforge],
                 [Condition.NearLava]);
+
+        RecipeHelper.AddRecipe(ItemID.StarCannon,
+        [
+                (ItemID.Minishark, 1), (ItemID.SpaceGun, 1), (ItemID.PhoenixBlaster, 1), (ItemID.FallenStar, 15),
+                (ItemID.HellstoneBar, 20)
+        ], [TileID.Hellforge, TileID.SkyMill], [Condition.InSpace]);
     }
 }
 
@@ -228,5 +257,42 @@ public class Yoyos : GlobalItem
         RecipeHelper.AddRecipe(ItemID.HiveFive,
                 [(ItemID.BeeWax, 16), (ItemID.JungleYoyo, 1), (ItemID.BottledHoney, 12), (ItemID.YellowString, 1)],
                 [TileID.HoneyDispenser]);
+    }
+}
+
+public class Flails : GlobalItem
+{
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.FlamingMace, [(ItemID.Mace, 1), (ItemID.Torch, 200), (ItemID.LavaBucket, 2)],
+                [TileID.Anvils]);
+    }
+}
+
+public class Magic : GlobalItem
+{
+    public override void AddRecipes()
+    {
+        RecipeHelper.AddRecipe(ItemID.AmethystStaff, [(ItemID.CopperBar, 12), (ItemID.Amethyst, 10)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.TopazStaff, [(ItemID.TinBar, 12), (ItemID.Topaz, 10)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.SapphireStaff,
+                [(ItemID.SilverBar, 12), (ItemID.Sapphire, 10), (ItemID.GlowingMushroom, 25)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.EmeraldStaff,
+                [(ItemID.TungstenBar, 12), (ItemID.Emerald, 10), (ItemID.GlowingMushroom, 25)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.RubyStaff, [(ItemID.GoldBar, 12), (ItemID.Ruby, 10), (ItemID.FlinxFur, 5)],
+                [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.DiamondStaff,
+                [(ItemID.PlatinumBar, 12), (ItemID.Diamond, 10), (ItemID.FlinxFur, 5)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.AmberStaff,
+                [(ItemID.FossilOre, 20), (ItemID.Amber, 10), (ItemID.AntlionMandible, 6)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.SpaceGun,
+                [(ItemID.FlintlockPistol, 1), (ItemID.MeteoriteBar, 20), (ItemID.Obsidian, 25)], [TileID.Anvils]);
     }
 }

@@ -15,6 +15,14 @@ public class Armor : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.WoodGreaves, [(ItemID.Wood, 28), (ItemID.ClayBlock, 16)], [TileID.WorkBenches]);
 
+        RecipeHelper.AddRecipe(ItemID.MeteorHelmet,
+                [(ItemID.MeteoriteBar, 12), (ItemID.Lens, 2), (ItemID.Obsidian, 15)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.MeteorSuit, [(ItemID.MeteoriteBar, 25), (ItemID.Obsidian, 20)], [TileID.Anvils]);
+
+        RecipeHelper.AddRecipe(ItemID.MeteorLeggings, [(ItemID.MeteoriteBar, 20), (ItemID.Obsidian, 15)],
+                [TileID.Anvils]);
+
         RecipeHelper.AddRecipe(ItemID.BeeHeadgear, [(ItemID.BeeWax, 10), (ItemID.Stinger, 12)],
                 [TileID.HoneyDispenser]);
 

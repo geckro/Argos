@@ -136,5 +136,16 @@ public class RecipeGroups : ModSystem
         RegisterGroup(nameof(SpectreMask), new RG(() => "Any Spectre Head", SpectreMask, SpectreHood));
         RegisterGroup(nameof(TheBreaker), new RG(() => "Any Evil Hammers", TheBreaker, FleshGrinder));
         RegisterGroup(nameof(WarAxeoftheNight), new RG(() => "Any Evil Axes", WarAxeoftheNight, BloodLustCluster));
+        RegisterGroup(nameof(DoubleCod),
+                new RG(() => "Most Buff Fish", ArmoredCavefish, ChaosFish, CrimsonTigerfish, Damselfish, DoubleCod,
+                        Ebonkoi, FlarefinKoi, FrostMinnow, Hemopiranha, Obsidifish, PrincessFish, Prismite,
+                        VariegatedLardfish));
+        RegisterGroup(nameof(Bird), new RG(() => "Birds", Bird, Cardinal, BlueJay, Seagull, Penguin));
+        RegisterGroup(nameof(GoldBunny),
+                new RG(() => "Any Golden Critter", GoldBunny, GoldBird, GoldMouse, GoldGrasshopper, GoldWorm,
+                        GoldGoldfish, GoldWaterStrider, GoldSeahorse, GoldButterfly, GoldLadyBug, GoldFrog,
+                        SquirrelGold, GoldDragonfly));
+        RegisterGroup(nameof(HermesBoots),
+                new RG(() => "Any Speedy Boots", HermesBoots, FlurryBoots, SailfishBoots, SandBoots));
     }
 }

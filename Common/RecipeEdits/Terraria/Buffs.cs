@@ -19,8 +19,7 @@ public class Potions : GlobalItem
                 [(ItemID.BottledWater, 3), (ItemID.Waterleaf, 2), (ItemID.Coral, 1), (ItemID.ShellPileBlock, 2)],
                 [TileID.Bottles], [Condition.NearWater]);
 
-        RecipeHelper.AddRecipe(ItemID.LifeforcePotion,
-        [
+        RecipeHelper.AddRecipe(ItemID.LifeforcePotion, [
                 (ItemID.BottledHoney, 1), (ItemID.Moonglow, 1), (ItemID.Fireblossom, 2), (ItemID.Prismite, 1),
                 (ItemID.LifeCrystal, 1)
         ], [TileID.Bottles]);
@@ -43,6 +42,16 @@ public class Food : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.CookedFish, [(ItemID.AtlanticCod, 1), (ItemID.Acorn, 1), (ItemID.Shiverthorn, 1)],
                 [TileID.CookingPots], [Condition.NearWater]);
+
+        RecipeHelper.AddRecipe(ItemID.SeafoodDinner, [(ItemID.Mushroom, 2), (ItemID.Acorn, 3), (ItemID.Waterleaf, 1)],
+                [TileID.CookingPots], [Condition.NearWater], [("DoubleCod", 3)]);
+
+        RecipeHelper.AddRecipe(ItemID.RoastedBird, [(ItemID.GlowingMushroom, 2), (ItemID.Daybloom, 1)],
+                [TileID.CookingPots, TileID.Furnaces], recipeGroups: [("Bird", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.GoldenDelight,
+                [(ItemID.DynastyBowl, 1), (ItemID.FallenStar, 3), (ItemID.BottledHoney, 2)],
+                [TileID.CookingPots, TileID.GlassKiln], recipeGroups: [("GoldBunny", 1)]);
 
         RecipeHelper.AddRecipe(ItemID.BowlofSoup,
                 [(ItemID.Mushroom, 2), (ItemID.Goldfish, 1), (ItemID.Daybloom, 2), (ItemID.Bowl, 1)],
