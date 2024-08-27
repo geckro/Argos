@@ -8,6 +8,39 @@ namespace Argos.Common;
 
 public class ModifyNpc : GlobalNPC
 {
+    public override void ModifyShop(NPCShop shop)
+    {
+        if (shop.NpcType == NPCID.ArmsDealer)
+        {
+            shop.GetEntry(ItemID.TungstenBullet).Disable();
+
+            shop.GetEntry(ItemID.Minishark).Disable();
+            shop.Add<RangedGunMinishark>(Condition.InBeach, Condition.DownedEyeOfCthulhu);
+
+            shop.GetEntry(ItemID.FlintlockPistol).Disable();
+            shop.Add<RangedGunFlintlockPistol>();
+
+            shop.GetEntry(ItemID.Shotgun).Disable();
+            shop.Add<RangedGunShotgun>(Condition.Hardmode);
+
+            shop.GetEntry(ItemID.QuadBarrelShotgun).Disable();
+            shop.Add<RangedGunQuadBarrelShotgun>(Condition.DownedSkeletron, Condition.InGraveyard);
+        }
+        else if (shop.NpcType == NPCID.Merchant)
+        {
+            shop.GetEntry(ItemID.IronAnvil).Disable();
+        }
+        else if (shop.NpcType == NPCID.Demolitionist)
+        {
+            shop.GetEntry(ItemID.HellfireArrow).Disable();
+        }
+        else if (shop.NpcType == NPCID.Wizard)
+        {
+            shop.GetEntry(ItemID.IceRod).Disable();
+            shop.Add<MageIceRod>(Condition.InSnow, Condition.InBelowSurface);
+        }
+    }
+
     public override void ModifyNPCLoot(NPC npc,
             NPCLoot loot)
     {
