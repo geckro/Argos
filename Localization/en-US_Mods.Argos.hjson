@@ -2868,4 +2868,194 @@ Items: {
 		DisplayName: Shared Wall Of Flesh
 		Tooltip: ""
 	}
+
+	AccDpsMeter: {
+		DisplayName: Acc Dps Meter
+		Tooltip: ""
+	}
+
+	CraftingStationAutohammer: {
+		DisplayName: Crafting Station Autohammer
+		Tooltip: ""
+	}
+
+	CraftingStationBlendOMatic: {
+		DisplayName: Crafting Station Blend O Matic
+		Tooltip: ""
+	}
+
+	CraftingStationDecayChamber: {
+		DisplayName: Crafting Station Decay Chamber
+		Tooltip: ""
+	}
+
+	CraftingStationDyeVat: {
+		DisplayName: Crafting Station Dye Vat
+		Tooltip: ""
+	}
+
+	CraftingStationFleshCloningVat: {
+		DisplayName: Crafting Station Flesh Cloning Vat
+		Tooltip: ""
+	}
+
+	CraftingStationSteampunkBoiler: {
+		DisplayName: Crafting Station Steampunk Boiler
+		Tooltip: ""
+	}
+
+	HookSquirrel: {
+		DisplayName: Hook Squirrel
+		Tooltip: ""
+	}
+
+	MeleeSpearMushroomSpearAndHammush: {
+		DisplayName: Melee Spear Mushroom Spear And Hammush
+		Tooltip: ""
+	}
+
+	MeleeSwordSickle: {
+		DisplayName: Melee Sword Sickle
+		Tooltip: ""
+	}
+
+	SharedChestCrimsonHeart: {
+		DisplayName: Shared Chest Crimson Heart
+		Tooltip: ""
+	}
+
+	SharedChestDesert: {
+		DisplayName: Shared Chest Desert
+		Tooltip: ""
+	}
+
+	SharedChestDesertPyramid: {
+		DisplayName: Shared Chest Desert Pyramid
+		Tooltip: ""
+	}
+
+	SharedChestGlowingMushroom: {
+		DisplayName: Shared Chest Glowing Mushroom
+		Tooltip: ""
+	}
+
+	SharedChestGolden: {
+		DisplayName: Shared Chest Golden
+		Tooltip: ""
+	}
+
+	SharedChestIce: {
+		DisplayName: Shared Chest Ice
+		Tooltip: ""
+	}
+
+	SharedChestJungle: {
+		DisplayName: Shared Chest Jungle
+		Tooltip: ""
+	}
+
+	SharedChestJungleTemple: {
+		DisplayName: Shared Chest Jungle Temple
+		Tooltip: ""
+	}
+
+	SharedChestLivingWood: {
+		DisplayName: Shared Chest Living Wood
+		Tooltip: ""
+	}
+
+	SharedChestLockedDungeon: {
+		DisplayName: Shared Chest Locked Dungeon
+		Tooltip: ""
+	}
+
+	SharedChestShadowOrb: {
+		DisplayName: Shared Chest Shadow Orb
+		Tooltip: ""
+	}
+
+	SharedChestShadowUnderworld: {
+		DisplayName: Shared Chest Shadow Underworld
+		Tooltip: ""
+	}
+
+	SharedChestSkyIslands: {
+		DisplayName: Shared Chest Sky Islands
+		Tooltip: ""
+	}
+
+	SharedChestWater: {
+		DisplayName: Shared Chest Water
+		Tooltip: ""
+	}
+
+	SharedChestWoodDungeon: {
+		DisplayName: Shared Chest Wood Dungeon
+		Tooltip: ""
+	}
+
+	SharedChestWooden: {
+		DisplayName: Shared Chest Wooden
+		Tooltip: ""
+	}
+
+	SharedMimicCorrupt: {
+		DisplayName: Shared Mimic Corrupt
+		Tooltip: ""
+	}
+
+	SharedMimicCrimson: {
+		DisplayName: Shared Mimic Crimson
+		Tooltip: ""
+	}
+
+	SharedMimicHallowed: {
+		DisplayName: Shared Mimic Hallowed
+		Tooltip: ""
+	}
+
+	SharedMimicIce: {
+		DisplayName: Shared Mimic Ice
+		Tooltip: ""
+	}
+
+	ToolBugNet: {
+		DisplayName: Tool Bug Net
+		Tooltip: ""
+	}
+
+	ToolClentaminator: {
+		DisplayName: Tool Clentaminator
+		Tooltip: ""
+	}
+
+	ToolDirtRod: {
+		DisplayName: Tool Dirt Rod
+		Tooltip: ""
+	}
+
+	ToolPaintbrush: {
+		DisplayName: Tool Paintbrush
+		Tooltip: ""
+	}
+
+	ToolPaintRoller: {
+		DisplayName: Tool Paint Roller
+		Tooltip: ""
+	}
+
+	ToolPaintScraper: {
+		DisplayName: Tool Paint Scraper
+		Tooltip: ""
+	}
+
+	ToolPiggyBank: {
+		DisplayName: Tool Piggy Bank
+		Tooltip: ""
+	}
+
+	ToolSafe: {
+		DisplayName: Tool Safe
+		Tooltip: ""
+	}
 }

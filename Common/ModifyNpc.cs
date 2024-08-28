@@ -69,7 +69,10 @@ public class ModifyNpc : GlobalNPC
                 shop.Add<ToolDirtRod>();
                 break;
             case NPCID.Painter:
-                shop.GetEntry(ItemID.Paintbrush).Disable();
+                // TODO: Find a way to disable these items being sold. They are the correct ItemIDs.
+                // shop.GetEntry(ItemID.Paintbrush).Disable();
+                // shop.GetEntry(ItemID.PaintScraper).Disable();
+                // shop.GetEntry(ItemID.PaintRoller).Disable();
                 shop.Add<ToolPaintbrush>();
                 shop.Add<ToolPaintScraper>();
                 shop.Add<ToolPaintRoller>();

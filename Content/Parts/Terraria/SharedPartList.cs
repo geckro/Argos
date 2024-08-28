@@ -1,107 +1,513 @@
-﻿namespace Argos.Content.Parts.Terraria;
+﻿using Terraria;
+using Terraria.ID;
 
-public class SharedBetsy : PartItem;
+namespace Argos.Content.Parts.Terraria;
 
-public class SharedBrainOfCthulhu : PartItem;
+public class SharedBetsy : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedChestCrimsonHeart : PartItem;
+public class SharedBrainOfCthulhu : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedChestDesert : PartItem;
+public class SharedChestCrimsonHeart : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.CrimsonHeart}";
 
-public class SharedChestDesertPyramid : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 75);
+    }
+}
 
-public class SharedChestGlowingMushroom : PartItem;
+public class SharedChestDesert : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.DesertChest}";
 
-public class SharedChestGolden : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 2);
+    }
+}
 
-public class SharedChestIce : PartItem;
+public class SharedChestDesertPyramid : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.CactusChest}";
 
-public class SharedChestJungle : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1, silver: 50);
+    }
+}
 
-public class SharedChestJungleTemple : PartItem;
+public class SharedChestGlowingMushroom : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.MushroomChest}";
 
-public class SharedChestLivingWood : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedChestLockedDungeon : PartItem;
+public class SharedChestGolden : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.GoldenChest}";
 
-public class SharedChestShadowUnderworld : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 80);
+    }
+}
 
-public class SharedChestShadowOrb : PartItem;
+public class SharedChestIce : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.IceChest}";
 
-public class SharedChestSkyIslands : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedChestWater : PartItem;
+public class SharedChestJungle : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.IvyChest}";
 
-public class SharedChestWoodDungeon : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 1, silver: 50);
+    }
+}
 
-public class SharedChestWooden : PartItem;
+public class SharedChestJungleTemple : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.LihzahrdChest}";
 
-public class SharedDarkMage : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 5);
+    }
+}
 
-public class SharedDeerclops : PartItem;
+public class SharedChestLivingWood : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.LivingWoodChest}";
 
-public class SharedDestroyer : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 60);
+    }
+}
 
-public class SharedDreadnautilus : PartItem;
+public class SharedChestLockedDungeon : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.BoneChest}";
 
-public class SharedDukeFishron : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Orange;
+        Item.value = Item.sellPrice(gold: 2);
+    }
+}
 
-public class SharedEaterOfWorlds : PartItem;
+public class SharedChestShadowUnderworld : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.ShadowChest}";
 
-public class SharedEmpressOfLight : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Orange;
+        Item.value = Item.sellPrice(gold: 4);
+    }
+}
 
-public class SharedEverscream : PartItem;
+public class SharedChestShadowOrb : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.ShadowOrb}";
 
-public class SharedEyeOfCthulhu : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 75);
+    }
+}
 
-public class SharedFlyingDutchman : PartItem;
+public class SharedChestSkyIslands : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.SkywareChest}";
 
-public class SharedGoblinWarlock : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedGolem : PartItem;
+public class SharedChestWater : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.WaterChest}";
 
-public class SharedIceQueen : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 75);
+    }
+}
 
-public class SharedKingSlime : PartItem;
+public class SharedChestWoodDungeon : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.GlassChest}";
 
-public class SharedLunaticCultist : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(silver: 60);
+    }
+}
 
-public class SharedMartianSaucer : PartItem;
+public class SharedChestWooden : PartItem
+{
+    public override string Texture => $"Terraria/Images/Item_{ItemID.Chest}";
 
-public class SharedMimic : PartItem;
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(silver: 25);
+    }
+}
 
-public class SharedMimicCorrupt : PartItem;
+public class SharedDarkMage : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMimicCrimson : PartItem;
+public class SharedDeerclops : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Orange;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMimicHallowed : PartItem;
+public class SharedDestroyer : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Pink;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMimicIce : PartItem;
+public class SharedDreadnautilus : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMoonLord : PartItem;
+public class SharedDukeFishron : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMothron : PartItem;
+public class SharedEaterOfWorlds : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedMourningWood : PartItem;
+public class SharedEmpressOfLight : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedOgre : PartItem;
+public class SharedEverscream : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedPirateCaptain : PartItem;
+public class SharedEyeOfCthulhu : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedPlantera : PartItem;
+public class SharedFlyingDutchman : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedPumpking : PartItem;
+public class SharedGoblinWarlock : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedQueenBee : PartItem;
+public class SharedGolem : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedQueenSlime : PartItem;
+public class SharedIceQueen : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedSantank : PartItem;
+public class SharedKingSlime : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Blue;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedSkeletron : PartItem;
+public class SharedLunaticCultist : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Cyan;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedSkeletronPrime : PartItem;
+public class SharedMartianSaucer : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedTwins : PartItem;
+public class SharedMimic : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
 
-public class SharedWallOfFlesh : PartItem;
+public class SharedMimicCorrupt : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMimicCrimson : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMimicHallowed : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMimicIce : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMoonLord : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Cyan;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMothron : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedMourningWood : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedOgre : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Pink;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedPirateCaptain : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedPlantera : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedPumpking : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Yellow;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedQueenBee : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedQueenSlime : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.LightRed;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedSantank : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Lime;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedSkeletron : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Green;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedSkeletronPrime : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Pink;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedTwins : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Pink;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}
+
+public class SharedWallOfFlesh : PartItem
+{
+    public override void SetDefaults()
+    {
+        Item.rare = ItemRarityID.Orange;
+        Item.value = Item.sellPrice(gold: 1);
+    }
+}

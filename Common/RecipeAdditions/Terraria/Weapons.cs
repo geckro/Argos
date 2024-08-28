@@ -8,6 +8,12 @@ public class WeaponsAdditions : GlobalItem
 {
     public override void AddRecipes()
     {
+        RecipeHelper.AddRecipe(ItemID.Mace, [(ItemID.RichMahogany, 12), (ItemID.Chain, 9)], [TileID.HeavyWorkBench], recipeGroups: [("IronBar", 25)], moddedIngredients: [(ModContent.ItemType<SharedChestGolden>(), 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.WoodenBoomerang, [(ItemID.Wood, 24), (ItemID.StoneBlock, 12)], [TileID.WorkBenches], recipeGroups: [("IronBar", 6)], moddedIngredients: [(ModContent.ItemType<SharedChestWooden>(), 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.Spear, [], [TileID.Anvils], recipeGroups: [("GoldBar", 8), ("SilverBar", 6)], moddedIngredients: [(ModContent.ItemType<SharedChestWooden>(), 1)]);
+
         RecipeHelper.AddRecipe(ItemID.AntlionClaw, [(ItemID.CactusSword, 1), (ItemID.Sandstone, 60), (ItemID.Amber, 2)],
                 moddedIngredients: [(ModContent.ItemType<MeleeSwordMandibleBlade>(), 2)], tiles: [TileID.Anvils]);
 
@@ -17,7 +23,7 @@ public class WeaponsAdditions : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.IceBoomerang,
                 [(ItemID.IceBlock, 150), (ItemID.Shiverthorn, 6), (ItemID.FlinxFur, 4), (ItemID.WoodenBoomerang, 1)],
-                moddedIngredients: [(ModContent.ItemType<MeleeBoomerangIceBoomerang>(), 1)],
+                moddedIngredients: [(ModContent.ItemType<SharedChestIce>(), 1)],
                 tiles: [TileID.IceMachine]);
 
         RecipeHelper.AddRecipe(ItemID.SnowballCannon, [(ItemID.Snowball, 500), (ItemID.BorealWoodBow, 1)],
