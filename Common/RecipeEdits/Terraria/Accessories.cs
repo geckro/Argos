@@ -1,4 +1,5 @@
-﻿using Terraria.ID;
+﻿using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Argos.Common.RecipeEdits.Terraria;
@@ -13,6 +14,10 @@ public class Accessories : GlobalItem
 
         RecipeHelper.AddRecipe(ItemID.WhiteString, [(ItemID.Cobweb, 40), (ItemID.Silk, 5), (ItemID.Diamond, 1)],
                 [TileID.Loom]);
+
+        RecipeHelper.AddRecipe(ItemID.AnkhShield, [(ItemID.ObsidianShield, 1), (ItemID.AnkhCharm, 1), (ItemID.FrozenShield, 1), (ItemID.HeroShield, 1)], [TileID.MythrilAnvil], [Condition.InAether]);
+
+        RecipeHelper.AddRecipe(ItemID.AnkhCharm, [(ItemID.ArmorBracing, 1), (ItemID.MedicatedBandage, 1), (ItemID.ThePlan, 1), (ItemID.CountercurseMantra, 1), (ItemID.ReflectiveShades, 1), (ItemID.PharaohsMask, 1), (ItemID.PharaohsRobe, 1)], [TileID.MythrilAnvil], [Condition.InDesert]);
 
         RecipeHelper.AddRecipe(ItemID.ObsidianSkull, [(ItemID.Obsidian, 35), (ItemID.Skull, 1)], [TileID.Hellforge]);
 
