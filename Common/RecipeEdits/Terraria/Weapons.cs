@@ -15,6 +15,27 @@ public class Swords : GlobalItem
         RecipeHelper.AddRecipe(ItemID.WoodenSword, [(ItemID.Wood, 12), (ItemID.StoneBlock, 6), (ItemID.WebRope, 4)],
                 [TileID.WorkBenches]);
 
+        RecipeHelper.AddRecipe(ItemID.BorealWoodSword, [(ItemID.BorealWood, 12), (ItemID.SnowBlock, 6), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.AshWoodSword, [(ItemID.AshWood, 12), (ItemID.AshBlock, 24), (ItemID.WebRope, 4)],
+                [TileID.Hellforge]);
+
+        RecipeHelper.AddRecipe(ItemID.RichMahoganySword, [(ItemID.RichMahogany, 12), (ItemID.MudBlock, 6), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.PalmWoodSword, [(ItemID.PalmWood, 12), (ItemID.SandBlock, 6), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.EbonwoodSword, [(ItemID.Ebonwood, 12), (ItemID.VilePowder, 2), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.ShadewoodSword, [(ItemID.Shadewood, 12), (ItemID.VilePowder, 6), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.PearlwoodSword, [(ItemID.Pearlwood, 12), (ItemID.PearlstoneBlock, 6), (ItemID.WebRope, 4)],
+                [TileID.WorkBenches]);
+
         RecipeHelper.AddRecipe(ItemID.CactusSword,
                 [(ItemID.Cactus, 16), (ItemID.Waterleaf, 2), (ItemID.WoodenSword, 1)], [TileID.WorkBenches]);
 
@@ -85,6 +106,18 @@ public class Swords : GlobalItem
                 (ItemID.BloodButcherer, 1), (ItemID.Muramasa, 1), (ItemID.BladeofGrass, 1), (ItemID.FieryGreatsword, 1),
                 (ItemID.AntlionClaw, 1)
         ], [TileID.DemonAltar]);
+
+        RecipeHelper.AddRecipe(ItemID.CobaltSword, [(ItemID.CobaltBar, 14), (ItemID.BoneSword, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.PalladiumSword, [(ItemID.PalladiumBar, 14), (ItemID.BoneSword, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.MythrilSword, [(ItemID.MythrilBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("CobaltSword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.OrichalcumSword, [(ItemID.OrichalcumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("CobaltSword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.AdamantiteSword, [(ItemID.AdamantiteBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("MythrilSword", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.TitaniumSword, [(ItemID.TitaniumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("MythrilSword", 1)]);
 
         RecipeHelper.AddRecipe(ItemID.Excalibur,
                 [(ItemID.EnchantedSword, 1), (ItemID.HallowedBar, 12), (ItemID.SoulofLight, 6)], [TileID.MythrilAnvil]);
@@ -159,6 +192,27 @@ public class Bows : GlobalItem
     {
         RecipeHelper.AddRecipe(ItemID.WoodenBow, [(ItemID.Wood, 12), (ItemID.Cobweb, 20)], [TileID.WorkBenches]);
 
+        RecipeHelper.AddRecipe(ItemID.BorealWoodBow, [(ItemID.BorealWood, 12), (ItemID.Cobweb, 20)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.AshWoodBow, [(ItemID.AshWood, 12), (ItemID.Cobweb, 20)],
+                [TileID.Hellforge]);
+
+        RecipeHelper.AddRecipe(ItemID.RichMahoganyBow, [(ItemID.RichMahogany, 12), (ItemID.Cobweb, 20)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.PalmWoodBow, [(ItemID.PalmWood, 12), (ItemID.Cobweb, 20)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.EbonwoodBow, [(ItemID.Ebonwood, 12), (ItemID.Cobweb, 20), (ItemID.EbonstoneBlock, 25)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.ShadewoodBow, [(ItemID.Shadewood, 12), (ItemID.Cobweb, 20), (ItemID.CrimstoneBlock, 25)],
+                [TileID.WorkBenches]);
+
+        RecipeHelper.AddRecipe(ItemID.PearlwoodBow, [(ItemID.Pearlwood, 12), (ItemID.Cobweb, 20), (ItemID.PearlstoneBlock, 25)],
+                [TileID.WorkBenches]);
+
         RecipeHelper.AddRecipe(ItemID.CopperBow, [(ItemID.CopperBar, 12), (ItemID.WoodenBow, 1)],
                 recipeGroups: [("Wood", 6)], tiles: [TileID.Anvils]);
 
@@ -193,6 +247,21 @@ public class Bows : GlobalItem
         RecipeHelper.AddRecipe(ItemID.MoltenFury, [(ItemID.HellstoneBar, 16), (ItemID.FlamingArrow, 500)],
                 recipeGroups: [("DemonBow", 1)], tiles: [TileID.Hellforge],
                 conditions: [Condition.InUnderworld, Condition.NearLava]);
+
+        RecipeHelper.AddRecipe(ItemID.CobaltRepeater, [(ItemID.CobaltBar, 14), (ItemID.HellwingBow, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.PalladiumRepeater, [(ItemID.PalladiumBar, 14), (ItemID.HellwingBow, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.MythrilRepeater, [(ItemID.MythrilBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("CobaltRepeater", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.OrichalcumRepeater, [(ItemID.OrichalcumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("CobaltRepeater", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.AdamantiteRepeater, [(ItemID.AdamantiteBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("MythrilRepeater", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.TitaniumRepeater, [(ItemID.TitaniumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("MythrilRepeater", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.HallowedRepeater, [(ItemID.HallowedBar, 16), (ItemID.SoulofSight, 3)], [TileID.DemonAltar], recipeGroups: [("AdamantiteRepeater", 1)]);
+
     }
 }
 
@@ -240,8 +309,20 @@ public class Spears : GlobalItem
     public override void AddRecipes()
     {
         RecipeHelper.AddRecipe(ItemID.Gungnir,
-                [(ItemID.DarkLance, 1), (ItemID.HallowedBar, 14), (ItemID.SoulofLight, 8), (ItemID.PixieDust, 12)],
-                [TileID.MythrilAnvil]);
+                [(ItemID.HallowedBar, 12), (ItemID.SoulofLight, 8), (ItemID.PixieDust, 12)],
+                [TileID.MythrilAnvil], recipeGroups: [("AdamantiteGlaive", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.CobaltNaginata, [(ItemID.CobaltBar, 12), (ItemID.DarkLance, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.PalladiumPike, [(ItemID.PalladiumBar, 12), (ItemID.DarkLance, 1)], [TileID.HeavyWorkBench]);
+
+        RecipeHelper.AddRecipe(ItemID.MythrilHalberd, [(ItemID.MythrilBar, 12)], [TileID.MythrilAnvil], recipeGroups: [("CobaltNaginata", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.OrichalcumHalberd, [(ItemID.OrichalcumBar, 12)], [TileID.MythrilAnvil], recipeGroups: [("CobaltNaginata", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.AdamantiteGlaive, [(ItemID.AdamantiteBar, 12)], [TileID.MythrilAnvil], recipeGroups: [("MythrilHalberd", 1)]);
+
+        RecipeHelper.AddRecipe(ItemID.TitaniumTrident, [(ItemID.TitaniumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [("MythrilHalberd", 1)]);
     }
 }
 

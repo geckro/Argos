@@ -15,6 +15,9 @@ public class RecipeGroups : ModSystem
                 new RG(() => "Any Adamantite or Titanium Bars", AdamantiteBar, TitaniumBar));
         RegisterGroup(nameof(AdamantiteBreastplate),
                 new RG(() => "Any Adamantite or Titanium Breastplate", AdamantiteBreastplate, TitaniumBreastplate));
+        RegisterGroup(nameof(AdamantiteChainsaw), new RG(() => "Any Adamantite or Titanium Chainsaws", AdamantiteChainsaw, TitaniumChainsaw));
+        RegisterGroup(nameof(AdamantiteDrill), new RG(() => "Any Adamantite or Titanium Drills", AdamantiteDrill, TitaniumDrill));
+        RegisterGroup(nameof(AdamantiteGlaive), new RG(() => "Any Adamantite or Titanium Spears", AdamantiteGlaive, TitaniumTrident));
         RegisterGroup(nameof(AdamantiteHelmet),
                 new RG(() => "Any Adamantite or Titanium Helmet", AdamantiteHelmet, TitaniumHelmet));
         RegisterGroup(nameof(AdamantiteLeggings),
@@ -31,12 +34,15 @@ public class RecipeGroups : ModSystem
                 new RG(() => "Any Adamantite or Titanium Waraxes", AdamantiteWaraxe, TitaniumWaraxe));
         RegisterGroup(nameof(BeetleScaleMail), new RG(() => "Any Beetle Breastplate", BeetleScaleMail, BeetleShell));
         RegisterGroup(nameof(CobaltBar), new RG(() => "Any Cobalt or Palladium Bars", CobaltBar, PalladiumBar));
+        RegisterGroup(nameof(CobaltChainsaw), new RG(() => "Any Cobalt or Palladium Chainsaws", CobaltChainsaw, PalladiumChainsaw));
+        RegisterGroup(nameof(CobaltDrill), new RG(() => "Any Cobalt or Palladium Drills", CobaltDrill, PalladiumDrill));
         RegisterGroup(nameof(CobaltBreastplate),
                 new RG(() => "Any Cobalt or Palladium Breastplate", CobaltBreastplate, PalladiumBreastplate));
         RegisterGroup(nameof(CobaltHelmet),
                 new RG(() => "Any Cobalt or Palladium Helmet", CobaltHelmet, PalladiumHelmet));
         RegisterGroup(nameof(CobaltLeggings),
                 new RG(() => "Any Cobalt or Palladium Leggings", CobaltLeggings, PalladiumLeggings));
+        RegisterGroup(nameof(CobaltNaginata), new RG(() => "Any Cobalt or Palladium Spears", CobaltNaginata, PalladiumPike));
         RegisterGroup(nameof(CobaltOre), new RG(() => "Any Cobalt or Palladium Ores", CobaltOre, PalladiumOre));
         RegisterGroup(nameof(CobaltPickaxe),
                 new RG(() => "Any Cobalt or Palladium Pickaxes", CobaltPickaxe, PalladiumPickaxe));
@@ -94,8 +100,11 @@ public class RecipeGroups : ModSystem
         RegisterGroup(nameof(MythrilBar), new RG(() => "Any Mythril or Orichalcum Bars", MythrilBar, OrichalcumBar));
         RegisterGroup(nameof(MythrilChainmail),
                 new RG(() => "Any Mythril or Orichalcum Breastplate", MythrilChainmail, OrichalcumBreastplate));
+        RegisterGroup(nameof(MythrilChainsaw), new RG(() => "Any Mythril or Orichalcum Chainsaws", MythrilChainsaw, OrichalcumChainsaw));
+        RegisterGroup(nameof(MythrilDrill), new RG(() => "Any Mythril or Orichalcum Drills", MythrilDrill, OrichalcumDrill));
         RegisterGroup(nameof(MythrilGreaves),
                 new RG(() => "Any Mythril or Orichalcum Leggings", MythrilGreaves, OrichalcumLeggings));
+        RegisterGroup(nameof(MythrilHalberd), new RG(() => "Any Mythril or Orichalcum Spears", MythrilHalberd, OrichalcumHalberd));
         RegisterGroup(nameof(MythrilHelmet),
                 new RG(() => "Any Mythril or Orichalcum Helmet", MythrilHelmet, OrichalcumHelmet));
         RegisterGroup(nameof(MythrilOre), new RG(() => "Any Mythril or Orichalcum Ores", MythrilOre, OrichalcumOre));
