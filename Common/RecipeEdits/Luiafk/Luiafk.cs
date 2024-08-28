@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using Argos.Common.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -9,7 +9,7 @@ public class Luiafk : GlobalItem
 {
     public override void AddRecipes()
     {
-        if (!EnabledMods.LuiafkEnabled)
+        if (!EnabledMods.LuiafkEnabled || !ModContent.GetInstance<ArgosConfig>().EnableLuiafkSupport)
         {
             return;
         }

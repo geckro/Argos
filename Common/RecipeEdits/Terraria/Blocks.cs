@@ -1,4 +1,6 @@
-﻿using Terraria;
+﻿using Argos.Common;
+using Argos.Common.Config;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -55,7 +57,16 @@ public class Torches : GlobalItem
 {
     public override void AddRecipes()
     {
-        RecipeHelper.AddRecipe(ItemID.Torch, [(ItemID.Gel, 1), (ItemID.Wood, 1)], [TileID.WorkBenches], amount: 2);
+        if (ModContent.GetInstance<ArgosConfig>().HellMode)
+        {
+            RecipeHelper.AddRecipe(ItemID.Torch, [(ItemID.Gel, 1), (ItemID.Wood, 1)], [TileID.WorkBenches]);
+
+        }
+        else
+        {
+            RecipeHelper.AddRecipe(ItemID.Torch, [(ItemID.Gel, 1), (ItemID.Wood, 1)], [TileID.WorkBenches], amount: 2);
+        }
+
         RecipeHelper.AddRecipe(ItemID.TikiTorch, [(ItemID.Torch, 1), (ItemID.Wood, 4), (ItemID.StoneBlock, 2)], [TileID.WorkBenches]);
         RecipeHelper.AddRecipe(ItemID.CursedTorch, [(ItemID.Torch, 10), (ItemID.CursedFlame, 1)], [TileID.CrystalBall],
                 amount: 10);

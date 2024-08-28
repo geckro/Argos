@@ -3066,3 +3066,24 @@ GameTips: {
 	Tip3: A jungle farm is very helpful for spores, life fruits and Plantera bulbs...
 	Tip4: If you don't have bottomless buckets, there is a way to make infinite liquid with a single bucket!
 }
+
+Configs: {
+	ArgosConfig: {
+		HellMode: {
+			Tooltip: Enables or disables Hell Mode, an insanely hard, unfair, grindy version of the mod. Recommended if you are insane.
+			Label: Hell Mode
+		}
+
+		Headers: {
+			Toggles: Toggles
+			Mods: Mod Support
+		}
+
+		DisplayName: Argos Mod Configuration
+
+		EnableLuiafkSupport: {
+			Tooltip: Enables or disables Luiafk support, if loaded. Does nothing otherwise.
+			Label: Enable Luiafk Support
+		}
+	}
+}
