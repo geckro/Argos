@@ -13,6 +13,10 @@ public static class EnabledMods
     public static bool FargoSoulsEnabled { get; set; }
     public static bool ModOfRedemptionEnabled { get; set; }
     public static bool StarsAboveEnabled { get; set; }
+    public static bool MagicStorageEnabled { get; set; }
+    public static bool AlchemistNpcLiteEnabled { get; set; }
+    public static bool StarlightRiverEnabled { get; set; }
+    public static bool ClickerClassEnabled { get; set; }
 }
 
 public static class EnabledModsChecker
@@ -21,6 +25,7 @@ public static class EnabledModsChecker
     {
         CheckQoLMods();
         CheckContentMods();
+        CheckMiniContentMods();
     }
 
     private static void CheckQoLMods()
@@ -35,6 +40,18 @@ public static class EnabledModsChecker
         if (luiafk != null)
         {
             EnabledMods.LuiafkEnabled = true;
+        }
+
+        ModLoader.TryGetMod("MagicStorage", out Mod magicStorage);
+        if (magicStorage != null)
+        {
+            EnabledMods.MagicStorageEnabled = true;
+        }
+
+        ModLoader.TryGetMod("AlchemistNPCLite", out Mod alchNpcLite);
+        if (alchNpcLite != null)
+        {
+            EnabledMods.AlchemistNpcLiteEnabled = true;
         }
     }
 
@@ -80,6 +97,22 @@ public static class EnabledModsChecker
         {
             EnabledMods.StarsAboveEnabled = true;
             EnabledMods.AnyContentModEnabled = true;
+        }
+
+        ModLoader.TryGetMod("StarlightRiver", out Mod starlightRiver);
+        if (starlightRiver != null)
+        {
+            EnabledMods.StarlightRiverEnabled = true;
+            EnabledMods.AnyContentModEnabled = true;
+        }
+    }
+
+    private static void CheckMiniContentMods()
+    {
+        ModLoader.TryGetMod("ClickerClass", out Mod clickerClass);
+        if (clickerClass != null)
+        {
+            EnabledMods.ClickerClassEnabled = true;
         }
     }
 }
