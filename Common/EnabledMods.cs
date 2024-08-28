@@ -17,6 +17,20 @@ public static class EnabledMods
     public static bool AlchemistNpcLiteEnabled { get; set; }
     public static bool StarlightRiverEnabled { get; set; }
     public static bool ClickerClassEnabled { get; set; }
+
+    public static Mod ModFargoMutantModEnabled { get; set; }
+    public static Mod ModLuiafkEnabled { get; set; }
+    public static Mod ModAnyContentModEnabled { get; set; }
+    public static Mod ModCalamityModEnabled { get; set; }
+    public static Mod ModThoriumModEnabled { get; set; }
+    public static Mod ModSpiritModEnabled { get; set; }
+    public static Mod ModFargoSoulsEnabled { get; set; }
+    public static Mod ModModOfRedemptionEnabled { get; set; }
+    public static Mod ModStarsAboveEnabled { get; set; }
+    public static Mod ModMagicStorageEnabled { get; set; }
+    public static Mod ModAlchemistNpcLiteEnabled { get; set; }
+    public static Mod ModStarlightRiverEnabled { get; set; }
+    public static Mod ModClickerClassEnabled { get; set; }
 }
 
 public static class EnabledModsChecker
@@ -34,24 +48,28 @@ public static class EnabledModsChecker
         if (fargo != null)
         {
             EnabledMods.FargoMutantModEnabled = true;
+            EnabledMods.ModFargoMutantModEnabled = fargo;
         }
 
         ModLoader.TryGetMod("miningcracks_take_on_luiafk", out Mod luiafk);
         if (luiafk != null)
         {
             EnabledMods.LuiafkEnabled = true;
+            EnabledMods.ModLuiafkEnabled = luiafk;
         }
 
         ModLoader.TryGetMod("MagicStorage", out Mod magicStorage);
         if (magicStorage != null)
         {
             EnabledMods.MagicStorageEnabled = true;
+            EnabledMods.ModMagicStorageEnabled = magicStorage;
         }
 
         ModLoader.TryGetMod("AlchemistNPCLite", out Mod alchNpcLite);
         if (alchNpcLite != null)
         {
             EnabledMods.AlchemistNpcLiteEnabled = true;
+            EnabledMods.ModAlchemistNpcLiteEnabled = alchNpcLite;
         }
     }
 
@@ -61,6 +79,7 @@ public static class EnabledModsChecker
         if (calamityMod != null)
         {
             EnabledMods.CalamityModEnabled = true;
+            EnabledMods.ModCalamityModEnabled = calamityMod;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -68,6 +87,7 @@ public static class EnabledModsChecker
         if (thoriumMod != null)
         {
             EnabledMods.ThoriumModEnabled = true;
+            EnabledMods.ModThoriumModEnabled = thoriumMod;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -75,6 +95,7 @@ public static class EnabledModsChecker
         if (spiritMod != null)
         {
             EnabledMods.SpiritModEnabled = true;
+            EnabledMods.ModSpiritModEnabled = spiritMod;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -82,6 +103,7 @@ public static class EnabledModsChecker
         if (fargos != null)
         {
             EnabledMods.FargoSoulsEnabled = true;
+            EnabledMods.ModFargoSoulsEnabled = fargos;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -89,6 +111,7 @@ public static class EnabledModsChecker
         if (modOfRedemption != null)
         {
             EnabledMods.ModOfRedemptionEnabled = true;
+            EnabledMods.ModModOfRedemptionEnabled = modOfRedemption;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -96,6 +119,7 @@ public static class EnabledModsChecker
         if (starsAbove != null)
         {
             EnabledMods.StarsAboveEnabled = true;
+            EnabledMods.ModStarsAboveEnabled = starsAbove;
             EnabledMods.AnyContentModEnabled = true;
         }
 
@@ -103,6 +127,7 @@ public static class EnabledModsChecker
         if (starlightRiver != null)
         {
             EnabledMods.StarlightRiverEnabled = true;
+            EnabledMods.ModStarlightRiverEnabled = starlightRiver;
             EnabledMods.AnyContentModEnabled = true;
         }
     }
@@ -113,6 +138,7 @@ public static class EnabledModsChecker
         if (clickerClass != null)
         {
             EnabledMods.ClickerClassEnabled = true;
+            EnabledMods.ModClickerClassEnabled = clickerClass;
         }
     }
 }
