@@ -3059,3 +3059,10 @@ Items: {
 		Tooltip: ""
 	}
 }
+
+GameTips: {
+	Tip1: Make sure to make a tree farm! Wood can be used for many different things...
+	Tip2: You can get the alternative evil if you speak to a Dryad in Hardmode in a Graveyard!
+	Tip3: A jungle farm is very helpful for spores, life fruits and Plantera bulbs...
+	Tip4: If you don't have bottomless buckets, there is a way to make infinite liquid with a single bucket!
+}
