@@ -7,10 +7,11 @@ namespace Argos.Common;
 
 public static class RecipeHelper
 {
-    public static Dictionary<short, ICollection<Recipe>> AddedRecipes { get; set; } = new();
+    public static Dictionary<int, ICollection<Recipe>> RecipesToDisableByRecipe { get; set; } = new();
+    public static ICollection<int> RecipesToDisable { get; set; } = [];
 
-    public static void AddRecipe(short itemToCreate,
-            (short id, int count)[] ingredients,
+    public static void AddRecipe(int itemToCreate,
+            (int id, int count)[] ingredients,
             ushort[] tiles = null,
             Condition[] conditions = null,
             (string id, int count)[] recipeGroups = null,
@@ -19,7 +20,7 @@ public static class RecipeHelper
     {
         Recipe recipe = Recipe.Create(itemToCreate, amount);
 
-        foreach ((short id, int count) ingredient in ingredients)
+        foreach ((int id, int count) ingredient in ingredients)
         {
             recipe.AddIngredient(ingredient.id, ingredient.count);
         }
@@ -58,9 +59,15 @@ public static class RecipeHelper
 
         recipe.Register();
 
-        if (!AddedRecipes.TryGetValue(itemToCreate, out ICollection<Recipe> value))
+        AddToDisabledRecipes(itemToCreate, recipe);
+    }
+
+    public static void AddToDisabledRecipes(int itemToCreate,
+            Recipe recipe)
+    {
+        if (!RecipesToDisableByRecipe.TryGetValue(itemToCreate, out ICollection<Recipe> value))
         {
-            AddedRecipes[itemToCreate] = new List<Recipe> { recipe };
+            RecipesToDisableByRecipe[itemToCreate] = new List<Recipe> { recipe };
         }
         else
         {
@@ -77,7 +84,7 @@ public class PostAddRecipe : ModSystem
         {
             Recipe recipe = Main.recipe[i];
 
-            foreach ((short id, ICollection<Recipe> addedRecipes) in RecipeHelper.AddedRecipes)
+            foreach ((int id, ICollection<Recipe> addedRecipes) in RecipeHelper.RecipesToDisableByRecipe)
             {
                 // if there is no new recipe that Argos adds, just skip it
                 if (!recipe.HasResult(id))
@@ -95,6 +102,16 @@ public class PostAddRecipe : ModSystem
                 {
                     recipe.DisableRecipe();
                 }
+            }
+
+            foreach (int id in RecipeHelper.RecipesToDisable)
+            {
+                if (!recipe.HasResult(id))
+                {
+                    continue;
+                }
+
+                recipe.DisableRecipe();
             }
         }
     }
