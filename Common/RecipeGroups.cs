@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using static Terraria.ID.ItemID;
 using static Terraria.RecipeGroup;
 
-namespace Argos;
+namespace Argos.Common;
 
 using RG = RecipeGroup;
 
