@@ -4,7 +4,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Argos.Common.GlobalNPCs;
+namespace Argos.Common.GlobalNPCs.Terraria;
 
 public class ModifyNpcLoot : GlobalNPC
 {

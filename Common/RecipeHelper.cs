@@ -5,39 +5,45 @@ using Terraria.ModLoader;
 
 namespace Argos.Common;
 
+public record Ingredient
+{
+    public int Id { get; init; }
+    public int Count { get; init; } = 1;
+}
+
+public record RecipeGroupIngredient
+{
+    public string Id { get; init; }
+    public int Count { get; init; } = 1;
+}
+
 public static class RecipeHelper
 {
-    public static Dictionary<int, ICollection<Recipe>> RecipesToDisableByRecipe { get; set; } = new();
-    public static ICollection<int> RecipesToDisable { get; set; } = [];
+    public static Dictionary<int, ICollection<Recipe>> RecipesToDisableByRecipe { get; } = new();
+    public static ICollection<int> RecipesToDisable { get; } = [];
+
+    public static Ingredient Ingredient(int itemId,
+            int count = 1) =>
+            new() { Id = itemId, Count = count };
+
+    public static RecipeGroupIngredient RecipeGroup(string itemId,
+            int count = 1) =>
+            new() { Id = itemId, Count = count };
 
     public static void AddRecipe(int itemToCreate,
-            (int id, int count)[] ingredients,
+            Ingredient[] ingredients = null,
             ushort[] tiles = null,
             Condition[] conditions = null,
-            (string id, int count)[] recipeGroups = null,
-            (int id, int count)[] moddedIngredients = null,
+            RecipeGroupIngredient[] recipeGroups = null,
             int amount = 1)
     {
         Recipe recipe = Recipe.Create(itemToCreate, amount);
 
-        foreach ((int id, int count) ingredient in ingredients)
+        if (ingredients != null)
         {
-            recipe.AddIngredient(ingredient.id, ingredient.count);
-        }
-
-        if (moddedIngredients != null)
-        {
-            foreach ((int id, int count) ingredient in moddedIngredients)
+            foreach (Ingredient ingredient in ingredients)
             {
-                recipe.AddIngredient(ingredient.id, ingredient.count);
-            }
-        }
-
-        if (recipeGroups != null)
-        {
-            foreach ((string id, int count) recipeGroup in recipeGroups)
-            {
-                recipe.AddRecipeGroup(recipeGroup.id, recipeGroup.count);
+                recipe.AddIngredient(ingredient.Id, ingredient.Count);
             }
         }
 
@@ -57,12 +63,20 @@ public static class RecipeHelper
             }
         }
 
+        if (recipeGroups != null)
+        {
+            foreach (RecipeGroupIngredient recipeGroup in recipeGroups)
+            {
+                recipe.AddRecipeGroup(recipeGroup.Id, recipeGroup.Count);
+            }
+        }
+
         recipe.Register();
 
         AddToDisabledRecipes(itemToCreate, recipe);
     }
 
-    public static void AddToDisabledRecipes(int itemToCreate,
+    private static void AddToDisabledRecipes(int itemToCreate,
             Recipe recipe)
     {
         if (!RecipesToDisableByRecipe.TryGetValue(itemToCreate, out ICollection<Recipe> value))
@@ -117,9 +131,7 @@ public class PostAddRecipe : ModSystem
     }
 
     private static bool RecipesAreEqual(Recipe a,
-            Recipe b)
-    {
-        return a.createItem.type == b.createItem.type && a.requiredItem.SequenceEqual(b.requiredItem) &&
-               a.requiredTile.SequenceEqual(b.requiredTile) && a.Conditions.SequenceEqual(b.Conditions);
-    }
+            Recipe b) =>
+            a.createItem.type == b.createItem.type && a.requiredItem.SequenceEqual(b.requiredItem) &&
+            a.requiredTile.SequenceEqual(b.requiredTile) && a.Conditions.SequenceEqual(b.Conditions);
 }

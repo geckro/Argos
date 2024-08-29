@@ -23,10 +23,11 @@ public class PlayerInventory : ModPlayer
             ("Terraria", ItemID.MagicMirror),
             ("Terraria", ItemID.Rope),
             ("Terraria", ItemID.Torch),
-            ("Terraria", ItemID.WolfMountItem),
+            ("Terraria", ItemID.WolfMountItem)
     ];
 
-    public override void ModifyStartingInventory(IReadOnlyDictionary<string, List<Item>> items, bool mCoreDeath)
+    public override void ModifyStartingInventory(IReadOnlyDictionary<string, List<Item>> items,
+            bool mCoreDeath)
     {
         foreach ((string mod, short itemId) inventoryItem in _inventoryItemsToRemove)
         {

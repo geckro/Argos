@@ -8,26 +8,43 @@ namespace Argos.Common.World;
 
 public abstract class HellModeModified : GlobalItem
 {
-    public override bool IsLoadingEnabled(Mod mod) {
+    private static string RecipeChanged => "Changed by Argos - Hell Mode";
+
+    public override bool IsLoadingEnabled(Mod mod)
+    {
         return ModContent.GetInstance<ArgosConfig>().HellMode;
     }
-
-    private static string RecipeChanged => "Changed by Argos - Hell Mode";
 
     public override void ModifyTooltips(Item item,
             List<TooltipLine> tooltips)
     {
-        tooltips.Add(new TooltipLine(Mod, "Tooltip0", RecipeChanged)
-        {
-                OverrideColor = Colors.RarityRed
-        });
+        tooltips.Add(new TooltipLine(Mod, "Tooltip0", RecipeChanged) { OverrideColor = Colors.RarityRed });
     }
 }
 
-public class Torch : HellModeModified
+public class TorchHell : HellModeModified
 {
-    public override bool AppliesToEntity(Item item, bool lateInstantiation)
+    public override bool AppliesToEntity(Item item,
+            bool lateInstantiation)
     {
         return item.type == ItemID.Torch;
+    }
+}
+
+public class EnchantedNightcrawlerHell : HellModeModified
+{
+    public override bool AppliesToEntity(Item item,
+            bool lateInstantiation)
+    {
+        return item.type == ItemID.EnchantedNightcrawler;
+    }
+}
+
+public class ZenithHell : HellModeModified
+{
+    public override bool AppliesToEntity(Item item,
+            bool lateInstantiation)
+    {
+        return item.type == ItemID.Zenith;
     }
 }

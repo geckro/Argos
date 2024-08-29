@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Argos.Common.GlobalNPCs;
+namespace Argos.Common.GlobalNPCs.Terraria;
 
 public class ModifyNpcShops : GlobalNPC
 {

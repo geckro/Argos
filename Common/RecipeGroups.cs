@@ -11,150 +11,145 @@ public class RecipeGroups : ModSystem
 {
     public override void AddRecipeGroups()
     {
-        RegisterGroup(nameof(AdamantiteBar),
-                new RG(() => "Any Adamantite or Titanium Bars", AdamantiteBar, TitaniumBar));
+        RegisterGroup(nameof(AdamantiteBar), new RG(() => "Adamantite or Titanium Bar", AdamantiteBar, TitaniumBar));
         RegisterGroup(nameof(AdamantiteBreastplate),
-                new RG(() => "Any Adamantite or Titanium Breastplate", AdamantiteBreastplate, TitaniumBreastplate));
-        RegisterGroup(nameof(AdamantiteChainsaw), new RG(() => "Any Adamantite or Titanium Chainsaws", AdamantiteChainsaw, TitaniumChainsaw));
-        RegisterGroup(nameof(AdamantiteDrill), new RG(() => "Any Adamantite or Titanium Drills", AdamantiteDrill, TitaniumDrill));
-        RegisterGroup(nameof(AdamantiteGlaive), new RG(() => "Any Adamantite or Titanium Spears", AdamantiteGlaive, TitaniumTrident));
+                new RG(() => "Adamantite or Titanium Breastplate", AdamantiteBreastplate, TitaniumBreastplate));
+        RegisterGroup(nameof(AdamantiteChainsaw),
+                new RG(() => "Adamantite or Titanium Chainsaw", AdamantiteChainsaw, TitaniumChainsaw));
+        RegisterGroup(nameof(AdamantiteDrill),
+                new RG(() => "Adamantite or Titanium Drill", AdamantiteDrill, TitaniumDrill));
+        RegisterGroup(nameof(AdamantiteGlaive),
+                new RG(() => "Adamantite or Titanium Spear", AdamantiteGlaive, TitaniumTrident));
         RegisterGroup(nameof(AdamantiteHelmet),
-                new RG(() => "Any Adamantite or Titanium Helmet", AdamantiteHelmet, TitaniumHelmet));
+                new RG(() => "Adamantite or Titanium Helmet", AdamantiteHelmet, TitaniumHelmet));
         RegisterGroup(nameof(AdamantiteLeggings),
-                new RG(() => "Any Adamantite or Titanium Leggings", AdamantiteLeggings, TitaniumLeggings));
-        RegisterGroup(nameof(AdamantiteOre),
-                new RG(() => "Any Adamantite or Titanium Ores", AdamantiteOre, TitaniumOre));
+                new RG(() => "Adamantite or Titanium Leggings", AdamantiteLeggings, TitaniumLeggings));
+        RegisterGroup(nameof(AdamantiteOre), new RG(() => "Adamantite or Titanium Ore", AdamantiteOre, TitaniumOre));
         RegisterGroup(nameof(AdamantitePickaxe),
-                new RG(() => "Any Adamantite or Titanium Pickaxes", AdamantitePickaxe, TitaniumPickaxe));
+                new RG(() => "Adamantite or Titanium Pickaxe", AdamantitePickaxe, TitaniumPickaxe));
         RegisterGroup(nameof(AdamantiteRepeater),
-                new RG(() => "Any Adamantite or Titanium Repeaters", AdamantiteRepeater, TitaniumRepeater));
+                new RG(() => "Adamantite or Titanium Repeater", AdamantiteRepeater, TitaniumRepeater));
         RegisterGroup(nameof(AdamantiteSword),
-                new RG(() => "Any Adamantite or Titanium Swords", AdamantiteSword, TitaniumSword));
+                new RG(() => "Adamantite or Titanium Sword", AdamantiteSword, TitaniumSword));
         RegisterGroup(nameof(AdamantiteWaraxe),
-                new RG(() => "Any Adamantite or Titanium Waraxes", AdamantiteWaraxe, TitaniumWaraxe));
-        RegisterGroup(nameof(BeetleScaleMail), new RG(() => "Any Beetle Breastplate", BeetleScaleMail, BeetleShell));
-        RegisterGroup(nameof(CobaltBar), new RG(() => "Any Cobalt or Palladium Bars", CobaltBar, PalladiumBar));
-        RegisterGroup(nameof(CobaltChainsaw), new RG(() => "Any Cobalt or Palladium Chainsaws", CobaltChainsaw, PalladiumChainsaw));
-        RegisterGroup(nameof(CobaltDrill), new RG(() => "Any Cobalt or Palladium Drills", CobaltDrill, PalladiumDrill));
+                new RG(() => "Adamantite or Titanium Waraxe", AdamantiteWaraxe, TitaniumWaraxe));
+        RegisterGroup(nameof(BeetleScaleMail), new RG(() => "Beetle Breastplate", BeetleScaleMail, BeetleShell));
+        RegisterGroup(nameof(CobaltBar), new RG(() => "Cobalt or Palladium Bar", CobaltBar, PalladiumBar));
+        RegisterGroup(nameof(CobaltChainsaw),
+                new RG(() => "Cobalt or Palladium Chainsaw", CobaltChainsaw, PalladiumChainsaw));
+        RegisterGroup(nameof(CobaltDrill), new RG(() => "Cobalt or Palladium Drill", CobaltDrill, PalladiumDrill));
         RegisterGroup(nameof(CobaltBreastplate),
-                new RG(() => "Any Cobalt or Palladium Breastplate", CobaltBreastplate, PalladiumBreastplate));
-        RegisterGroup(nameof(CobaltHelmet),
-                new RG(() => "Any Cobalt or Palladium Helmet", CobaltHelmet, PalladiumHelmet));
+                new RG(() => "Cobalt or Palladium Breastplate", CobaltBreastplate, PalladiumBreastplate));
+        RegisterGroup(nameof(CobaltHelmet), new RG(() => "Cobalt or Palladium Helmet", CobaltHelmet, PalladiumHelmet));
         RegisterGroup(nameof(CobaltLeggings),
-                new RG(() => "Any Cobalt or Palladium Leggings", CobaltLeggings, PalladiumLeggings));
-        RegisterGroup(nameof(CobaltNaginata), new RG(() => "Any Cobalt or Palladium Spears", CobaltNaginata, PalladiumPike));
-        RegisterGroup(nameof(CobaltOre), new RG(() => "Any Cobalt or Palladium Ores", CobaltOre, PalladiumOre));
+                new RG(() => "Cobalt or Palladium Leggings", CobaltLeggings, PalladiumLeggings));
+        RegisterGroup(nameof(CobaltNaginata), new RG(() => "Cobalt or Palladium Spear", CobaltNaginata, PalladiumPike));
+        RegisterGroup(nameof(CobaltOre), new RG(() => "Cobalt or Palladium Ore", CobaltOre, PalladiumOre));
         RegisterGroup(nameof(CobaltPickaxe),
-                new RG(() => "Any Cobalt or Palladium Pickaxes", CobaltPickaxe, PalladiumPickaxe));
+                new RG(() => "Cobalt or Palladium Pickaxe", CobaltPickaxe, PalladiumPickaxe));
         RegisterGroup(nameof(CobaltRepeater),
-                new RG(() => "Any Cobalt or Palladium Repeaters", CobaltRepeater, PalladiumRepeater));
-        RegisterGroup(nameof(CobaltSword), new RG(() => "Any Cobalt or Palladium Swords", CobaltSword, PalladiumSword));
-        RegisterGroup(nameof(CobaltWaraxe),
-                new RG(() => "Any Cobalt or Palladium Waraxes", CobaltWaraxe, PalladiumWaraxe));
-        RegisterGroup(nameof(CopperAxe), new RG(() => "Any Copper or Tin Axes", CopperAxe, TinAxe));
-        RegisterGroup(nameof(CopperBar), new RG(() => "Any Copper or Tin Bars", CopperBar, TinBar));
-        RegisterGroup(nameof(CopperBow), new RG(() => "Any Copper or Tin Bows", CopperBow, TinBow));
+                new RG(() => "Cobalt or Palladium Repeater", CobaltRepeater, PalladiumRepeater));
+        RegisterGroup(nameof(CobaltSword), new RG(() => "Cobalt or Palladium Sword", CobaltSword, PalladiumSword));
+        RegisterGroup(nameof(CobaltWaraxe), new RG(() => "Cobalt or Palladium Waraxe", CobaltWaraxe, PalladiumWaraxe));
+        RegisterGroup(nameof(CopperAxe), new RG(() => "Copper or Tin Axe", CopperAxe, TinAxe));
+        RegisterGroup(nameof(CopperBar), new RG(() => "Copper or Tin Bar", CopperBar, TinBar));
+        RegisterGroup(nameof(CopperBow), new RG(() => "Copper or Tin Bow", CopperBow, TinBow));
         RegisterGroup(nameof(CopperBroadsword),
-                new RG(() => "Any Copper or Tin Broadswords", CopperBroadsword, TinBroadsword));
-        RegisterGroup(nameof(CopperChainmail),
-                new RG(() => "Any Copper or Tin Chainmail", CopperChainmail, TinChainmail));
-        RegisterGroup(nameof(CopperGreaves), new RG(() => "Any Copper or Tin Greaves", CopperGreaves, TinGreaves));
-        RegisterGroup(nameof(CopperHammer), new RG(() => "Any Copper or Tin Hammers", CopperHammer, TinHammer));
-        RegisterGroup(nameof(CopperHelmet), new RG(() => "Any Copper or Tin Helmet", CopperHelmet, TinHelmet));
-        RegisterGroup(nameof(CopperOre), new RG(() => "Any Copper or Tin Ores", CopperOre, TinOre));
-        RegisterGroup(nameof(CopperPickaxe), new RG(() => "Any Copper or Tin Pickaxes", CopperPickaxe, TinPickaxe));
+                new RG(() => "Copper or Tin Broadsword", CopperBroadsword, TinBroadsword));
+        RegisterGroup(nameof(CopperChainmail), new RG(() => "Copper or Tin Chainmail", CopperChainmail, TinChainmail));
+        RegisterGroup(nameof(CopperGreaves), new RG(() => "Copper or Tin Greaves", CopperGreaves, TinGreaves));
+        RegisterGroup(nameof(CopperHammer), new RG(() => "Copper or Tin Hammer", CopperHammer, TinHammer));
+        RegisterGroup(nameof(CopperHelmet), new RG(() => "Copper or Tin Helmet", CopperHelmet, TinHelmet));
+        RegisterGroup(nameof(CopperOre), new RG(() => "Copper or Tin Ore", CopperOre, TinOre));
+        RegisterGroup(nameof(CopperPickaxe), new RG(() => "Copper or Tin Pickaxe", CopperPickaxe, TinPickaxe));
         RegisterGroup(nameof(CopperShortsword),
-                new RG(() => "Any Copper or Tin Shortswords", CopperShortsword, TinShortsword));
-        RegisterGroup(nameof(DemonBow), new RG(() => "Any Evil Bow", DemonBow, TendonBow));
-        RegisterGroup(nameof(DemoniteBar), new RG(() => "Any Evil Bars", DemoniteBar, CrimtaneBar));
-        RegisterGroup(nameof(DemoniteOre), new RG(() => "Any Evil Ores", DemoniteOre, CrimtaneOre));
-        RegisterGroup(nameof(GoldAxe), new RG(() => "Any Gold or Platinum Axes", GoldAxe, PlatinumAxe));
-        RegisterGroup(nameof(GoldBar), new RG(() => "Any Gold or Platinum Bars", GoldBar, PlatinumBar));
-        RegisterGroup(nameof(GoldBow), new RG(() => "Any Gold or Platinum Bows", GoldBow, PlatinumBow));
+                new RG(() => "Copper or Tin ShortSword", CopperShortsword, TinShortsword));
+        RegisterGroup(nameof(DemonBow), new RG(() => "Evil Bow", DemonBow, TendonBow));
+        RegisterGroup(nameof(DemoniteBar), new RG(() => "Evil Bar", DemoniteBar, CrimtaneBar));
+        RegisterGroup(nameof(DemoniteOre), new RG(() => "Evil Ore", DemoniteOre, CrimtaneOre));
+        RegisterGroup(nameof(GoldAxe), new RG(() => "Gold or Platinum Axe", GoldAxe, PlatinumAxe));
+        RegisterGroup(nameof(GoldBar), new RG(() => "Gold or Platinum Bar", GoldBar, PlatinumBar));
+        RegisterGroup(nameof(GoldBow), new RG(() => "Gold or Platinum Bow", GoldBow, PlatinumBow));
         RegisterGroup(nameof(GoldBroadsword),
-                new RG(() => "Any Gold or Platinum Broadswords", GoldBroadsword, PlatinumBroadsword));
+                new RG(() => "Gold or Platinum Broadsword", GoldBroadsword, PlatinumBroadsword));
         RegisterGroup(nameof(GoldChainmail),
-                new RG(() => "Any Gold or Platinum Chainmail", GoldChainmail, PlatinumChainmail));
-        RegisterGroup(nameof(GoldGreaves), new RG(() => "Any Gold or Platinum Greaves", GoldGreaves, PlatinumGreaves));
-        RegisterGroup(nameof(GoldHammer), new RG(() => "Any Gold or Platinum Hammers", GoldHammer, PlatinumHammer));
-        RegisterGroup(nameof(GoldHelmet), new RG(() => "Any Gold or Platinum Helmet", GoldHelmet, PlatinumHelmet));
-        RegisterGroup(nameof(GoldOre), new RG(() => "Any Gold or Platinum Ores", GoldOre, PlatinumOre));
-        RegisterGroup(nameof(GoldPickaxe), new RG(() => "Any Gold or Platinum Pickaxes", GoldPickaxe, PlatinumPickaxe));
+                new RG(() => "Gold or Platinum Chainmail", GoldChainmail, PlatinumChainmail));
+        RegisterGroup(nameof(GoldGreaves), new RG(() => "Gold or Platinum Greaves", GoldGreaves, PlatinumGreaves));
+        RegisterGroup(nameof(GoldHammer), new RG(() => "Gold or Platinum Hammer", GoldHammer, PlatinumHammer));
+        RegisterGroup(nameof(GoldHelmet), new RG(() => "Gold or Platinum Helmet", GoldHelmet, PlatinumHelmet));
+        RegisterGroup(nameof(GoldOre), new RG(() => "Gold or Platinum Ore", GoldOre, PlatinumOre));
+        RegisterGroup(nameof(GoldPickaxe), new RG(() => "Gold or Platinum Pickaxe", GoldPickaxe, PlatinumPickaxe));
         RegisterGroup(nameof(GoldShortsword),
-                new RG(() => "Any Gold or Platinum Shortswords", GoldShortsword, PlatinumShortsword));
+                new RG(() => "Gold or Platinum ShortSword", GoldShortsword, PlatinumShortsword));
         RegisterGroup(nameof(IronAnvil), new RG(() => "Iron or Lead Anvil", IronAnvil, LeadAnvil));
-        RegisterGroup(nameof(IronAxe), new RG(() => "Any Iron or Lead Axes", IronAxe, LeadAxe));
-        RegisterGroup(nameof(IronBow), new RG(() => "Any Iron or Lead Bows", IronBow, LeadBow));
-        RegisterGroup(nameof(IronBroadsword),
-                new RG(() => "Any Iron or Lead Broadswords", IronBroadsword, LeadBroadsword));
-        RegisterGroup(nameof(IronChainmail), new RG(() => "Any Iron or Lead Chainmail", IronChainmail, LeadChainmail));
-        RegisterGroup(nameof(IronGreaves), new RG(() => "Any Iron or Lead Greaves", IronGreaves, LeadGreaves));
-        RegisterGroup(nameof(IronHammer), new RG(() => "Any Iron or Lead Hammers", IronHammer, LeadHammer));
-        RegisterGroup(nameof(IronHelmet), new RG(() => "Any Iron or Lead Helmet", IronHelmet, LeadHelmet));
-        RegisterGroup(nameof(IronOre), new RG(() => "Any Iron or Lead Ores", IronOre, LeadOre));
-        RegisterGroup(nameof(IronPickaxe), new RG(() => "Any Iron or Lead Pickaxes", IronPickaxe, LeadPickaxe));
-        RegisterGroup(nameof(IronShortsword),
-                new RG(() => "Any Iron or Lead Shortswords", IronShortsword, LeadShortsword));
-        RegisterGroup(nameof(LightsBane), new RG(() => "Any Evil Swords", LightsBane, BloodButcherer));
-        RegisterGroup(nameof(MythrilAnvil), new RG(() => "Any Hardmode Anvils", MythrilAnvil, OrichalcumAnvil));
-        RegisterGroup(nameof(MythrilBar), new RG(() => "Any Mythril or Orichalcum Bars", MythrilBar, OrichalcumBar));
+        RegisterGroup(nameof(IronAxe), new RG(() => "Iron or Lead Axe", IronAxe, LeadAxe));
+        RegisterGroup(nameof(IronBow), new RG(() => "Iron or Lead Bow", IronBow, LeadBow));
+        RegisterGroup(nameof(IronBroadsword), new RG(() => "Iron or Lead Broadsword", IronBroadsword, LeadBroadsword));
+        RegisterGroup(nameof(IronChainmail), new RG(() => "Iron or Lead Chainmail", IronChainmail, LeadChainmail));
+        RegisterGroup(nameof(IronGreaves), new RG(() => "Iron or Lead Greaves", IronGreaves, LeadGreaves));
+        RegisterGroup(nameof(IronHammer), new RG(() => "Iron or Lead Hammer", IronHammer, LeadHammer));
+        RegisterGroup(nameof(IronHelmet), new RG(() => "Iron or Lead Helmet", IronHelmet, LeadHelmet));
+        RegisterGroup(nameof(IronOre), new RG(() => "Iron or Lead Ore", IronOre, LeadOre));
+        RegisterGroup(nameof(IronPickaxe), new RG(() => "Iron or Lead Pickaxe", IronPickaxe, LeadPickaxe));
+        RegisterGroup(nameof(IronShortsword), new RG(() => "Iron or Lead ShortSword", IronShortsword, LeadShortsword));
+        RegisterGroup(nameof(LightsBane), new RG(() => "Evil Sword", LightsBane, BloodButcherer));
+        RegisterGroup(nameof(MythrilAnvil), new RG(() => "Hardmode Anvils", MythrilAnvil, OrichalcumAnvil));
+        RegisterGroup(nameof(MythrilBar), new RG(() => "Mythril or Orichalcum Bar", MythrilBar, OrichalcumBar));
         RegisterGroup(nameof(MythrilChainmail),
-                new RG(() => "Any Mythril or Orichalcum Breastplate", MythrilChainmail, OrichalcumBreastplate));
-        RegisterGroup(nameof(MythrilChainsaw), new RG(() => "Any Mythril or Orichalcum Chainsaws", MythrilChainsaw, OrichalcumChainsaw));
-        RegisterGroup(nameof(MythrilDrill), new RG(() => "Any Mythril or Orichalcum Drills", MythrilDrill, OrichalcumDrill));
+                new RG(() => "Mythril or Orichalcum Breastplate", MythrilChainmail, OrichalcumBreastplate));
+        RegisterGroup(nameof(MythrilChainsaw),
+                new RG(() => "Mythril or Orichalcum Chainsaw", MythrilChainsaw, OrichalcumChainsaw));
+        RegisterGroup(nameof(MythrilDrill), new RG(() => "Mythril or Orichalcum Drill", MythrilDrill, OrichalcumDrill));
         RegisterGroup(nameof(MythrilGreaves),
-                new RG(() => "Any Mythril or Orichalcum Leggings", MythrilGreaves, OrichalcumLeggings));
-        RegisterGroup(nameof(MythrilHalberd), new RG(() => "Any Mythril or Orichalcum Spears", MythrilHalberd, OrichalcumHalberd));
+                new RG(() => "Mythril or Orichalcum Leggings", MythrilGreaves, OrichalcumLeggings));
+        RegisterGroup(nameof(MythrilHalberd),
+                new RG(() => "Mythril or Orichalcum Spear", MythrilHalberd, OrichalcumHalberd));
         RegisterGroup(nameof(MythrilHelmet),
-                new RG(() => "Any Mythril or Orichalcum Helmet", MythrilHelmet, OrichalcumHelmet));
-        RegisterGroup(nameof(MythrilOre), new RG(() => "Any Mythril or Orichalcum Ores", MythrilOre, OrichalcumOre));
+                new RG(() => "Mythril or Orichalcum Helmet", MythrilHelmet, OrichalcumHelmet));
+        RegisterGroup(nameof(MythrilOre), new RG(() => "Mythril or Orichalcum Ore", MythrilOre, OrichalcumOre));
         RegisterGroup(nameof(MythrilPickaxe),
-                new RG(() => "Any Mythril or Orichalcum Pickaxes", MythrilPickaxe, OrichalcumPickaxe));
+                new RG(() => "Mythril or Orichalcum Pickaxe", MythrilPickaxe, OrichalcumPickaxe));
         RegisterGroup(nameof(MythrilRepeater),
-                new RG(() => "Any Mythril or Orichalcum Repeaters", MythrilRepeater, OrichalcumRepeater));
-        RegisterGroup(nameof(MythrilSword),
-                new RG(() => "Any Mythril or Orichalcum Swords", MythrilSword, OrichalcumSword));
+                new RG(() => "Mythril or Orichalcum Repeater", MythrilRepeater, OrichalcumRepeater));
+        RegisterGroup(nameof(MythrilSword), new RG(() => "Mythril or Orichalcum Sword", MythrilSword, OrichalcumSword));
         RegisterGroup(nameof(MythrilWaraxe),
-                new RG(() => "Any Mythril or Orichalcum Waraxes", MythrilWaraxe, OrichalcumWaraxe));
-        RegisterGroup(nameof(NightmarePickaxe),
-                new RG(() => "Any Evil Pickaxes", NightmarePickaxe, DeathbringerPickaxe));
-        RegisterGroup(nameof(ShadowGreaves), new RG(() => "Any Evil Greaves", ShadowGreaves, CrimsonGreaves));
-        RegisterGroup(nameof(ShadowHelmet), new RG(() => "Any Evil Helmet", ShadowHelmet, CrimsonHelmet));
-        RegisterGroup(nameof(ShadowScale), new RG(() => "Any Evil Scale", ShadowScale, TissueSample));
-        RegisterGroup(nameof(ShadowScalemail), new RG(() => "Any Evil Scalemail", ShadowScalemail, CrimsonScalemail));
+                new RG(() => "Mythril or Orichalcum Waraxe", MythrilWaraxe, OrichalcumWaraxe));
+        RegisterGroup(nameof(NightmarePickaxe), new RG(() => "Evil Pickaxe", NightmarePickaxe, DeathbringerPickaxe));
+        RegisterGroup(nameof(ShadowGreaves), new RG(() => "Evil Greaves", ShadowGreaves, CrimsonGreaves));
+        RegisterGroup(nameof(ShadowHelmet), new RG(() => "Evil Helmet", ShadowHelmet, CrimsonHelmet));
+        RegisterGroup(nameof(ShadowScale), new RG(() => "Evil Scale", ShadowScale, TissueSample));
+        RegisterGroup(nameof(ShadowScalemail), new RG(() => "Evil Scalemail", ShadowScalemail, CrimsonScalemail));
         RegisterGroup(nameof(ShroomiteHelmet),
-                new RG(() => "Any Shroomite Helmet", ShroomiteHelmet, ShroomiteHeadgear, ShroomiteMask));
-        RegisterGroup(nameof(SilverAxe), new RG(() => "Any Silver or Tungsten Axes", SilverAxe, TungstenAxe));
-        RegisterGroup(nameof(SilverBar), new RG(() => "Any Silver or Tungsten Bars", SilverBar, TungstenBar));
-        RegisterGroup(nameof(SilverBow), new RG(() => "Any Silver or Tungsten Bows", SilverBow, TungstenBow));
+                new RG(() => "Shroomite Helmet", ShroomiteHelmet, ShroomiteHeadgear, ShroomiteMask));
+        RegisterGroup(nameof(SilverAxe), new RG(() => "Silver or Tungsten Axe", SilverAxe, TungstenAxe));
+        RegisterGroup(nameof(SilverBar), new RG(() => "Silver or Tungsten Bar", SilverBar, TungstenBar));
+        RegisterGroup(nameof(SilverBow), new RG(() => "Silver or Tungsten Bow", SilverBow, TungstenBow));
         RegisterGroup(nameof(SilverBroadsword),
-                new RG(() => "Any Silver or Tungsten Broadswords", SilverBroadsword, TungstenBroadsword));
+                new RG(() => "Silver or Tungsten Broadsword", SilverBroadsword, TungstenBroadsword));
         RegisterGroup(nameof(SilverChainmail),
-                new RG(() => "Any Silver or Tungsten Chainmail", SilverChainmail, TungstenChainmail));
+                new RG(() => "Silver or Tungsten Chainmail", SilverChainmail, TungstenChainmail));
         RegisterGroup(nameof(SilverGreaves),
-                new RG(() => "Any Silver or Tungsten Greaves", SilverGreaves, TungstenGreaves));
-        RegisterGroup(nameof(SilverHammer),
-                new RG(() => "Any Silver or Tungsten Hammers", SilverHammer, TungstenHammer));
-        RegisterGroup(nameof(SilverHelmet),
-                new RG(() => "Any Silver or Tungsten Helmet", SilverHelmet, TungstenHelmet));
-        RegisterGroup(nameof(SilverOre), new RG(() => "Any Silver or Tungsten Ores", SilverOre, TungstenOre));
+                new RG(() => "Silver or Tungsten Greaves", SilverGreaves, TungstenGreaves));
+        RegisterGroup(nameof(SilverHammer), new RG(() => "Silver or Tungsten Hammer", SilverHammer, TungstenHammer));
+        RegisterGroup(nameof(SilverHelmet), new RG(() => "Silver or Tungsten Helmet", SilverHelmet, TungstenHelmet));
+        RegisterGroup(nameof(SilverOre), new RG(() => "Silver or Tungsten Ore", SilverOre, TungstenOre));
         RegisterGroup(nameof(SilverPickaxe),
-                new RG(() => "Any Silver or Tungsten Pickaxes", SilverPickaxe, TungstenPickaxe));
+                new RG(() => "Silver or Tungsten Pickaxe", SilverPickaxe, TungstenPickaxe));
         RegisterGroup(nameof(SilverShortsword),
-                new RG(() => "Any Silver or Tungsten Shortswords", SilverShortsword, TungstenShortsword));
-        RegisterGroup(nameof(SpectreMask), new RG(() => "Any Spectre Head", SpectreMask, SpectreHood));
-        RegisterGroup(nameof(TheBreaker), new RG(() => "Any Evil Hammers", TheBreaker, FleshGrinder));
-        RegisterGroup(nameof(WarAxeoftheNight), new RG(() => "Any Evil Axes", WarAxeoftheNight, BloodLustCluster));
+                new RG(() => "Silver or Tungsten ShortSword", SilverShortsword, TungstenShortsword));
+        RegisterGroup(nameof(SpectreMask), new RG(() => "Spectre Head", SpectreMask, SpectreHood));
+        RegisterGroup(nameof(TheBreaker), new RG(() => "Evil Hammer", TheBreaker, FleshGrinder));
+        RegisterGroup(nameof(WarAxeoftheNight), new RG(() => "Evil Axe", WarAxeoftheNight, BloodLustCluster));
         RegisterGroup(nameof(DoubleCod),
                 new RG(() => "Most Buff Fish", ArmoredCavefish, ChaosFish, CrimsonTigerfish, Damselfish, DoubleCod,
                         Ebonkoi, FlarefinKoi, FrostMinnow, Hemopiranha, Obsidifish, PrincessFish, Prismite,
                         VariegatedLardfish));
         RegisterGroup(nameof(Bird), new RG(() => "Birds", Bird, Cardinal, BlueJay, Seagull, Penguin));
         RegisterGroup(nameof(GoldBunny),
-                new RG(() => "Any Golden Critter", GoldBunny, GoldBird, GoldMouse, GoldGrasshopper, GoldWorm,
-                        GoldGoldfish, GoldWaterStrider, GoldSeahorse, GoldButterfly, GoldLadyBug, GoldFrog,
-                        SquirrelGold, GoldDragonfly));
+                new RG(() => "Golden Critters", GoldBunny, GoldBird, GoldMouse, GoldGrasshopper, GoldWorm, GoldGoldfish,
+                        GoldWaterStrider, GoldSeahorse, GoldButterfly, GoldLadyBug, GoldFrog, SquirrelGold,
+                        GoldDragonfly));
         RegisterGroup(nameof(HermesBoots),
-                new RG(() => "Any Speedy Boots", HermesBoots, FlurryBoots, SailfishBoots, SandBoots));
+                new RG(() => "Speedy Boots", HermesBoots, FlurryBoots, SailfishBoots, SandBoots));
     }
 }

@@ -5,11 +5,11 @@ namespace Argos.Common.Config;
 
 public class ArgosConfig : ModConfig
 {
-    public override ConfigScope Mode => ConfigScope.ServerSide;
+    [Header("Mods"), DefaultValue(true), ReloadRequired]
+    public bool EnableLuiafkSupport;
 
-    [Header("Toggles"),DefaultValue(false),ReloadRequired]
+    [Header("Toggles"), DefaultValue(false), ReloadRequired]
     public bool HellMode;
 
-    [Header("Mods"),DefaultValue(true),ReloadRequired]
-    public bool EnableLuiafkSupport;
+    public override ConfigScope Mode => ConfigScope.ServerSide;
 }

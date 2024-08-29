@@ -5,7 +5,8 @@ namespace Argos.Common;
 
 public class RemoveTips : ModSystem
 {
-    public override void ModifyGameTipVisibility(IReadOnlyList<GameTipData> gameTips) {
+    public override void ModifyGameTipVisibility(IReadOnlyList<GameTipData> gameTips)
+    {
         foreach (GameTipData tip in gameTips)
         {
             if (tip.FullName.Contains("Terraria/"))

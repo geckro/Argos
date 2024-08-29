@@ -20,7 +20,6 @@ public static class EnabledMods
 
     public static Mod ModFargoMutantModEnabled { get; set; }
     public static Mod ModLuiafkEnabled { get; set; }
-    public static Mod ModAnyContentModEnabled { get; set; }
     public static Mod ModCalamityModEnabled { get; set; }
     public static Mod ModThoriumModEnabled { get; set; }
     public static Mod ModSpiritModEnabled { get; set; }
