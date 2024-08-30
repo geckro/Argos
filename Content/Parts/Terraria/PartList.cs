@@ -58,8 +58,6 @@ public class AccFrozenTurtleShell : PartItem;
 
 public class AccGhostarsWings : PartItem;
 
-public class AccGravityGlobe : PartItem;
-
 public class AccGreenCounterweight : PartItem;
 
 public class AccGroxTheGreatsWings : PartItem;
@@ -69,12 +67,6 @@ public class AccHandWarmer : PartItem;
 public class AccHerculesBeetle : PartItem;
 
 public class AccHighTestFishingLine : PartItem;
-
-public class AccHivePack : PartItem;
-
-public class AccHoneyComb : PartItem;
-
-public class AccIceSkates : PartItem;
 
 public class AccJellyfishNecklace : PartItem;
 
@@ -134,8 +126,6 @@ public class AccPurpleCounterweight : PartItem;
 
 public class AccPygmyNecklace : PartItem;
 
-public class AccRadioThing : PartItem;
-
 public class AccRedCounterweight : PartItem;
 
 public class AccRedsWings : PartItem;
@@ -161,8 +151,6 @@ public class AccSharkToothNecklace : PartItem;
 public class AccShinyStone : PartItem;
 
 public class AccSkiphsWings : PartItem;
-
-public class AccSoaringInsignia : PartItem;
 
 public class AccSpectreGoggles : PartItem;
 
@@ -215,10 +203,6 @@ public class AccVanityRedCape : PartItem;
 public class AccVanityWinterCape : PartItem;
 
 public class AccVitamins : PartItem;
-
-public class AccVolatileGelatin : PartItem;
-
-public class AccWaterWalkingBoots : PartItem;
 
 public class AccWillsWings : PartItem;
 
@@ -432,8 +416,6 @@ public class MeleeSwordBladetongue : PartItem;
 
 public class MeleeSwordBoneSword : PartItem;
 
-public class MeleeSwordBreathingReed : PartItem;
-
 public class MeleeSwordClassyCane : PartItem;
 
 public class MeleeSwordCutlass : PartItem;
@@ -445,8 +427,6 @@ public class MeleeSwordEnchantedSword : PartItem;
 public class MeleeSwordExoticScimitar : PartItem;
 
 public class MeleeSwordFalconBlade : PartItem;
-
-public class MeleeSwordFetidBaghnakhs : PartItem;
 
 public class MeleeSwordGladius : PartItem;
 
@@ -469,8 +449,6 @@ public class MeleeSwordRuler : PartItem;
 public class MeleeSwordSickle : PartItem;
 
 public class MeleeSwordSlapHand : PartItem;
-
-public class MeleeSwordStarfury : PartItem;
 
 public class MeleeSwordStylishScissors : PartItem;
 
@@ -543,23 +521,17 @@ public class MeleeYoyoYelets : PartItem
     public override string Texture => "Argos/Content/Parts/Terraria/Images/Yelets";
 }
 
-public class MinecartBee : PartItem;
-
 public class MinecartDemonicHellcart : PartItem;
 
 public class MinecartDiggingMolecart : PartItem;
 
 public class MinecartDutchman : PartItem;
 
-public class MinecartLadybug : PartItem;
-
 public class MinecartMinecarp : PartItem;
 
 public class MinecartPigron : PartItem;
 
 public class MinecartSteampunk : PartItem;
-
-public class MinecartSunflower : PartItem;
 
 public class MountAncientHorn : PartItem;
 
@@ -582,8 +554,6 @@ public class MountLilithsNecklace : PartItem;
 public class MountMolluskWhistle : PartItem;
 
 public class MountPogoStick : PartItem;
-
-public class MountReindeerBells : PartItem;
 
 public class MountRoyalGildedSaddle : PartItem;
 
@@ -662,8 +632,6 @@ public class SummonAbigailsFlower : PartItem;
 public class SummonDeadlySphereStaff : PartItem;
 
 public class SummonDesertTigerStaff : PartItem;
-
-public class SummonFinchStaff : PartItem;
 
 public class SummonSlimeStaff : PartItem;
 

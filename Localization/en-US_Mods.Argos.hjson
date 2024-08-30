@@ -424,16 +424,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccRadioThing: {
-		DisplayName: Acc Radio Thing
-		Tooltip: ""
-	}
-
-	AccRangedEmblem: {
-		DisplayName: Acc Ranged Emblem
-		Tooltip: ""
-	}
-
 	AccRedCounterweight: {
 		DisplayName: Acc Red Counterweight
 		Tooltip: ""
@@ -1409,11 +1399,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	RangedGunJackOLanternLauncher: {
-		DisplayName: Ranged Gun Jack O Lantern Launcher
-		Tooltip: ""
-	}
-
 	RangedGunMinishark: {
 		DisplayName: Minishark Parts
 		Tooltip: ""
@@ -1529,16 +1514,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	SummonRavenStaff: {
-		DisplayName: Summon Raven Staff
-		Tooltip: ""
-	}
-
-	SummonSanguineStaff: {
-		DisplayName: Summon Sanguine Staff
-		Tooltip: ""
-	}
-
 	SummonStaffOfTheFrostHydra: {
 		DisplayName: Summon Staff Of The Frost Hydra
 		Tooltip: ""
@@ -1551,16 +1526,6 @@ Items: {
 
 	SummonVampireFrogStaff: {
 		DisplayName: Summon Vampire Frog Staff
-		Tooltip: ""
-	}
-
-	SummonWhipDarkHarvest: {
-		DisplayName: Summon Whip Dark Harvest
-		Tooltip: ""
-	}
-
-	SummonWhipFirecracker: {
-		DisplayName: Summon Whip Firecracker
 		Tooltip: ""
 	}
 
@@ -1951,6 +1916,11 @@ Items: {
 
 	ToolSafe: {
 		DisplayName: Broken Safe
+		Tooltip: ""
+	}
+
+	MountSuperheatedBlood: {
+		DisplayName: Mount Superheated Blood
 		Tooltip: ""
 	}
 }
