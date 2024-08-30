@@ -35,7 +35,10 @@ public class AccDpsMeter : PartItem;
 
 public class AccDTownsWings : PartItem;
 
-public class AccDepthMeter : PartItem;
+public class AccDepthMeter : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/DepthMeter";
+}
 
 public class AccExtendoGrip : PartItem;
 
@@ -139,13 +142,19 @@ public class AccRedsWings : PartItem;
 
 public class AccRifleScope : PartItem;
 
-public class AccRocketBoots : PartItem;
+public class AccRocketBoots : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/RocketBoots";
+}
 
 public class AccSafemansWings : PartItem;
 
 public class AccSextant : PartItem;
 
-public class AccShackle : PartItem;
+public class AccShackle : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Shackle";
+}
 
 public class AccSharkToothNecklace : PartItem;
 
@@ -299,7 +308,10 @@ public class BlockWandLivingMahoganyWand : PartItem;
 
 public class BossSummonClothierVoodooDoll : PartItem;
 
-public class BossSummonGuideVoodooDoll : PartItem;
+public class BossSummonGuideVoodooDoll : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/GuideVoodoo";
+}
 
 public class CraftingStationAutohammer : PartItem;
 
@@ -323,7 +335,10 @@ public class MageBloodThorn : PartItem;
 
 public class MageCrystalZapper : PartItem;
 
-public class MageDemonScythe : PartItem;
+public class MageDemonScythe : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/DemonScythe";
+}
 
 public class MageFrostStaff : PartItem;
 
@@ -355,7 +370,10 @@ public class MageToxicFlask : PartItem;
 
 public class MageUnholyTrident : PartItem;
 
-public class MageWaterBolt : PartItem;
+public class MageWaterBolt : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/WaterBolt";
+}
 
 public class MeleeBoomerangBananarang : PartItem;
 
@@ -367,7 +385,10 @@ public class MeleeBoomerangFruitcakeChakram : PartItem;
 
 public class MeleeBoomerangPaladinsHammer : PartItem;
 
-public class MeleeBoomerangSergeantUnitedShield : PartItem;
+public class MeleeBoomerangSergeantUnitedShield : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/SergeantUnitedShield";
+}
 
 public class MeleeBoomerangShroomerang : PartItem;
 
@@ -387,9 +408,15 @@ public class MeleeOtherShadowJoustingLance : PartItem;
 
 public class MeleeOtherVampireKnives : PartItem;
 
-public class MeleeSpearMushroomSpearAndHammush : PartItem;
+public class MeleeSpearMushroomSpearAndHammush : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/MushroomSpear";
+}
 
-public class MeleeSpearObsidianSwordfish : PartItem;
+public class MeleeSpearObsidianSwordfish : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/ObsidianSwordfish";
+}
 
 public class MeleeSpearSwordfish : PartItem;
 
@@ -457,29 +484,64 @@ public class MeleeSwordWafflesIron : PartItem;
 
 public class MeleeSwordZombieArm : PartItem;
 
-public class MeleeYoyoAmarok : PartItem;
+public class MeleeYoyoAmarok : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Amarok";
+}
 
-public class MeleeYoyoCascade : PartItem;
+public class MeleeYoyoCascade : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Cascade";
+}
 
-public class MeleeYoyoCode1 : PartItem;
+public class MeleeYoyoCode1 : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Code1";
+}
 
-public class MeleeYoyoCode2 : PartItem;
+public class MeleeYoyoCode2 : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Code2";
+}
 
-public class MeleeYoyoFormatC : PartItem;
+public class MeleeYoyoFormatC : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/FormatC";
+}
 
-public class MeleeYoyoGradient : PartItem;
+public class MeleeYoyoGradient : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Gradient";
+}
 
-public class MeleeYoyoHelFire : PartItem;
+public class MeleeYoyoHelFire : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/HelFire";
+}
 
-public class MeleeYoyoKraken : PartItem;
+public class MeleeYoyoKraken : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Kraken";
+}
 
-public class MeleeYoyoRally : PartItem;
+public class MeleeYoyoRally : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Rally";
+}
 
-public class MeleeYoyoRedsThrow : PartItem;
+public class MeleeYoyoRedsThrow : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/RedsThrow";
+}
+public class MeleeYoyoValkyrieYoyo : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/ValkyrieYoyo";
+}
 
-public class MeleeYoyoValkyrieYoyo : PartItem;
-
-public class MeleeYoyoYelets : PartItem;
+public class MeleeYoyoYelets : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Yelets";
+}
 
 public class MinecartBee : PartItem;
 
@@ -547,13 +609,22 @@ public class RangedGunCelebration : PartItem;
 
 public class RangedGunFlamethrower : PartItem;
 
-public class RangedGunFlintlockPistol : PartItem;
+public class RangedGunFlintlockPistol : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/FlintlockPistol";
+}
 
 public class RangedGunGatligator : PartItem;
 
-public class RangedGunHarpoon : PartItem;
+public class RangedGunHarpoon : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Harpoon";
+}
 
-public class RangedGunMinishark : PartItem;
+public class RangedGunMinishark : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Minishark";
+}
 
 public class RangedGunNailGun : PartItem;
 
@@ -573,7 +644,10 @@ public class RangedGunRocketLauncher : PartItem;
 
 public class RangedGunSandgun : PartItem;
 
-public class RangedGunShotgun : PartItem;
+public class RangedGunShotgun : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/Shotgun";
+}
 
 public class RangedGunSniperRifle : PartItem;
 
@@ -609,7 +683,10 @@ public class ToolBugNet : PartItem;
 
 public class ToolClentaminator : PartItem;
 
-public class ToolDirtRod : PartItem;
+public class ToolDirtRod : PartItem
+{
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/DirtRod";
+}
 
 public class ToolPaintbrush : PartItem;
 

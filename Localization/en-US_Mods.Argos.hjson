@@ -1,106 +1,6 @@
 Items: {
-	MandibleBladeParts: {
-		DisplayName: Mandible Blade Parts
-		Tooltip: ""
-	}
-
-	SnowballCannonParts: {
-		Tooltip: ""
-		DisplayName: Snowball Cannon Parts
-	}
-
-	IceBladeParts: {
-		Tooltip: ""
-		DisplayName: Ice Blade Parts
-	}
-
-	IceSkatesParts: {
-		Tooltip: ""
-		DisplayName: Ice Skates Parts
-	}
-
-	IceSickleParts: {
-		Tooltip: ""
-		DisplayName: Ice Sickle Parts
-	}
-
-	IceBowParts: {
-		Tooltip: ""
-		DisplayName: Ice Bow Parts
-	}
-
-	IceBoomerangParts: {
-		Tooltip: ""
-		DisplayName: Ice Boomerang Parts
-	}
-
-	FrostbrandParts: {
-		Tooltip: ""
-		DisplayName: Frostbrand Parts
-	}
-
-	FlowerOfFrostParts: {
-		Tooltip: ""
-		DisplayName: Flower Of Frost Parts
-	}
-
-	SunfuryParts: {
-		Tooltip: ""
-		DisplayName: Sunfury Parts
-	}
-
-	HellwingBowParts: {
-		Tooltip: ""
-		DisplayName: Hellwing Bow Parts
-	}
-
-	HelFireParts: {
-		Tooltip: ""
-		DisplayName: Hel Fire Parts
-	}
-
-	GuideVoodooDollParts: {
-		Tooltip: ""
-		DisplayName: Guide Voodoo Doll Parts
-	}
-
-	FlowerOfFireParts: {
-		Tooltip: ""
-		DisplayName: Flower Of Fire Parts
-	}
-
-	FlamelashParts: {
-		Tooltip: ""
-		DisplayName: Flamelash Parts
-	}
-
-	DemonScytheParts: {
-		Tooltip: ""
-		DisplayName: Demon Scythe Parts
-	}
-
-	DarkLanceParts: {
-		Tooltip: ""
-		DisplayName: Dark Lance Parts
-	}
-
-	ClothierVoodooDollParts: {
-		Tooltip: ""
-		DisplayName: Clothier Voodoo Doll Parts
-	}
-
-	CascadeParts: {
-		Tooltip: ""
-		DisplayName: Cascade Parts
-	}
-
-	AccIceSkates: {
-		DisplayName: Acc Ice Skates
-		Tooltip: ""
-	}
-
 	AccShackle: {
-		DisplayName: Acc Shackle
+		DisplayName: Shackle Parts
 		Tooltip: ""
 	}
 
@@ -110,87 +10,42 @@ Items: {
 	}
 
 	BlockWandLeafWand: {
-		DisplayName: Block Wand Leaf Wand
-		Tooltip: ""
-	}
-
-	BlockWandLivingWoodWandParts: {
-		DisplayName: Block Wand Living Wood Wand Parts
+		DisplayName: Dead Leaf Wand
 		Tooltip: ""
 	}
 
 	BlockWandLivingWoodWand: {
-		DisplayName: Block Wand Living Wood Wand
+		DisplayName: Dead Living Wood Wand
 		Tooltip: ""
 	}
 
 	BossSummonClothierVoodooDoll: {
-		DisplayName: Boss Summon Clothier Voodoo Doll
+		DisplayName: Broken Clothier Doll
 		Tooltip: ""
 	}
 
 	BossSummonGuideVoodooDoll: {
-		DisplayName: Boss Summon Guide Voodoo Doll
+		DisplayName: Broken Guide Doll
 		Tooltip: ""
 	}
 
 	KiteWanderingEye: {
-		DisplayName: Kite Wandering Eye
+		DisplayName: Wandering Eye Kite Parts
 		Tooltip: ""
 	}
 
 	MageDemonScythe: {
-		DisplayName: Mage Demon Scythe
-		Tooltip: ""
-	}
-
-	MageFlamelash: {
-		DisplayName: Mage Flamelash
-		Tooltip: ""
-	}
-
-	MageFlowerOfFire: {
-		DisplayName: Mage Flower Of Fire
-		Tooltip: ""
-	}
-
-	MageFlowerOfFrost: {
-		DisplayName: Mage Flower Of Frost
-		Tooltip: ""
-	}
-
-	MeleeBoomerangIceBoomerang: {
-		DisplayName: Melee Boomerang Ice Boomerang
-		Tooltip: ""
-	}
-
-	MeleeFlailSunfury: {
-		DisplayName: Melee Flail Sunfury
-		Tooltip: ""
-	}
-
-	MeleeSpearDarkLance: {
-		DisplayName: Melee Spear Dark Lance
-		Tooltip: ""
-	}
-
-	MeleeSwordFrostbrand: {
-		DisplayName: Melee Sword Frostbrand
-		Tooltip: ""
-	}
-
-	MeleeSwordIceBlade: {
-		DisplayName: Melee Sword Ice Blade
+		DisplayName: Empty Demon Scythe Book
 		Tooltip: ""
 	}
 
 	MeleeSwordIceSickle: {
-		DisplayName: Melee Sword Ice Sickle
+		DisplayName: Melted Ice Sickle
 		Tooltip: ""
 	}
 
 	MeleeSwordMandibleBlade: {
-		DisplayName: Melee Sword Mandible Blade
+		DisplayName: Dull Mandible Blade
 		Tooltip: ""
 	}
 
@@ -200,32 +55,17 @@ Items: {
 	}
 
 	MeleeYoyoCascade: {
-		DisplayName: Melee Yoyo Cascade
+		DisplayName: Cascade Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoHelFire: {
-		DisplayName: Melee Yoyo Hel Fire
+		DisplayName: Hel-Fire Illusion
 		Tooltip: ""
 	}
 
 	PetSpiffoPlush: {
 		DisplayName: Pet Spiffo Plush
-		Tooltip: ""
-	}
-
-	RangedBowHellwingBow: {
-		DisplayName: Ranged Bow Hellwing Bow
-		Tooltip: ""
-	}
-
-	RangedBowIceBow: {
-		DisplayName: Ranged Bow Ice Bow
-		Tooltip: ""
-	}
-
-	RangedGunSnowballCannon: {
-		DisplayName: Ranged Gun Snowball Cannon
 		Tooltip: ""
 	}
 
@@ -239,28 +79,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccAglet: {
-		DisplayName: Acc Aglet
-		Tooltip: ""
-	}
-
-	AccAncientChisel: {
-		DisplayName: Acc Ancient Chisel
-		Tooltip: ""
-	}
-
 	AccAnglerEarring: {
 		DisplayName: Acc Angler Earring
-		Tooltip: ""
-	}
-
-	AccAnkletOfTheWind: {
-		DisplayName: Acc Anklet Of The Wind
-		Tooltip: ""
-	}
-
-	AccApprenticesScarf: {
-		DisplayName: Acc Apprentices Scarf
 		Tooltip: ""
 	}
 
@@ -276,16 +96,6 @@ Items: {
 
 	AccBalloonPufferfish: {
 		DisplayName: Acc Balloon Pufferfish
-		Tooltip: ""
-	}
-
-	AccBandOfRegen: {
-		DisplayName: Acc Band Of Regen
-		Tooltip: ""
-	}
-
-	AccBetsysWings: {
-		DisplayName: Acc Betsys Wings
 		Tooltip: ""
 	}
 
@@ -309,28 +119,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccBlizzardInABottle: {
-		DisplayName: Acc Blizzard In A Bottle
-		Tooltip: ""
-	}
-
 	AccBlueCounterweight: {
 		DisplayName: Acc Blue Counterweight
-		Tooltip: ""
-	}
-
-	AccBoneGlove: {
-		DisplayName: Acc Bone Glove
-		Tooltip: ""
-	}
-
-	AccBoneHelm: {
-		DisplayName: Acc Bone Helm
-		Tooltip: ""
-	}
-
-	AccBrainOfConfusion: {
-		DisplayName: Acc Brain Of Confusion
 		Tooltip: ""
 	}
 
@@ -359,28 +149,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccClimbingClaws: {
-		DisplayName: Acc Climbing Claws
-		Tooltip: ""
-	}
-
-	AccCloudInABottle: {
-		DisplayName: Acc Cloud In A Bottle
-		Tooltip: ""
-	}
-
-	AccCobaltShield: {
-		DisplayName: Acc Cobalt Shield
-		Tooltip: ""
-	}
-
 	AccCompass: {
 		DisplayName: Acc Compass
-		Tooltip: ""
-	}
-
-	AccCrossNecklace: {
-		DisplayName: Acc Cross Necklace
 		Tooltip: ""
 	}
 
@@ -409,16 +179,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccDuneriderBoots: {
-		DisplayName: Acc Dunerider Boots
-		Tooltip: ""
-	}
-
-	AccEmpressWings: {
-		DisplayName: Acc Empress Wings
-		Tooltip: ""
-	}
-
 	AccExtendoGrip: {
 		DisplayName: Acc Extendo Grip
 		Tooltip: ""
@@ -434,16 +194,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccFeralClaws: {
-		DisplayName: Acc Feral Claws
-		Tooltip: ""
-	}
-
-	AccFestiveWings: {
-		DisplayName: Acc Festive Wings
-		Tooltip: ""
-	}
-
 	AccFinWings: {
 		DisplayName: Acc Fin Wings
 		Tooltip: ""
@@ -456,41 +206,6 @@ Items: {
 
 	AccFishingBobber: {
 		DisplayName: Acc Fishing Bobber
-		Tooltip: ""
-	}
-
-	AccFishronWings: {
-		DisplayName: Acc Fishron Wings
-		Tooltip: ""
-	}
-
-	AccFledglingWings: {
-		DisplayName: Acc Fledgling Wings
-		Tooltip: ""
-	}
-
-	AccFleshKnuckles: {
-		DisplayName: Acc Flesh Knuckles
-		Tooltip: ""
-	}
-
-	AccFlipper: {
-		DisplayName: Acc Flipper
-		Tooltip: ""
-	}
-
-	AccFlowerBoots: {
-		DisplayName: Acc Flower Boots
-		Tooltip: ""
-	}
-
-	AccFlurryBoots: {
-		DisplayName: Acc Flurry Boots
-		Tooltip: ""
-	}
-
-	AccFlyingCarpet: {
-		DisplayName: Acc Flying Carpet
 		Tooltip: ""
 	}
 
@@ -519,11 +234,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccGravityGlobe: {
-		DisplayName: Acc Gravity Globe
-		Tooltip: ""
-	}
-
 	AccGreenCounterweight: {
 		DisplayName: Acc Green Counterweight
 		Tooltip: ""
@@ -531,11 +241,6 @@ Items: {
 
 	AccGroxTheGreatsWings: {
 		DisplayName: Acc Grox The Greats Wings
-		Tooltip: ""
-	}
-
-	AccGuideToPlantFiberCordage: {
-		DisplayName: Acc Guide To Plant Fiber Cordage
 		Tooltip: ""
 	}
 
@@ -549,28 +254,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccHermesBoots: {
-		DisplayName: Acc Hermes Boots
-		Tooltip: ""
-	}
-
 	AccHighTestFishingLine: {
 		DisplayName: Acc High Test Fishing Line
-		Tooltip: ""
-	}
-
-	AccHivePack: {
-		DisplayName: Acc Hive Pack
-		Tooltip: ""
-	}
-
-	AccHoneyComb: {
-		DisplayName: Acc Honey Comb
-		Tooltip: ""
-	}
-
-	AccHuntressBuckler: {
-		DisplayName: Acc Huntress Buckler
 		Tooltip: ""
 	}
 
@@ -629,16 +314,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccLuckyHorseshoe: {
-		DisplayName: Acc Lucky Horseshoe
-		Tooltip: ""
-	}
-
-	AccMageEmblem: {
-		DisplayName: Acc Mage Emblem
-		Tooltip: ""
-	}
-
 	AccMagicQuiver: {
 		DisplayName: Acc Magic Quiver
 		Tooltip: ""
@@ -666,11 +341,6 @@ Items: {
 
 	AccMetalDetector: {
 		DisplayName: Acc Metal Detector
-		Tooltip: ""
-	}
-
-	AccMonksBelt: {
-		DisplayName: Acc Monks Belt
 		Tooltip: ""
 	}
 
@@ -729,11 +399,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccPhilosophersStone: {
-		DisplayName: Acc Philosophers Stone
-		Tooltip: ""
-	}
-
 	AccPocketMirror: {
 		DisplayName: Acc Pocket Mirror
 		Tooltip: ""
@@ -754,18 +419,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccPutridScent: {
-		DisplayName: Acc Putrid Scent
-		Tooltip: ""
-	}
-
 	AccPygmyNecklace: {
 		DisplayName: Acc Pygmy Necklace
-		Tooltip: ""
-	}
-
-	AccRadar: {
-		DisplayName: Acc Radar
 		Tooltip: ""
 	}
 
@@ -799,18 +454,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccRoyalGel: {
-		DisplayName: Acc Royal Gel
-		Tooltip: ""
-	}
-
 	AccSafemansWings: {
 		DisplayName: Acc Safemans Wings
-		Tooltip: ""
-	}
-
-	AccSandstormInABottle: {
-		DisplayName: Acc Sandstorm In A Bottle
 		Tooltip: ""
 	}
 
@@ -824,11 +469,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccShieldOfCthulhu: {
-		DisplayName: Acc Shield Of Cthulhu
-		Tooltip: ""
-	}
-
 	AccShinyRedBalloon: {
 		DisplayName: Acc Shiny Red Balloon
 		Tooltip: ""
@@ -839,18 +479,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccShoeSpikes: {
-		DisplayName: Acc Shoe Spikes
-		Tooltip: ""
-	}
-
 	AccSkiphsWings: {
 		DisplayName: Acc Skiphs Wings
-		Tooltip: ""
-	}
-
-	AccSoaringInsignia: {
-		DisplayName: Acc Soaring Insignia
 		Tooltip: ""
 	}
 
@@ -859,28 +489,13 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccSporeSac: {
-		DisplayName: Acc Spore Sac
-		Tooltip: ""
-	}
-
 	AccSquiresShield: {
 		DisplayName: Acc Squires Shield
 		Tooltip: ""
 	}
 
-	AccStarCloak: {
-		DisplayName: Acc Star Cloak
-		Tooltip: ""
-	}
-
 	AccSteampunkWings: {
 		DisplayName: Acc Steampunk Wings
-		Tooltip: ""
-	}
-
-	AccStepStool: {
-		DisplayName: Acc Step Stool
 		Tooltip: ""
 	}
 
@@ -911,11 +526,6 @@ Items: {
 
 	AccTallyCounter: {
 		DisplayName: Acc Tally Counter
-		Tooltip: ""
-	}
-
-	AccTitanGlove: {
-		DisplayName: Acc Titan Glove
 		Tooltip: ""
 	}
 
@@ -1004,11 +614,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	AccVanityRainbowCursor: {
-		DisplayName: Acc Vanity Rainbow Cursor
-		Tooltip: ""
-	}
-
 	AccVanityRedCape: {
 		DisplayName: Acc Vanity Red Cape
 		Tooltip: ""
@@ -1021,21 +626,6 @@ Items: {
 
 	AccVitamins: {
 		DisplayName: Acc Vitamins
-		Tooltip: ""
-	}
-
-	AccVolatileGelatin: {
-		DisplayName: Acc Volatile Gelatin
-		Tooltip: ""
-	}
-
-	AccWarriorEmblem: {
-		DisplayName: Acc Warrior Emblem
-		Tooltip: ""
-	}
-
-	AccWaterWalkingBoots: {
-		DisplayName: Acc Water Walking Boots
 		Tooltip: ""
 	}
 
@@ -1111,21 +701,6 @@ Items: {
 
 	ArmorAnglerLegs: {
 		DisplayName: Armor Angler Legs
-		Tooltip: ""
-	}
-
-	ArmorCrystalAssassinChest: {
-		DisplayName: Armor Crystal Assassin Chest
-		Tooltip: ""
-	}
-
-	ArmorCrystalAssassinHead: {
-		DisplayName: Armor Crystal Assassin Head
-		Tooltip: ""
-	}
-
-	ArmorCrystalAssassinLegs: {
-		DisplayName: Armor Crystal Assassin Legs
 		Tooltip: ""
 	}
 
@@ -1289,63 +864,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageAquaScepter: {
-		DisplayName: Mage Aqua Scepter
-		Tooltip: ""
-	}
-
-	MageBatScepter: {
-		DisplayName: Mage Bat Scepter
-		Tooltip: ""
-	}
-
-	MageBeeGun: {
-		DisplayName: Mage Bee Gun
-		Tooltip: ""
-	}
-
-	MageBetsysWrath: {
-		DisplayName: Mage Betsys Wrath
-		Tooltip: ""
-	}
-
-	MageBlizzardStaff: {
-		DisplayName: Mage Blizzard Staff
-		Tooltip: ""
-	}
-
 	MageBloodThorn: {
 		DisplayName: Mage Blood Thorn
-		Tooltip: ""
-	}
-
-	MageBookOfSkulls: {
-		DisplayName: Mage Book Of Skulls
-		Tooltip: ""
-	}
-
-	MageBubbleGun: {
-		DisplayName: Mage Bubble Gun
-		Tooltip: ""
-	}
-
-	MageChargedBlasterCannon: {
-		DisplayName: Mage Charged Blaster Cannon
-		Tooltip: ""
-	}
-
-	MageClingerStaff: {
-		DisplayName: Mage Clinger Staff
-		Tooltip: ""
-	}
-
-	MageCrimsonRod: {
-		DisplayName: Mage Crimson Rod
-		Tooltip: ""
-	}
-
-	MageCrystalVileShard: {
-		DisplayName: Mage Crystal Vile Shard
 		Tooltip: ""
 	}
 
@@ -1364,11 +884,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageHeatRay: {
-		DisplayName: Mage Heat Ray
-		Tooltip: ""
-	}
-
 	MageIceRod: {
 		DisplayName: Mage Ice Rod
 		Tooltip: ""
@@ -1379,46 +894,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageLaserMachinegun: {
-		DisplayName: Mage Laser Machinegun
-		Tooltip: ""
-	}
-
-	MageLaserRifle: {
-		DisplayName: Mage Laser Rifle
-		Tooltip: ""
-	}
-
-	MageLastPrism: {
-		DisplayName: Mage Last Prism
-		Tooltip: ""
-	}
-
-	MageLeafBlower: {
-		DisplayName: Mage Leaf Blower
-		Tooltip: ""
-	}
-
-	MageLifeDrain: {
-		DisplayName: Mage Life Drain
-		Tooltip: ""
-	}
-
-	MageLunarFlare: {
-		DisplayName: Mage Lunar Flare
-		Tooltip: ""
-	}
-
-	MageMagicDagger: {
-		DisplayName: Mage Magic Dagger
-		Tooltip: ""
-	}
-
-	MageMagicMissile: {
-		DisplayName: Mage Magic Missile
-		Tooltip: ""
-	}
-
 	MageMagnetSphere: {
 		DisplayName: Mage Magnet Sphere
 		Tooltip: ""
@@ -1426,16 +901,6 @@ Items: {
 
 	MageMedusaHead: {
 		DisplayName: Mage Medusa Head
-		Tooltip: ""
-	}
-
-	MageNettleBurst: {
-		DisplayName: Mage Nettle Burst
-		Tooltip: ""
-	}
-
-	MageNightglow: {
-		DisplayName: Mage Nightglow
 		Tooltip: ""
 	}
 
@@ -1459,16 +924,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageRazorbladeTyphoon: {
-		DisplayName: Mage Razorblade Typhoon
-		Tooltip: ""
-	}
-
-	MageRazorpine: {
-		DisplayName: Mage Razorpine
-		Tooltip: ""
-	}
-
 	MageResonanceScepter: {
 		DisplayName: Mage Resonance Scepter
 		Tooltip: ""
@@ -1476,11 +931,6 @@ Items: {
 
 	MageShadowbeamStaff: {
 		DisplayName: Mage Shadowbeam Staff
-		Tooltip: ""
-	}
-
-	MageShadowflameHexDoll: {
-		DisplayName: Mage Shadowflame Hex Doll
 		Tooltip: ""
 	}
 
@@ -1494,21 +944,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageStellarTune: {
-		DisplayName: Mage Stellar Tune
-		Tooltip: ""
-	}
-
-	MageThunderZapper: {
-		DisplayName: Mage Thunder Zapper
-		Tooltip: ""
-	}
-
-	MageTomeOfInfiniteWisdom: {
-		DisplayName: Mage Tome Of Infinite Wisdom
-		Tooltip: ""
-	}
-
 	MageToxicFlask: {
 		DisplayName: Mage Toxic Flask
 		Tooltip: ""
@@ -1519,28 +954,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MageVilethorn: {
-		DisplayName: Mage Vilethorn
-		Tooltip: ""
-	}
-
-	MageWandOfSparking: {
-		DisplayName: Mage Wand Of Sparking
-		Tooltip: ""
-	}
-
-	MageWaspGun: {
-		DisplayName: Mage Wasp Gun
-		Tooltip: ""
-	}
-
 	MageWaterBolt: {
-		DisplayName: Mage Water Bolt
-		Tooltip: ""
-	}
-
-	MageWeatherPain: {
-		DisplayName: Mage Weather Pain
+		DisplayName: Empty Water Bolt Book
 		Tooltip: ""
 	}
 
@@ -1559,11 +974,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeBoomerangFlyingKnife: {
-		DisplayName: Melee Boomerang Flying Knife
-		Tooltip: ""
-	}
-
 	MeleeBoomerangFruitcakeChakram: {
 		DisplayName: Melee Boomerang Fruitcake Chakram
 		Tooltip: ""
@@ -1571,11 +981,6 @@ Items: {
 
 	MeleeBoomerangPaladinsHammer: {
 		DisplayName: Melee Boomerang Paladins Hammer
-		Tooltip: ""
-	}
-
-	MeleeBoomerangPossessedHatchet: {
-		DisplayName: Melee Boomerang Possessed Hatchet
 		Tooltip: ""
 	}
 
@@ -1589,28 +994,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeBoomerangWoodenBoomerang: {
-		DisplayName: Melee Boomerang Wooden Boomerang
-		Tooltip: ""
-	}
-
 	MeleeFlailAnchor: {
 		DisplayName: Melee Flail Anchor
-		Tooltip: ""
-	}
-
-	MeleeFlailBallOHurt: {
-		DisplayName: Melee Flail Ball O Hurt
-		Tooltip: ""
-	}
-
-	MeleeFlailBlueMoon: {
-		DisplayName: Melee Flail Blue Moon
-		Tooltip: ""
-	}
-
-	MeleeFlailChainGuillotines: {
-		DisplayName: Melee Flail Chain Guillotines
 		Tooltip: ""
 	}
 
@@ -1624,28 +1009,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeFlailFlairon: {
-		DisplayName: Melee Flail Flairon
-		Tooltip: ""
-	}
-
-	MeleeFlailFlowerPow: {
-		DisplayName: Melee Flail Flower Pow
-		Tooltip: ""
-	}
-
-	MeleeFlailGolemFist: {
-		DisplayName: Melee Flail Golem Fist
-		Tooltip: ""
-	}
-
 	MeleeFlailKOCannon: {
 		DisplayName: Melee Flail K O Cannon
-		Tooltip: ""
-	}
-
-	MeleeFlailMace: {
-		DisplayName: Melee Flail Mace
 		Tooltip: ""
 	}
 
@@ -1659,28 +1024,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeOtherShadowflameKnofe: {
-		DisplayName: Melee Other Shadowflame Knofe
-		Tooltip: ""
-	}
-
 	MeleeOtherShadowJoustingLance: {
 		DisplayName: Melee Other Shadow Jousting Lance
-		Tooltip: ""
-	}
-
-	MeleeOtherSkyDragonsFury: {
-		DisplayName: Melee Other Sky Dragons Fury
-		Tooltip: ""
-	}
-
-	MeleeOtherSleepyOctopod: {
-		DisplayName: Melee Other Sleepy Octopod
-		Tooltip: ""
-	}
-
-	MeleeOtherStarlight: {
-		DisplayName: Melee Other Starlight
 		Tooltip: ""
 	}
 
@@ -1689,38 +1034,13 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSpearNorthPole: {
-		DisplayName: Melee Spear North Pole
-		Tooltip: ""
-	}
-
 	MeleeSpearObsidianSwordfish: {
 		DisplayName: Melee Spear Obsidian Swordfish
 		Tooltip: ""
 	}
 
-	MeleeSpearRottedFork: {
-		DisplayName: Melee Spear Rotted Fork
-		Tooltip: ""
-	}
-
-	MeleeSpearSpear: {
-		DisplayName: Melee Spear Spear
-		Tooltip: ""
-	}
-
-	MeleeSpearStormSpear: {
-		DisplayName: Melee Spear Storm Spear
-		Tooltip: ""
-	}
-
 	MeleeSpearSwordfish: {
 		DisplayName: Melee Spear Swordfish
-		Tooltip: ""
-	}
-
-	MeleeSpearTrident: {
-		DisplayName: Melee Spear Trident
 		Tooltip: ""
 	}
 
@@ -1739,11 +1059,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSwordBeeKeeper: {
-		DisplayName: Melee Sword Bee Keeper
-		Tooltip: ""
-	}
-
 	MeleeSwordBladedGlove: {
 		DisplayName: Melee Sword Bladed Glove
 		Tooltip: ""
@@ -1756,26 +1071,6 @@ Items: {
 
 	MeleeSwordBoneSword: {
 		DisplayName: Melee Sword Bone Sword
-		Tooltip: ""
-	}
-
-	MeleeSwordBrandOfTheInferno: {
-		DisplayName: Melee Sword Brand Of The Inferno
-		Tooltip: ""
-	}
-
-	MeleeSwordBreakerBlade: {
-		DisplayName: Melee Sword Breaker Blade
-		Tooltip: ""
-	}
-
-	MeleeSwordBreathingReed: {
-		DisplayName: Melee Sword Breathing Reed
-		Tooltip: ""
-	}
-
-	MeleeSwordChristmasTreeSword: {
-		DisplayName: Melee Sword Christmas Tree Sword
 		Tooltip: ""
 	}
 
@@ -1809,16 +1104,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSwordFetidBaghnakhs: {
-		DisplayName: Melee Sword Fetid Baghnakhs
-		Tooltip: ""
-	}
-
-	MeleeSwordFlyingDragon: {
-		DisplayName: Melee Sword Flying Dragon
-		Tooltip: ""
-	}
-
 	MeleeSwordGladius: {
 		DisplayName: Melee Sword Gladius
 		Tooltip: ""
@@ -1826,16 +1111,6 @@ Items: {
 
 	MeleeSwordHamBat: {
 		DisplayName: Melee Sword Ham Bat
-		Tooltip: ""
-	}
-
-	MeleeSwordHorsemansBlade: {
-		DisplayName: Melee Sword Horsemans Blade
-		Tooltip: ""
-	}
-
-	MeleeSwordInfluxWaver: {
-		DisplayName: Melee Sword Influx Waver
 		Tooltip: ""
 	}
 
@@ -1854,11 +1129,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSwordMuramasa: {
-		DisplayName: Melee Sword Muramasa
-		Tooltip: ""
-	}
-
 	MeleeSwordPsychoKnife: {
 		DisplayName: Melee Sword Psycho Knife
 		Tooltip: ""
@@ -1874,23 +1144,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSwordSeedler: {
-		DisplayName: Melee Sword Seedler
-		Tooltip: ""
-	}
-
 	MeleeSwordSlapHand: {
 		DisplayName: Melee Sword Slap Hand
-		Tooltip: ""
-	}
-
-	MeleeSwordStarfury: {
-		DisplayName: Melee Sword Starfury
-		Tooltip: ""
-	}
-
-	MeleeSwordStarWrath: {
-		DisplayName: Melee Sword Star Wrath
 		Tooltip: ""
 	}
 
@@ -1914,93 +1169,68 @@ Items: {
 		Tooltip: ""
 	}
 
-	MeleeSwordUmbrella: {
-		DisplayName: Melee Sword Umbrella
-		Tooltip: ""
-	}
-
 	MeleeSwordWafflesIron: {
 		DisplayName: Melee Sword Waffles Iron
 		Tooltip: ""
 	}
 
 	MeleeYoyoAmarok: {
-		DisplayName: Melee Yoyo Amarok
+		DisplayName: Amarok Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoCode1: {
-		DisplayName: Melee Yoyo Code1
+		DisplayName: Code 1 Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoCode2: {
-		DisplayName: Melee Yoyo Code2
+		DisplayName: Code 2 Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoEyeOfCthulhu: {
-		DisplayName: Melee Yoyo Eye Of Cthulhu
+		DisplayName: Eye Of Cthulhu Remembrance
 		Tooltip: ""
 	}
 
 	MeleeYoyoFormatC: {
-		DisplayName: Melee Yoyo Format C
+		DisplayName: Format C Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoGradient: {
-		DisplayName: Melee Yoyo Gradient
+		DisplayName: Gradient Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoKraken: {
-		DisplayName: Melee Yoyo Kraken
+		DisplayName: Kraken Remembrance
 		Tooltip: ""
 	}
 
 	MeleeYoyoRally: {
-		DisplayName: Melee Yoyo Rally
+		DisplayName: Rally Illusion
 		Tooltip: ""
 	}
 
 	MeleeYoyoRedsThrow: {
-		DisplayName: Melee Yoyo Reds Throw
-		Tooltip: ""
-	}
-
-	MeleeYoyoTerrarian: {
-		DisplayName: Melee Yoyo Terrarian
+		DisplayName: Reds Throw Remembrance
 		Tooltip: ""
 	}
 
 	MeleeYoyoValkyrieYoyo: {
-		DisplayName: Melee Yoyo Valkyrie Yoyo
-		Tooltip: ""
-	}
-
-	MeleeYoyoValor: {
-		DisplayName: Melee Yoyo Valor
+		DisplayName: Valkyrie Yoyo Remembrance
 		Tooltip: ""
 	}
 
 	MeleeYoyoYelets: {
-		DisplayName: Melee Yoyo Yelets
-		Tooltip: ""
-	}
-
-	MinecartBee: {
-		DisplayName: Minecart Bee
+		DisplayName: Yelets Remembrance
 		Tooltip: ""
 	}
 
 	MinecartDemonicHellcart: {
 		DisplayName: Minecart Demonic Hellcart
-		Tooltip: ""
-	}
-
-	MinecartDesert: {
-		DisplayName: Minecart Desert
 		Tooltip: ""
 	}
 
@@ -2014,18 +1244,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MinecartLadybug: {
-		DisplayName: Minecart Ladybug
-		Tooltip: ""
-	}
-
 	MinecartMechanicalCart: {
 		DisplayName: Minecart Mechanical Cart
-		Tooltip: ""
-	}
-
-	MinecartMeowmere: {
-		DisplayName: Minecart Meowmere
 		Tooltip: ""
 	}
 
@@ -2049,11 +1269,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MinecartSunflower: {
-		DisplayName: Minecart Sunflower
-		Tooltip: ""
-	}
-
 	MountAncientHorn: {
 		DisplayName: Mount Ancient Horn
 		Tooltip: ""
@@ -2074,16 +1289,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MountCosmicCarKey: {
-		DisplayName: Mount Cosmic Car Key
-		Tooltip: ""
-	}
-
-	MountDarkMagesTome: {
-		DisplayName: Mount Dark Mages Tome
-		Tooltip: ""
-	}
-
 	MountDustyRawhideSaddle: {
 		DisplayName: Mount Dusty Rawhide Saddle
 		Tooltip: ""
@@ -2094,16 +1299,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MountGelatinousPillon: {
-		DisplayName: Mount Gelatinous Pillon
-		Tooltip: ""
-	}
-
-	MountGoatSkull: {
-		DisplayName: Mount Goat Skull
-		Tooltip: ""
-	}
-
 	MountGolfCartKeys: {
 		DisplayName: Mount Golf Cart Keys
 		Tooltip: ""
@@ -2111,16 +1306,6 @@ Items: {
 
 	MountHardySaddle: {
 		DisplayName: Mount Hardy Saddle
-		Tooltip: ""
-	}
-
-	MountHexxedBranch: {
-		DisplayName: Mount Hexxed Branch
-		Tooltip: ""
-	}
-
-	MountHoneyedGoggles: {
-		DisplayName: Mount Honeyed Goggles
 		Tooltip: ""
 	}
 
@@ -2139,11 +1324,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	MountReindeerBells: {
-		DisplayName: Mount Reindeer Bells
-		Tooltip: ""
-	}
-
 	MountRoyalGildedSaddle: {
 		DisplayName: Mount Royal Gilded Saddle
 		Tooltip: ""
@@ -2159,163 +1339,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	MountSlimySaddle: {
-		DisplayName: Mount Slimy Saddle
-		Tooltip: ""
-	}
-
-	MountSuperheatedBlood: {
-		DisplayName: Mount Superheated Blood
-		Tooltip: ""
-	}
-
-	MountTheBlackSpot: {
-		DisplayName: Mount The Black Spot
-		Tooltip: ""
-	}
-
-	MountToyTank: {
-		DisplayName: Mount Toy Tank
-		Tooltip: ""
-	}
-
-	MountWitchsBroom: {
-		DisplayName: Mount Witchs Broom
-		Tooltip: ""
-	}
-
-	PetBetsysEgg: {
-		DisplayName: Pet Betsys Egg
-		Tooltip: ""
-	}
-
-	PetBrainInAJar: {
-		DisplayName: Pet Brain In A Jar
-		Tooltip: ""
-	}
-
-	PetCosmicSkateboard: {
-		DisplayName: Pet Cosmic Skateboard
-		Tooltip: ""
-	}
-
-	PetDeactivatedProbe: {
-		DisplayName: Pet Deactivated Probe
-		Tooltip: ""
-	}
-
-	PetDeerclopsEyeball: {
-		DisplayName: Pet Deerclops Eyeball
-		Tooltip: ""
-	}
-
-	PetFrozenCrown: {
-		DisplayName: Pet Frozen Crown
-		Tooltip: ""
-	}
-
-	PetLightGuardianGolem: {
-		DisplayName: Pet Light Guardian Golem
-		Tooltip: ""
-	}
-
-	PetLightJewelOfLight: {
-		DisplayName: Pet Light Jewel Of Light
-		Tooltip: ""
-	}
-
-	PetOgresClub: {
-		DisplayName: Pet Ogres Club
-		Tooltip: ""
-	}
-
-	PetPairOfEyeballs: {
-		DisplayName: Pet Pair Of Eyeballs
-		Tooltip: ""
-	}
-
-	PetPieceOfMoonSquid: {
-		DisplayName: Pet Piece Of Moon Squid
-		Tooltip: ""
-	}
-
-	PetPlanteraSeedling: {
-		DisplayName: Pet Plantera Seedling
-		Tooltip: ""
-	}
-
-	PetPorkOfTheSea: {
-		DisplayName: Pet Pork Of The Sea
-		Tooltip: ""
-	}
-
-	PetPossessedSkull: {
-		DisplayName: Pet Possessed Skull
-		Tooltip: ""
-	}
-
-	PetRegalDelicacy: {
-		DisplayName: Pet Regal Delicacy
-		Tooltip: ""
-	}
-
-	PetRoboticSkull: {
-		DisplayName: Pet Robotic Skull
-		Tooltip: ""
-	}
-
-	PetRoyalDelight: {
-		DisplayName: Pet Royal Delight
-		Tooltip: ""
-	}
-
-	PetShrubStar: {
-		DisplayName: Pet Shrub Star
-		Tooltip: ""
-	}
-
-	PetSparklingHoney: {
-		DisplayName: Pet Sparkling Honey
-		Tooltip: ""
-	}
-
-	PetSuspiciousGrinningEye: {
-		DisplayName: Pet Suspicious Grinning Eye
-		Tooltip: ""
-	}
-
-	PetTabletFragment: {
-		DisplayName: Pet Tablet Fragment
-		Tooltip: ""
-	}
-
-	PetWrithingRemains: {
-		DisplayName: Pet Writhing Remains
-		Tooltip: ""
-	}
-
-	RangedBowAerialBane: {
-		DisplayName: Ranged Bow Aerial Bane
-		Tooltip: ""
-	}
-
-	RangedBowBeesKnees: {
-		DisplayName: Ranged Bow Bees Knees
-		Tooltip: ""
-	}
-
 	RangedBowBloodRainBow: {
 		DisplayName: Ranged Bow Blood Rain Bow
-		Tooltip: ""
-	}
-
-	RangedBowDaedalusStormbow: {
-		DisplayName: Ranged Bow Daedalus Stormbow
-		Tooltip: ""
-	}
-
-	RangedBowEventide: {
-		DisplayName: Ranged Bow Eventide
 		Tooltip: ""
 	}
 
@@ -2324,28 +1349,13 @@ Items: {
 		Tooltip: ""
 	}
 
-	RangedBowPhantomPhoenix: {
-		DisplayName: Ranged Bow Phantom Phoenix
-		Tooltip: ""
-	}
-
 	RangedBowPulseBow: {
 		DisplayName: Ranged Bow Pulse Bow
 		Tooltip: ""
 	}
 
-	RangedBowShadowflameBow: {
-		DisplayName: Ranged Bow Shadowflame Bow
-		Tooltip: ""
-	}
-
 	RangedBowStakeLauncher: {
 		DisplayName: Ranged Bow Stake Launcher
-		Tooltip: ""
-	}
-
-	RangedBowTsunami: {
-		DisplayName: Ranged Bow Tsunami
 		Tooltip: ""
 	}
 
@@ -2359,53 +1369,13 @@ Items: {
 		Tooltip: ""
 	}
 
-	RangedGunBlowpipe: {
-		DisplayName: Ranged Gun Blowpipe
-		Tooltip: ""
-	}
-
-	RangedGunBoomstick: {
-		DisplayName: Ranged Gun Boomstick
-		Tooltip: ""
-	}
-
-	RangedGunCandyCornRifle: {
-		DisplayName: Ranged Gun Candy Corn Rifle
-		Tooltip: ""
-	}
-
 	RangedGunCelebration: {
 		DisplayName: Ranged Gun Celebration
 		Tooltip: ""
 	}
 
-	RangedGunCelebrationMk2: {
-		DisplayName: Ranged Gun Celebration Mk2
-		Tooltip: ""
-	}
-
-	RangedGunChainGun: {
-		DisplayName: Ranged Gun Chain Gun
-		Tooltip: ""
-	}
-
-	RangedGunClockworkAssaultRifle: {
-		DisplayName: Ranged Gun Clockwork Assault Rifle
-		Tooltip: ""
-	}
-
 	RangedGunCoinGun: {
 		DisplayName: Ranged Gun Coin Gun
-		Tooltip: ""
-	}
-
-	RangedGunDartPistol: {
-		DisplayName: Ranged Gun Dart Pistol
-		Tooltip: ""
-	}
-
-	RangedGunDartRifle: {
-		DisplayName: Ranged Gun Dart Rifle
 		Tooltip: ""
 	}
 
@@ -2424,33 +1394,18 @@ Items: {
 		Tooltip: ""
 	}
 
-	RangedGunFlareGun: {
-		DisplayName: Ranged Gun Flare Gun
-		Tooltip: ""
-	}
-
 	RangedGunFlintlockPistol: {
-		DisplayName: Ranged Gun Flintlock Pistol
+		DisplayName: Flintlock Pistol Parts
 		Tooltip: ""
 	}
 
 	RangedGunGatligator: {
-		DisplayName: Ranged Gun Gatligator
-		Tooltip: ""
-	}
-
-	RangedGunGrenadeLauncher: {
-		DisplayName: Ranged Gun Grenade Launcher
-		Tooltip: ""
-	}
-
-	RangedGunHandgun: {
-		DisplayName: Ranged Gun Handgun
+		DisplayName: Gatligator Parts
 		Tooltip: ""
 	}
 
 	RangedGunHarpoon: {
-		DisplayName: Ranged Gun Harpoon
+		DisplayName: Harpoon Parts
 		Tooltip: ""
 	}
 
@@ -2460,82 +1415,62 @@ Items: {
 	}
 
 	RangedGunMinishark: {
-		DisplayName: Ranged Gun Minishark
-		Tooltip: ""
-	}
-
-	RangedGunMusket: {
-		DisplayName: Ranged Gun Musket
+		DisplayName: Minishark Parts
 		Tooltip: ""
 	}
 
 	RangedGunNailGun: {
-		DisplayName: Ranged Gun Nail Gun
+		DisplayName: Nail Gun Parts
 		Tooltip: ""
 	}
 
 	RangedGunPaintballGun: {
-		DisplayName: Ranged Gun Paintball Gun
-		Tooltip: ""
-	}
-
-	RangedGunPewMaticHorn: {
-		DisplayName: Ranged Gun Pew Matic Horn
+		DisplayName: Paintball Gun Parts
 		Tooltip: ""
 	}
 
 	RangedGunPiranhaGun: {
-		DisplayName: Ranged Gun Piranha Gun
+		DisplayName: Piranha Gun Parts
 		Tooltip: ""
 	}
 
 	RangedGunProximityMineLauncher: {
-		DisplayName: Ranged Gun Proximity Mine Launcher
+		DisplayName: Proximity Mine Launcher Parts
 		Tooltip: ""
 	}
 
 	RangedGunQuadBarrelShotgun: {
-		DisplayName: Ranged Gun Quad Barrel Shotgun
+		DisplayName: Quad Barrel Shotgun Parts
 		Tooltip: ""
 	}
 
 	RangedGunRedRyder: {
-		DisplayName: Ranged Gun Red Ryder
+		DisplayName: Red Ryder Parts
 		Tooltip: ""
 	}
 
 	RangedGunRevolver: {
-		DisplayName: Ranged Gun Revolver
+		DisplayName: Revolver Parts
 		Tooltip: ""
 	}
 
 	RangedGunRocketLauncher: {
-		DisplayName: Ranged Gun Rocket Launcher
+		DisplayName: Rocket Launcher Parts
 		Tooltip: ""
 	}
 
 	RangedGunSandgun: {
-		DisplayName: Ranged Gun Sandgun
-		Tooltip: ""
-	}
-
-	RangedGunSDMG: {
-		DisplayName: Ranged Gun S D M G
+		DisplayName: Sandgun Parts
 		Tooltip: ""
 	}
 
 	RangedGunShotgun: {
-		DisplayName: Ranged Gun Shotgun
+		DisplayName: Shotgun Parts
 		Tooltip: ""
 	}
 
 	RangedGunSniperRifle: {
-		DisplayName: Ranged Gun Sniper Rifle
-		Tooltip: ""
-	}
-
-	RangedGunSnowmanCannon: {
-		DisplayName: Ranged Gun Snowman Cannon
+		DisplayName: Sniper Rifle Parts
 		Tooltip: ""
 	}
 
@@ -2545,12 +1480,7 @@ Items: {
 	}
 
 	RangedGunTacticalShotgun: {
-		DisplayName: Ranged Gun Tactical Shotgun
-		Tooltip: ""
-	}
-
-	RangedGunTheUndertaker: {
-		DisplayName: Ranged Gun The Undertaker
+		DisplayName: Tactical Shotgun Parts
 		Tooltip: ""
 	}
 
@@ -2564,11 +1494,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	RangedGunVenusMagnum: {
-		DisplayName: Ranged Gun Venus Magnum
-		Tooltip: ""
-	}
-
 	RangedGunXenopopper: {
 		DisplayName: Ranged Gun Xenopopper
 		Tooltip: ""
@@ -2579,11 +1504,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	SummonBladeStaff: {
-		DisplayName: Summon Blade Staff
-		Tooltip: ""
-	}
-
 	SummonDeadlySphereStaff: {
 		DisplayName: Summon Deadly Sphere Staff
 		Tooltip: ""
@@ -2591,16 +1511,6 @@ Items: {
 
 	SummonDesertTigerStaff: {
 		DisplayName: Summon Desert Tiger Staff
-		Tooltip: ""
-	}
-
-	SummonFinchStaff: {
-		DisplayName: Summon Finch Staff
-		Tooltip: ""
-	}
-
-	SummonHoundiusShootius: {
-		DisplayName: Summon Houndius Shootius
 		Tooltip: ""
 	}
 
@@ -2634,11 +1544,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	SummonTempestStaff: {
-		DisplayName: Summon Tempest Staff
-		Tooltip: ""
-	}
-
 	SummonTerraprisma: {
 		DisplayName: Summon Terraprisma
 		Tooltip: ""
@@ -2659,11 +1564,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	SummonWhipKaleidoscope: {
-		DisplayName: Summon Whip Kaleidoscope
-		Tooltip: ""
-	}
-
 	SummonWhipLeatherWhip: {
 		DisplayName: Summon Whip Leather Whip
 		Tooltip: ""
@@ -2679,193 +1579,188 @@ Items: {
 		Tooltip: ""
 	}
 
-	SummonXenoStaff: {
-		DisplayName: Summon Xeno Staff
-		Tooltip: ""
-	}
-
 	SharedIceMimic: {
-		DisplayName: Shared Ice Mimic
+		DisplayName: Mini Ice Mimic
 		Tooltip: ""
 	}
 
 	SharedMimic: {
-		DisplayName: Shared Mimic
+		DisplayName: Mini Mimic
 		Tooltip: ""
 	}
 
 	SharedBetsy: {
-		DisplayName: Shared Betsy
+		DisplayName: Mini Betsy
 		Tooltip: ""
 	}
 
 	SharedBrainOfCthulhu: {
-		DisplayName: Shared Brain Of Cthulhu
+		DisplayName: Mini Brain Of Cthulhu
 		Tooltip: ""
 	}
 
 	SharedCorruptMimic: {
-		DisplayName: Shared Corrupt Mimic
+		DisplayName: Mini Corrupt Mimic
 		Tooltip: ""
 	}
 
 	SharedCrimsonMimic: {
-		DisplayName: Shared Crimson Mimic
+		DisplayName: Mini Crimson Mimic
 		Tooltip: ""
 	}
 
 	SharedDarkMage: {
-		DisplayName: Shared Dark Mage
+		DisplayName: Mini Dark Mage
 		Tooltip: ""
 	}
 
 	SharedDeerclops: {
-		DisplayName: Shared Deerclops
+		DisplayName: Mini Deerclops
 		Tooltip: ""
 	}
 
 	SharedDestroyer: {
-		DisplayName: Shared Destroyer
+		DisplayName: Mini Destroyer
 		Tooltip: ""
 	}
 
 	SharedDreadnautilus: {
-		DisplayName: Shared Dreadnautilus
+		DisplayName: Mini Dreadnautilus
 		Tooltip: ""
 	}
 
 	SharedDukeFishron: {
-		DisplayName: Shared Duke Fishron
+		DisplayName: Mini Duke Fishron
 		Tooltip: ""
 	}
 
 	SharedEaterOfWorlds: {
-		DisplayName: Shared Eater Of Worlds
+		DisplayName: Mini Eater Of Worlds
 		Tooltip: ""
 	}
 
 	SharedEmpressOfLight: {
-		DisplayName: Shared Empress Of Light
+		DisplayName: Mini Empress Of Light
 		Tooltip: ""
 	}
 
 	SharedEverscream: {
-		DisplayName: Shared Everscream
+		DisplayName: Mini Everscream
 		Tooltip: ""
 	}
 
 	SharedEyeOfCthulhu: {
-		DisplayName: Shared Eye Of Cthulhu
+		DisplayName: Mini Eye Of Cthulhu
 		Tooltip: ""
 	}
 
 	SharedFlyingDutchman: {
-		DisplayName: Shared Flying Dutchman
+		DisplayName: Mini Flying Dutchman
 		Tooltip: ""
 	}
 
 	SharedGoblinWarlock: {
-		DisplayName: Shared Goblin Warlock
+		DisplayName: Mini Goblin Warlock
 		Tooltip: ""
 	}
 
 	SharedGolem: {
-		DisplayName: Shared Golem
+		DisplayName: Mini Golem
 		Tooltip: ""
 	}
 
 	SharedHallowedMimic: {
-		DisplayName: Shared Hallowed Mimic
+		DisplayName: Mini Hallowed Mimic
 		Tooltip: ""
 	}
 
 	SharedIceQueen: {
-		DisplayName: Shared Ice Queen
+		DisplayName: Mini Ice Queen
 		Tooltip: ""
 	}
 
 	SharedKingSlime: {
-		DisplayName: Shared King Slime
+		DisplayName: Mini King Slime
 		Tooltip: ""
 	}
 
 	SharedLunaticCultist: {
-		DisplayName: Shared Lunatic Cultist
+		DisplayName: Mini Lunatic Cultist
 		Tooltip: ""
 	}
 
 	SharedMartianSaucer: {
-		DisplayName: Shared Martian Saucer
+		DisplayName: Mini Martian Saucer
 		Tooltip: ""
 	}
 
 	SharedMoonLord: {
-		DisplayName: Shared Moon Lord
+		DisplayName: Mini Moon Lord
 		Tooltip: ""
 	}
 
 	SharedMothron: {
-		DisplayName: Shared Mothron
+		DisplayName: Mini Mothron
 		Tooltip: ""
 	}
 
 	SharedMourningWood: {
-		DisplayName: Shared Mourning Wood
+		DisplayName: Mini Mourning Wood
 		Tooltip: ""
 	}
 
 	SharedOgre: {
-		DisplayName: Shared Ogre
+		DisplayName: Mini Ogre
 		Tooltip: ""
 	}
 
 	SharedPirateCaptain: {
-		DisplayName: Shared Pirate Captain
+		DisplayName: Mini Pirate Captain
 		Tooltip: ""
 	}
 
 	SharedPlantera: {
-		DisplayName: Shared Plantera
+		DisplayName: Mini Plantera
 		Tooltip: ""
 	}
 
 	SharedPumpking: {
-		DisplayName: Shared Pumpking
+		DisplayName: Mini Pumpking
 		Tooltip: ""
 	}
 
 	SharedQueenBee: {
-		DisplayName: Shared Queen Bee
+		DisplayName: Mini Queen Bee
 		Tooltip: ""
 	}
 
 	SharedQueenSlime: {
-		DisplayName: Shared Queen Slime
+		DisplayName: Mini Queen Slime
 		Tooltip: ""
 	}
 
 	SharedSantank: {
-		DisplayName: Shared Santank
+		DisplayName: Mini SantaNK1
 		Tooltip: ""
 	}
 
 	SharedSkeletron: {
-		DisplayName: Shared Skeletron
+		DisplayName: Mini Skeletron
 		Tooltip: ""
 	}
 
 	SharedSkeletronPrime: {
-		DisplayName: Shared Skeletron Prime
+		DisplayName: Mini Skeletron Prime
 		Tooltip: ""
 	}
 
 	SharedTwins: {
-		DisplayName: Shared Twins
+		DisplayName: Mini Twins
 		Tooltip: ""
 	}
 
 	SharedWallOfFlesh: {
-		DisplayName: Shared Wall Of Flesh
+		DisplayName: Mini Wall Of Flesh
 		Tooltip: ""
 	}
 
@@ -2875,187 +1770,187 @@ Items: {
 	}
 
 	CraftingStationAutohammer: {
-		DisplayName: Crafting Station Autohammer
+		DisplayName: Dysfunctional Autohammer
 		Tooltip: ""
 	}
 
 	CraftingStationBlendOMatic: {
-		DisplayName: Crafting Station Blend O Matic
+		DisplayName: Dysfunctional Blend O Matic
 		Tooltip: ""
 	}
 
 	CraftingStationDecayChamber: {
-		DisplayName: Crafting Station Decay Chamber
+		DisplayName: Dysfunctional Decay Chamber
 		Tooltip: ""
 	}
 
 	CraftingStationDyeVat: {
-		DisplayName: Crafting Station Dye Vat
+		DisplayName: Dysfunctional Dye Vat
 		Tooltip: ""
 	}
 
 	CraftingStationFleshCloningVat: {
-		DisplayName: Crafting Station Flesh Cloning Vat
+		DisplayName: Dysfunctional Flesh Cloning Vat
 		Tooltip: ""
 	}
 
 	CraftingStationSteampunkBoiler: {
-		DisplayName: Crafting Station Steampunk Boiler
+		DisplayName: Dysfunctional Steampunk Boiler
 		Tooltip: ""
 	}
 
 	HookSquirrel: {
-		DisplayName: Hook Squirrel
+		DisplayName: Squirrel Hook Parts
 		Tooltip: ""
 	}
 
 	MeleeSpearMushroomSpearAndHammush: {
-		DisplayName: Melee Spear Mushroom Spear And Hammush
+		DisplayName: Hammushpear Binder
 		Tooltip: ""
 	}
 
 	MeleeSwordSickle: {
-		DisplayName: Melee Sword Sickle
+		DisplayName: Sickle Blade
 		Tooltip: ""
 	}
 
 	SharedChestCrimsonHeart: {
-		DisplayName: Shared Chest Crimson Heart
+		DisplayName: Mini Crimson Heart
 		Tooltip: ""
 	}
 
 	SharedChestDesert: {
-		DisplayName: Shared Chest Desert
+		DisplayName: Desert Gift
 		Tooltip: ""
 	}
 
 	SharedChestDesertPyramid: {
-		DisplayName: Shared Chest Desert Pyramid
+		DisplayName: Pyramid Gift
 		Tooltip: ""
 	}
 
 	SharedChestGlowingMushroom: {
-		DisplayName: Shared Chest Glowing Mushroom
+		DisplayName: Fungus Gift
 		Tooltip: ""
 	}
 
 	SharedChestGolden: {
-		DisplayName: Shared Chest Golden
+		DisplayName: Golden Gift
 		Tooltip: ""
 	}
 
 	SharedChestIce: {
-		DisplayName: Shared Chest Ice
+		DisplayName: Frozen Gift
 		Tooltip: ""
 	}
 
 	SharedChestJungle: {
-		DisplayName: Shared Chest Jungle
+		DisplayName: Ivy Gift
 		Tooltip: ""
 	}
 
 	SharedChestJungleTemple: {
-		DisplayName: Shared Chest Jungle Temple
+		DisplayName: Lihzahrd Gift
 		Tooltip: ""
 	}
 
 	SharedChestLivingWood: {
-		DisplayName: Shared Chest Living Wood
+		DisplayName: Living Gift
 		Tooltip: ""
 	}
 
 	SharedChestLockedDungeon: {
-		DisplayName: Shared Chest Locked Dungeon
+		DisplayName: Dungeon Gift
 		Tooltip: ""
 	}
 
 	SharedChestShadowOrb: {
-		DisplayName: Shared Chest Shadow Orb
+		DisplayName: Mini Shadow Orb
 		Tooltip: ""
 	}
 
 	SharedChestShadowUnderworld: {
-		DisplayName: Shared Chest Shadow Underworld
+		DisplayName: Shadow Gift
 		Tooltip: ""
 	}
 
 	SharedChestSkyIslands: {
-		DisplayName: Shared Chest Sky Islands
+		DisplayName: Skyware Gift
 		Tooltip: ""
 	}
 
 	SharedChestWater: {
-		DisplayName: Shared Chest Water
+		DisplayName: Oceanic Gift
 		Tooltip: ""
 	}
 
 	SharedChestWoodDungeon: {
-		DisplayName: Shared Chest Wood Dungeon
+		DisplayName: Dungeonite Gift
 		Tooltip: ""
 	}
 
 	SharedChestWooden: {
-		DisplayName: Shared Chest Wooden
+		DisplayName: Wooden Gift
 		Tooltip: ""
 	}
 
 	SharedMimicCorrupt: {
-		DisplayName: Shared Mimic Corrupt
+		DisplayName: Corrupt Mimic Essence
 		Tooltip: ""
 	}
 
 	SharedMimicCrimson: {
-		DisplayName: Shared Mimic Crimson
+		DisplayName: Crimson Mimic Essence
 		Tooltip: ""
 	}
 
 	SharedMimicHallowed: {
-		DisplayName: Shared Mimic Hallowed
+		DisplayName: Hallowed Mimic Essence
 		Tooltip: ""
 	}
 
 	SharedMimicIce: {
-		DisplayName: Shared Mimic Ice
+		DisplayName: Ice Mimic Essence
 		Tooltip: ""
 	}
 
 	ToolBugNet: {
-		DisplayName: Tool Bug Net
+		DisplayName: Bug Net Parts
 		Tooltip: ""
 	}
 
 	ToolClentaminator: {
-		DisplayName: Tool Clentaminator
+		DisplayName: Clentaminator Parts
 		Tooltip: ""
 	}
 
 	ToolDirtRod: {
-		DisplayName: Tool Dirt Rod
+		DisplayName: Dirt Rod Parts
 		Tooltip: ""
 	}
 
 	ToolPaintbrush: {
-		DisplayName: Tool Paintbrush
+		DisplayName: Paintbrush Thistle
 		Tooltip: ""
 	}
 
 	ToolPaintRoller: {
-		DisplayName: Tool Paint Roller
+		DisplayName: Paint Roller Brush
 		Tooltip: ""
 	}
 
 	ToolPaintScraper: {
-		DisplayName: Tool Paint Scraper
+		DisplayName: Paint Scraper Head
 		Tooltip: ""
 	}
 
 	ToolPiggyBank: {
-		DisplayName: Tool Piggy Bank
+		DisplayName: Broken Piggy Bank
 		Tooltip: ""
 	}
 
 	ToolSafe: {
-		DisplayName: Tool Safe
+		DisplayName: Broken Safe
 		Tooltip: ""
 	}
 }

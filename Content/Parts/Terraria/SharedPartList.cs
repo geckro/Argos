@@ -34,7 +34,7 @@ public class SharedChestCrimsonHeart : PartItem
 
 public class SharedChestDesert : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.DesertChest}";
+    public override string Texture => $"Argos/Content/Parts/Terraria/Images/DesertChest";
 
     public override void SetDefaults()
     {
@@ -45,7 +45,7 @@ public class SharedChestDesert : PartItem
 
 public class SharedChestDesertPyramid : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.CactusChest}";
+    public override string Texture => $"Argos/Content/Parts/Terraria/Images/GoldChest";
 
     public override void SetDefaults()
     {
@@ -56,7 +56,7 @@ public class SharedChestDesertPyramid : PartItem
 
 public class SharedChestGlowingMushroom : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.MushroomChest}";
+    public override string Texture => $"Argos/Content/Parts/Terraria/Images/MushroomChest";
 
     public override void SetDefaults()
     {
@@ -67,7 +67,7 @@ public class SharedChestGlowingMushroom : PartItem
 
 public class SharedChestGolden : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.GoldenChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/GoldChest";
 
     public override void SetDefaults()
     {
@@ -78,7 +78,7 @@ public class SharedChestGolden : PartItem
 
 public class SharedChestIce : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.IceChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/IceChest";
 
     public override void SetDefaults()
     {
@@ -89,7 +89,7 @@ public class SharedChestIce : PartItem
 
 public class SharedChestJungle : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.IvyChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/IvyChest";
 
     public override void SetDefaults()
     {
@@ -100,7 +100,7 @@ public class SharedChestJungle : PartItem
 
 public class SharedChestJungleTemple : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.LihzahrdChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/TempleChest";
 
     public override void SetDefaults()
     {
@@ -111,7 +111,7 @@ public class SharedChestJungleTemple : PartItem
 
 public class SharedChestLivingWood : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.LivingWoodChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/LivingChest";
 
     public override void SetDefaults()
     {
@@ -122,7 +122,7 @@ public class SharedChestLivingWood : PartItem
 
 public class SharedChestLockedDungeon : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.BoneChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/DungeonChest";
 
     public override void SetDefaults()
     {
@@ -133,7 +133,7 @@ public class SharedChestLockedDungeon : PartItem
 
 public class SharedChestShadowUnderworld : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.ShadowChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/ShadowChest";
 
     public override void SetDefaults()
     {
@@ -155,7 +155,7 @@ public class SharedChestShadowOrb : PartItem
 
 public class SharedChestSkyIslands : PartItem
 {
-    public override string Texture => $"Terraria/Images/Item_{ItemID.SkywareChest}";
+    public override string Texture => "Argos/Content/Parts/Terraria/Images/SkyChest";
 
     public override void SetDefaults()
     {

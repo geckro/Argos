@@ -14,6 +14,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.AdamantiteBreastplate, [Ingredient(ItemID.AdamantiteBar, 30), Ingredient(ItemID.FrostCore)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverChainmail")]);
         AddRecipe(ItemID.AdamantiteChainsaw, [Ingredient(ItemID.AdamantiteBar, 14)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("MythrilChainsaw")]);
         AddRecipe(ItemID.AdamantiteDrill, [Ingredient(ItemID.AdamantiteBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("MythrilDrill")]);
+        AddRecipe(ItemID.AdamantiteForge, [Ingredient(ItemID.AdamantiteOre, 30), Ingredient(ItemID.Hellforge), Ingredient(ItemID.GlassKiln)], [TileID.MythrilAnvil]);
         AddRecipe(ItemID.AdamantiteGlaive, [Ingredient(ItemID.AdamantiteBar, 12)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("MythrilHalberd")]);
         AddRecipe(ItemID.AdamantiteHeadgear, [Ingredient(ItemID.AdamantiteBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverHelmet")]);
         AddRecipe(ItemID.AdamantiteHelmet, [Ingredient(ItemID.AdamantiteBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverHelmet")]);
@@ -177,7 +178,8 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.EndlessMusketPouch, [Ingredient(ItemID.MusketBall, 9999), Ingredient(ItemID.SoulofSight, 5)], [TileID.CrystalBall]);
         AddRecipe(ItemID.EndlessQuiver, [Ingredient(ItemID.WoodenArrow, 9999), Ingredient(ItemID.MagicQuiver), Ingredient(ItemID.SoulofSight, 5)], [TileID.CrystalBall]);
         AddRecipe(ItemID.Excalibur, [Ingredient(ItemID.EnchantedSword), Ingredient(ItemID.HallowedBar, 12), Ingredient(ItemID.SoulofLight, 6)], [TileID.MythrilAnvil]);
-        AddRecipe(ItemID.FieryGreatsword,[Ingredient(ItemID.HellstoneBar, 20), Ingredient(ItemID.AshBlock, 250), Ingredient(ItemID.AshWood, 20)], [TileID.Hellforge], [Condition.InUnderworld, Condition.NearLava]);
+        AddRecipe(ItemID.FieryGreatsword, [Ingredient(ItemID.HellstoneBar, 20), Ingredient(ItemID.AshBlock, 250), Ingredient(ItemID.AshWood, 20)], [TileID.Hellforge], [Condition.InUnderworld, Condition.NearLava]);
+        AddRecipe(ItemID.FisherofSouls, [Ingredient(ItemID.DemoniteBar, 10), Ingredient(ItemID.RottenChunk, 8)], [TileID.DemonAltar]);
         AddRecipe(ItemID.Flamarang, [Ingredient(ItemID.HellstoneBar, 15), Ingredient(ItemID.IceBoomerang), Ingredient(ItemID.FlaskofFire)], [TileID.Hellforge], [Condition.InUnderworld, Condition.NearLava]);
         AddRecipe(ItemID.FlamingArrow, [Ingredient(ItemID.WoodenArrow, 10), Ingredient(ItemID.Torch)], [TileID.Campfire], amount: 10);
         AddRecipe(ItemID.FlamingMace, [Ingredient(ItemID.Mace), Ingredient(ItemID.Torch, 200), Ingredient(ItemID.LavaBucket, 2)], [TileID.Anvils]);
@@ -189,6 +191,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.FlaskofParty, [Ingredient(ItemID.BottledWater), Ingredient(ItemID.Confetti, 15), Ingredient(ItemID.SillyBalloonGreen, 20), Ingredient(ItemID.SillyBalloonPink, 20), Ingredient(ItemID.SillyBalloonPurple, 20)], [TileID.ImbuingStation], [Condition.BirthdayParty]);
         AddRecipe(ItemID.FlaskofPoison, [Ingredient(ItemID.BottledHoney), Ingredient(ItemID.Stinger, 5), Ingredient(ItemID.JungleSpores, 6), Ingredient(ItemID.Moonglow, 3), Ingredient(ItemID.Mango)], [TileID.ImbuingStation], [Condition.NearHoney]);
         AddRecipe(ItemID.FlaskofVenom, [Ingredient(ItemID.FlaskofPoison), Ingredient(ItemID.VialofVenom, 8), Ingredient(ItemID.Granite, 80)], [TileID.ImbuingStation], [Condition.InGranite]);
+        AddRecipe(ItemID.Fleshcatcher, [Ingredient(ItemID.CrimtaneBar, 10), Ingredient(ItemID.Vertebrae, 8)], [TileID.DemonAltar]);
         AddRecipe(ItemID.FleshGrinder, [Ingredient(ItemID.CrimtaneBar, 10), Ingredient(ItemID.Shadewood, 24)], recipeGroups: [RecipeGroup("GoldHammer")], tiles: [TileID.DemonAltar],conditions: [Condition.InCrimson]);
         AddRecipe(ItemID.FossilHelm, [Ingredient(ItemID.FossilOre, 25), Ingredient(ItemID.AntlionMandible, 6), Ingredient(ItemID.Amber)], [TileID.Anvils]);
         AddRecipe(ItemID.FossilPants, [Ingredient(ItemID.FossilOre, 20), Ingredient(ItemID.AntlionMandible, 11), Ingredient(ItemID.Amber)], [TileID.Anvils]);
@@ -250,6 +253,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.IronPickaxe, [Ingredient(ItemID.IronBar, 12)], recipeGroups: [RecipeGroup("CopperPickaxe")],tiles: [TileID.Anvils]);
         AddRecipe(ItemID.IronShortsword, [Ingredient(ItemID.IronBar, 8)], [TileID.Anvils], recipeGroups: [RecipeGroup("CopperShortsword")]);
         AddRecipe(ItemID.IronskinPotion, [Ingredient(ItemID.BottledWater), Ingredient(ItemID.Daybloom), Ingredient(ItemID.GlowingMushroom, 2)], [TileID.Bottles], recipeGroups: [RecipeGroup("IronOre", 2)]);
+        AddRecipe(ItemID.IvyWhip, [Ingredient(ItemID.BlandWhip), Ingredient(ItemID.RichMahogany, 12), Ingredient(ItemID.Stinger, 16), Ingredient(ItemID.Vine, 4), Ingredient(ItemID.JungleSpores, 12)], [TileID.LivingLoom]);
         AddRecipe(ItemID.JestersArrow, [Ingredient(ItemID.WoodenArrow, 10), Ingredient(ItemID.FallenStar)], [TileID.SkyMill], amount: 10);
         AddRecipe(ItemID.JungleCampfire, [Ingredient(ItemID.JungleCampfire, 45), Ingredient(ItemID.RichMahogany, 12)], [TileID.WorkBenches]);
         AddRecipe(ItemID.JungleHat, [Ingredient(ItemID.JungleSpores, 10), Ingredient(ItemID.Vine, 3), Ingredient(ItemID.RichMahoganyHelmet)], [TileID.LivingLoom]);
@@ -282,6 +286,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.MechanicalSkull, [Ingredient(ItemID.Lens, 6), Ingredient(ItemID.ClothierVoodooDoll), Ingredient(ItemID.SoulofFlight, 25), Ingredient(ItemID.Wire, 80)], [TileID.MythrilAnvil]);
         AddRecipe(ItemID.MechanicalWorm, [Ingredient(ItemID.Lens, 8), Ingredient(ItemID.BloodySpine), Ingredient(ItemID.SoulofNight, 8), Ingredient(ItemID.Wire, 80)], [TileID.MythrilAnvil]);
         AddRecipe(ItemID.MechanicalWorm, [Ingredient(ItemID.Lens, 8), Ingredient(ItemID.WormFood), Ingredient(ItemID.SoulofNight, 8), Ingredient(ItemID.Wire, 80)], [TileID.MythrilAnvil]);
+        AddRecipe(ItemID.Megashark, [Ingredient(ItemID.Minishark), Ingredient(ItemID.IllegalGunParts, 2), Ingredient(ItemID.SharkFin, 20), Ingredient(ItemID.SoulofMight, 20)], [TileID.MythrilAnvil], [Condition.InBeach]);
         AddRecipe(ItemID.MeteorHelmet, [Ingredient(ItemID.MeteoriteBar, 12), Ingredient(ItemID.Lens, 2), Ingredient(ItemID.Obsidian, 15)], [TileID.Anvils]);
         AddRecipe(ItemID.MeteorLeggings, [Ingredient(ItemID.MeteoriteBar, 20), Ingredient(ItemID.Obsidian, 15)], [TileID.Anvils]);
         AddRecipe(ItemID.MeteorSuit, [Ingredient(ItemID.MeteoriteBar, 25), Ingredient(ItemID.Obsidian, 20)], [TileID.Anvils]);
@@ -298,6 +303,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.MushroomCampfire, [Ingredient(ItemID.MushroomTorch, 45), Ingredient(ItemID.GlowingMushroom, 12)], [TileID.WorkBenches]);
         AddRecipe(ItemID.MushroomTorch, [Ingredient(ItemID.Torch), Ingredient(ItemID.GlowingMushroom)], [TileID.Anvils]);
         AddRecipe(ItemID.MushroomWorkBench, [Ingredient(ItemID.GlowingMushroom, 25), Ingredient(ItemID.MushroomPlatform, 8), Ingredient(ItemID.Cobweb, 12)]);
+        AddRecipe(ItemID.MythrilAnvil, [Ingredient(ItemID.MythrilBar, 15)], [TileID.Anvils], recipeGroups: [RecipeGroup("CobaltBar", 8)]);
         AddRecipe(ItemID.MythrilChainmail, [Ingredient(ItemID.MythrilBar, 30), Ingredient(ItemID.AncientBattleArmorMaterial)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("IronChainmail")]);
         AddRecipe(ItemID.MythrilChainsaw, [Ingredient(ItemID.MythrilBar, 14)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("CobaltChainsaw")]);
         AddRecipe(ItemID.MythrilDrill, [Ingredient(ItemID.MythrilBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("CobaltDrill")]);
@@ -322,6 +328,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.ObsidianWaterWalkingBoots, [Ingredient(ItemID.ObsidianSkull), Ingredient(ItemID.WaterWalkingBoots), Ingredient(ItemID.FlameWakerBoots), Ingredient(ItemID.ObsidianSkinPotion, 3)], [TileID.TinkerersWorkbench]);
         AddRecipe(ItemID.OrangeString,[Ingredient(ItemID.WhiteString), Ingredient(ItemID.OrangeDye, 2), Ingredient(ItemID.Amber)], [TileID.Loom, TileID.DyeVat]);
         AddRecipe(ItemID.OrangeTorch, [Ingredient(ItemID.Torch, 5), Ingredient(ItemID.Amber)], [TileID.Anvils],    amount: 5);
+        AddRecipe(ItemID.OrichalcumAnvil, [Ingredient(ItemID.OrichalcumBar, 15)], [TileID.Anvils], recipeGroups: [RecipeGroup("CobaltBar", 8)]);
         AddRecipe(ItemID.OrichalcumBreastplate, [Ingredient(ItemID.OrichalcumBar, 30), Ingredient(ItemID.AncientBattleArmorMaterial)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("IronChainmail")]);
         AddRecipe(ItemID.OrichalcumChainsaw, [Ingredient(ItemID.OrichalcumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("CobaltChainsaw")]);
         AddRecipe(ItemID.OrichalcumDrill, [Ingredient(ItemID.OrichalcumBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("CobaltDrill")]);
@@ -424,6 +431,8 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.ShadowHelmet, [Ingredient(ItemID.EbonwoodHelmet), Ingredient(ItemID.DemoniteBar, 18), Ingredient(ItemID.ShadowScale, 12), Ingredient(ItemID.VilePowder, 3)], [TileID.Anvils], [Condition.InCorrupt]);
         AddRecipe(ItemID.ShadowScalemail, [Ingredient(ItemID.EbonwoodBreastplate), Ingredient(ItemID.DemoniteBar, 30), Ingredient(ItemID.ShadowScale, 22), Ingredient(ItemID.VilePowder, 3)], [TileID.Anvils], [Condition.InCorrupt]);
         AddRecipe(ItemID.ShimmerCampfire, [Ingredient(ItemID.ShimmerTorch, 45), Ingredient(ItemID.StoneBlock, 12)], [TileID.CookingPots]);
+        AddRecipe(ItemID.Sign, [Ingredient(ItemID.Wood, 12), Ingredient(ItemID.BlackInk)], [TileID.Sawmill]);
+        AddRecipe(ItemID.TatteredWoodSign, [Ingredient(ItemID.BorealWood, 12), Ingredient(ItemID.Cobweb, 25), Ingredient(ItemID.BlackInk)], [TileID.Sawmill]);
         AddRecipe(ItemID.Silk, [Ingredient(ItemID.Cobweb, 8)], [TileID.Loom], [Condition.NearWater]);
         AddRecipe(ItemID.SilkRope, [Ingredient(ItemID.Silk)], [TileID.Loom], amount: 10);
         AddRecipe(ItemID.SilverAxe, [Ingredient(ItemID.SilverBar, 8), Ingredient(ItemID.Sapphire)], recipeGroups: [RecipeGroup("IronAxe")], tiles: [TileID.Anvils]);
@@ -469,6 +478,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.TerraBlade, [Ingredient(ItemID.TrueNightsEdge), Ingredient(ItemID.TrueExcalibur), Ingredient(ItemID.BrokenHeroSword, 2), Ingredient(ItemID.Ectoplasm, 10), Ingredient(ItemID.GrassSeeds, 25), Ingredient(ItemID.CorruptSeeds, 25), Ingredient(ItemID.CrimsonSeeds, 25), Ingredient(ItemID.JungleGrassSeeds, 25), Ingredient(ItemID.MushroomGrassSeeds, 25), Ingredient(ItemID.AshGrassSeeds, 25), Ingredient(ItemID.HallowedSeeds, 25)], [TileID.Autohammer]);
         AddRecipe(ItemID.TerrasparkBoots, [Ingredient(ItemID.FrostsparkBoots), Ingredient(ItemID.LavaWaders), Ingredient(ItemID.GreenDye), Ingredient(ItemID.SwiftnessPotion, 10)], [TileID.TinkerersWorkbench]);
         AddRecipe(ItemID.TheBreaker, [Ingredient(ItemID.DemoniteBar, 10), Ingredient(ItemID.Ebonwood, 24)], recipeGroups: [RecipeGroup("GoldHammer")], tiles: [TileID.DemonAltar],conditions: [Condition.InCorrupt]);
+        AddRecipe(ItemID.ThornChakram, [Ingredient(ItemID.JungleSpores, 8), Ingredient(ItemID.Stinger, 18)], [TileID.LivingLoom]);
         AddRecipe(ItemID.TikiTorch, [Ingredient(ItemID.Torch), Ingredient(ItemID.Wood, 4), Ingredient(ItemID.StoneBlock, 2)], [TileID.WorkBenches]);
         AddRecipe(ItemID.TinAxe, [Ingredient(ItemID.TinBar, 8)], recipeGroups: [RecipeGroup("Wood", 6)],tiles: [TileID.Anvils]);
         AddRecipe(ItemID.TinBow, [Ingredient(ItemID.TinBar, 12), Ingredient(ItemID.WoodenBow)], recipeGroups: [RecipeGroup("Wood", 6)], tiles: [TileID.Anvils]);
@@ -482,6 +492,7 @@ public class TerrariaEdits : GlobalItem
         AddRecipe(ItemID.TitaniumBreastplate, [Ingredient(ItemID.TitaniumBar, 30), Ingredient(ItemID.FrostCore)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverChainmail")]);
         AddRecipe(ItemID.TitaniumChainsaw, [Ingredient(ItemID.TitaniumBar, 14)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("MythrilChainsaw")]);
         AddRecipe(ItemID.TitaniumDrill, [Ingredient(ItemID.TitaniumBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("MythrilDrill")]);
+        AddRecipe(ItemID.TitaniumForge, [Ingredient(ItemID.TitaniumOre, 30), Ingredient(ItemID.Hellforge), Ingredient(ItemID.GlassKiln)], [TileID.MythrilAnvil]);
         AddRecipe(ItemID.TitaniumHeadgear, [Ingredient(ItemID.TitaniumBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverHelmet")]);
         AddRecipe(ItemID.TitaniumHelmet, [Ingredient(ItemID.TitaniumBar, 18)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverHelmet")]);
         AddRecipe(ItemID.TitaniumLeggings, [Ingredient(ItemID.TitaniumBar, 24)], [TileID.MythrilAnvil], recipeGroups: [RecipeGroup("SilverGreaves")]);
